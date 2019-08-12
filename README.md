@@ -10,9 +10,9 @@ These are the issues we will need to solve in this development repository (1 and
         1. Use a named function from a supplied script as the transform function.
         1. In addition to these two, build simple transformers for simple data formats so they don't need to be rewritten by developpers.
 1. Build some basic units of analysis/visualization in Python.
-  1. Plotting data in a graph with custom x and y labels. Graph can be a line plot, scatter plot, or bar graph for now.
+    1. Plotting data in a graph with custom x and y labels. Graph can be a line plot, scatter plot, or bar graph for now.
 1. Dynamically integrate basic units into an Iodide web page.
-  1. Ensure that each basic unit can have it's standardized data modified easily.
+    1. Ensure that each basic unit can have it's standardized data modified easily.
 
 Each of these steps should have proper testing for the functionality as well, pytest will work fine in this case.
 
