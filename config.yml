@@ -1,0 +1,16 @@
+custom_transform: customtransforms/custom_test1.py
+
+file_groups:
+  without-regression:
+    task_group_id: FvEdCpoeTtu4a-ECW93nTg
+    path: /home/sparky/mozilla-source/fperf-analysis/post-backout/fperf-analysis/post-backout
+    artifact: perfherder-data
+    run_number: 0
+  with-regression:
+    task_group_id: CokDtN1VS2OAChYqsyKVIg
+    path: /home/sparky/mozilla-source/fperf-analysis/pre-backout/fperf-analysis/pre-backout
+    artifact: perfherder-data
+    run_number: 0
+
+analysis:
+  - ttest
