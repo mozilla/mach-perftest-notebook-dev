@@ -76,11 +76,15 @@ class Transformer(object):
         trfmdata = []
 
         for file in self.files:
-            data = self.transform(self.open_data(file))
-            if type(data) == list:
-                trfmdata.extend(data)
-            else:
-                trfmdata.append(data)
+            try:
+                data = self.transform(self.open_data(file))
+                if type(data) == list:
+                    trfmdata.extend(data)
+                else:
+                    trfmdata.append(data)
+            except Exception as e:
+                logger.warning("Failed to open/transform file %s, skipping" % file)
+                
 
         merged = self.merge(trfmdata)
 
@@ -100,10 +104,10 @@ class SimplePerfherderTransformer(Transformer):
     entry_number = 0
 
     def transform(self, data):
-        entry_number += 1
+        self.entry_number += 1
         return {
-            'data': [data['value']],
-            'xaxis': entry_number
+            'data': [data['suites'][0]['value']],
+            'xaxis': self.entry_number
         }
 
     def merge(self, sde):
@@ -119,8 +123,9 @@ class SimplePerfherderTransformer(Transformer):
 
         dsorted = sorted(data, key=lambda t: t[0])
 
-        for val, xval in dsorted:
+        for xval, val in dsorted:
             merged['data'].extend(val)
             merged['xaxis'].append(xval)
 
+        self.entry_number = 0
         return merged

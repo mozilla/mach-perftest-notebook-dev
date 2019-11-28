@@ -29,6 +29,7 @@ class PerftestNotebook(object):
             transformation logic. Must implement the Transformer
             interface.
         '''
+        self.fmt_data = {}
         self.file_groups = file_groups
         self.config = config
 
@@ -143,13 +144,17 @@ class PerftestNotebook(object):
                 else:
                     fmt_data.append(trfm_data)
 
-        # Analyze the data
-        all_results = {}
-        self.analyzer.data = fmt_data
-        for func in self.config['analysis']:
-            all_results[func] = getattr(self.analyzer, func)()
+        self.fmt_data = fmt_data
 
-        return all_results
+        if 'analysis' in self.config:
+            # Analyze the data
+            all_results = {}
+            self.analyzer.data = fmt_data
+            for func in self.config['analysis']:
+                all_results[func] = getattr(self.analyzer, func)()
+            return all_results
+
+        return self.fmt_data
 
 
 def main():
@@ -167,22 +172,39 @@ def main():
     )
     results = ptnb.process()
 
-    # TODO: Implement filtering techniques or add a configuration
-    # for the analysis?
-    new_results = {'ttest': []}
-    for res in results['ttest']:
-        if abs(res['ttest']) > 12:
-            new_results['ttest'].append(res)
+    if 'analysis' in config:
+        # TODO: Implement filtering techniques or add a configuration
+        # for the analysis?
+        new_results = {'ttest': []}
+        for res in results['ttest']:
+            if abs(res['pval']) < 0.005:
+                new_results['ttest'].append(res)
 
-    # Pretty print the results
-    print(json.dumps(new_results, sort_keys=True, indent=4))
+        # Pretty print the results
+        print(json.dumps(new_results, sort_keys=True, indent=4))
 
-    from matplotlib import pyplot as plt
-    plt.figure()
-    for c, entry in enumerate(new_results['ttest']):
-        plt.scatter([c for _ in entry['ts1']], entry['ts1'], color='b')
-        plt.scatter([c for _ in entry['ts2']], entry['ts2'], color='r')
-    plt.show(block=True)
+        with open('fperf-testing-test.json', 'w') as f:
+            json.dump(new_results, f, indent=4, sort_keys=True)
+
+        from matplotlib import pyplot as plt
+        plt.figure()
+        for c, entry in enumerate(new_results['ttest']):
+            plt.scatter([c for _ in entry['ts1']], entry['ts1'], color='b')
+            plt.scatter([c for _ in entry['ts2']], entry['ts2'], color='r')
+        plt.show(block=True)
+
+    print(json.dumps(ptnb.fmt_data, indent=4, sort_keys=True))
+
+    prefix = 'output' if 'prefix' not in config else config['prefix']
+    filepath = '%s_fmt_data.json' % prefix
+
+    if 'output' in config:
+        filepath = config['output']
+
+    print("Writing results to %s" % filepath)
+
+    with open(filepath, 'w') as f:
+        json.dump(ptnb.fmt_data, f, indent=4, sort_keys=True)
 
 
 if __name__=="__main__":

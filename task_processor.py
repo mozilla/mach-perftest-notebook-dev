@@ -41,7 +41,7 @@ def get_task_data_paths(task_group_id, path,
         log("Cannot open task directory: %s" % task_dir)
         return
 
-    if not run_number:
+    if run_number is None:
         curr_dir = os.getcwd()
         os.chdir(task_dir)
         dir_list = next(os.walk('.'))[1]
