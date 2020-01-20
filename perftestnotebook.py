@@ -79,6 +79,7 @@ class PerftestNotebook(object):
                 file_grouping['task_group_id'],
                 file_grouping['path'],
                 artifact=file_grouping['artifact'],
+                artifact_dir=file_grouping.get('artifact_dir', None),
                 run_number=file_grouping['run_number']
             )
         elif type(file_grouping) == str:
@@ -159,6 +160,8 @@ class PerftestNotebook(object):
 
 def main():
     args = parse_args()
+
+    NotebookLogger.debug = args.debug
 
     config = None
     with open(args.config, 'r') as f:

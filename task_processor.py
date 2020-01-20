@@ -24,7 +24,7 @@ def sorted_nicely(data):
 
 
 def get_task_data_paths(task_group_id, path,
-                        run_number=None, artifact='',
+                        run_number=None, artifact='', artifact_dir='',
                         suite_matcher='', silent=False):
     '''
     Opens a folder for a task group and returns the files
@@ -71,6 +71,8 @@ def get_task_data_paths(task_group_id, path,
         suite_dir = os.path.join(run_dir, suite)
 
         # Get the suite's data directory
+        if not artifact_dir:
+            artifact_dir = artifact
         all_dirs = [
             f
             for f in os.listdir(suite_dir)
@@ -78,7 +80,7 @@ def get_task_data_paths(task_group_id, path,
         ]
         suite_data_dir = None
         for d in all_dirs:
-            if artifact in d or d.endswith('_data'):
+            if artifact_dir in d or (not artifact_dir and d.endswith('_data')):
                 suite_data_dir = os.path.join(suite_dir, d)
                 break
 
@@ -88,6 +90,7 @@ def get_task_data_paths(task_group_id, path,
 
         # Now find all data files and order them
         all_files = glob.glob(os.path.join(suite_data_dir, '**/*'), recursive=True)
+
         all_files = sorted_nicely([
             file
             for file in all_files

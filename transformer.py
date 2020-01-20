@@ -76,15 +76,25 @@ class Transformer(object):
         trfmdata = []
 
         for file in self.files:
+            data = {}
+
+            # Open data
             try:
-                data = self.transform(self.open_data(file))
+                data = self.open_data(file)
+            except Exception as e:
+                logger.warning("Failed to open file %s, skipping" % file)
+                logger.warning("%s %s" % (e.__class__.__name__, e))
+
+            # Transform data
+            try:
+                data = self.transform(data)
                 if type(data) == list:
                     trfmdata.extend(data)
                 else:
                     trfmdata.append(data)
             except Exception as e:
-                logger.warning("Failed to open/transform file %s, skipping" % file)
-                
+                logger.warning("Failed to transform file %s, skipping" % file)
+                logger.warning("%s %s" % (e.__class__.__name__, e))
 
         merged = self.merge(trfmdata)
 

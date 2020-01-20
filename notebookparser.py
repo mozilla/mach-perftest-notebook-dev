@@ -10,4 +10,6 @@ def parse_args():
                                                  "and analyze it using standardized technique.")
     parser.add_argument("--config", "-c", type=str, required=True,
                         help="Configuration to use for processing and analyzing data.")
+    parser.add_argument("--debug", action="store_true", default=False,
+                        help="Enable additional debug logging.")
     return parser.parse_args()
