@@ -16,19 +16,10 @@ class SingleJsonRetriever(Transformer):
 
         for k, v in flatted_data.items():
             ret.append({
-                'data': bs['pageinfo']['navigationStartTime'],
+                'data': v,
                 'xaxis': self.entry_number,
-                'subtest': 'browserScripts.pageinfo.navigationStartTime'
+                'subtest': k
             })
-
-            flatted_timings = flat(bs['timings'], 'browserScripts.timings')
-
-            for k, v in flatted_timings.items():
-                ret.append({
-                    'data': v,
-                    'xaxis': self.entry_number,
-                    'subtest': k
-                })
 
         return ret
 
