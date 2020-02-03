@@ -12,7 +12,9 @@ class SingleJsonRetriever(Transformer):
         ret = []
         self.entry_number += 1
 
-        for bs in data[0]['browserScripts']:
+        flatted_data = flat(data, [])
+
+        for k, v in flatted_data.items():
             ret.append({
                 'data': bs['pageinfo']['navigationStartTime'],
                 'xaxis': self.entry_number,
