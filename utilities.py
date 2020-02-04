@@ -1,13 +1,11 @@
 def flat(data, parent_dir):
     '''
-        Convert JSON data to a dictionary.
-
-        Args:
-            data (list or dict): json data.
-            parent_dir (list): json fields. 
-        
-        Returns:
-            dict: {subtest:json_value}
+    Convert JSON data to a dictionary.
+    
+    :param list/dict data : json data.
+    :param list parent_dir: json fields. 
+    
+    :return dict: {subtest:json_value}
     '''
     def recursive_helper(data, parent_dir, ret):
         if isinstance(data, list):
