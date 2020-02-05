@@ -20,15 +20,11 @@ def flat(data, parent_dir):
                     ret.update(recursive_helper(v, current_dir, ret))
                 elif v:
                     existed_data = ret.get(subtest)
-                    if not existed_data:
-                        ret.update({subtest: v})
-                    elif isinstance(existed_data, list):
+                    if existed_data:
                         existed_data.append(v)
                         ret.update({subtest: existed_data})
                     else:
-                        existed_data = [existed_data]
-                        existed_data.append(v)
-                        ret.update({subtest: existed_data})
+                        ret.update({subtest: [v]})
 
         return ret
 
