@@ -1,0 +1,900 @@
+<!-- static copy of editor html intended for use with webpack dev server -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>iodide test notebook</title>
+    <link rel="stylesheet" type="text/css" href="/iodide.css" />
+    <base target="_blank" rel="noopener noreferrer" />
+  </head>
+  <body>
+    <div id="notebook-header"></div>
+    <div id="editor-react-root"></div>
+    <script id="iomd" type="text/iomd">%% md
+<h2> T-Test Results</h2>
+<table>
+    <tr>
+        <th>name1</th>
+        <th>name2</th>
+        <th>t-value</th>
+        <th>p-value</th>
+    </tr>
+                            <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-FirstVisualChange</td>
+<td>4.566427125910821</td>
+<td>5.384120792341046e-06</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-FirstVisualChange</td>
+<td>-72.34469502270498</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-FirstVisualChange</td>
+<td>-95.43659605157028</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-ContentfulSpeedIndex</td>
+<td>5.222549614220612</td>
+<td>2.023462506910865e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-ContentfulSpeedIndex</td>
+<td>-71.88058052399904</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-ContentfulSpeedIndex</td>
+<td>-96.0479919057459</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-videoRecordingStart</td>
+<td>5.07693736569217</td>
+<td>4.336495153436272e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-videoRecordingStart</td>
+<td>122.43259230044288</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-videoRecordingStart</td>
+<td>121.0472529347758</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-SpeedIndex</td>
+<td>4.639735076862874</td>
+<td>3.8054885571929835e-06</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-SpeedIndex</td>
+<td>-72.47985066052802</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-SpeedIndex</td>
+<td>-96.23271218203138</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-LastVisualChange</td>
+<td>5.346820433741187</td>
+<td>1.039715348644263e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-LastVisualChange</td>
+<td>-74.79603867170977</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-LastVisualChange</td>
+<td>-93.57208264346396</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-PerceptualSpeedIndex</td>
+<td>5.146007170345441</td>
+<td>3.0280384031204296e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-stackoverflow-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-PerceptualSpeedIndex</td>
+<td>-73.57124086991064</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-stackoverflow-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-stackoverflow-PerceptualSpeedIndex</td>
+<td>-98.18634807753041</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-LastVisualChange</td>
+<td>1.9619139472863687</td>
+<td>0.04997137329894838</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-LastVisualChange</td>
+<td>4.916149858134143</td>
+<td>1.0007075571583263e-06</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-LastVisualChange</td>
+<td>5.265505985658439</td>
+<td>1.6433738849636097e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-videoRecordingStart</td>
+<td>5.65662419106225</td>
+<td>1.8709270597263656e-08</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-videoRecordingStart</td>
+<td>114.07759773824803</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-videoRecordingStart</td>
+<td>114.52587910346946</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-SpeedIndex</td>
+<td>1.8975805678649516</td>
+<td>0.05795795936513967</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-SpeedIndex</td>
+<td>-15.558017231367302</td>
+<td>5.326174890329477e-50</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-SpeedIndex</td>
+<td>-21.91969827901174</td>
+<td>1.9711108159358323e-90</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-ContentfulSpeedIndex</td>
+<td>2.2006445965280044</td>
+<td>0.027924809647546338</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-ContentfulSpeedIndex</td>
+<td>-18.053369256260318</td>
+<td>7.034489160510853e-65</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-ContentfulSpeedIndex</td>
+<td>-23.912100241562865</td>
+<td>1.965832706268078e-104</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-FirstVisualChange</td>
+<td>2.4984585607298997</td>
+<td>0.012587954342532404</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-FirstVisualChange</td>
+<td>-21.596205670089862</td>
+<td>4.444186143458644e-88</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-FirstVisualChange</td>
+<td>-31.165309028042106</td>
+<td>2.1147427748712586e-158</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-PerceptualSpeedIndex</td>
+<td>3.298169977306782</td>
+<td>0.000997723469023579</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-google-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-PerceptualSpeedIndex</td>
+<td>-27.562743809177842</td>
+<td>6.993366920529899e-131</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-google-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-google-PerceptualSpeedIndex</td>
+<td>-38.54944001832053</td>
+<td>3.893152165811453e-215</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-FirstVisualChange</td>
+<td>2.71980895685361</td>
+<td>0.006614282473901728</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-FirstVisualChange</td>
+<td>-17.542090695824676</td>
+<td>4.913859835611914e-62</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-FirstVisualChange</td>
+<td>-18.158879679967804</td>
+<td>8.273366159644395e-66</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-LastVisualChange</td>
+<td>6.2923197402665165</td>
+<td>4.196180463166882e-10</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-LastVisualChange</td>
+<td>-76.99314459664387</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-LastVisualChange</td>
+<td>-96.82312622618714</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-PerceptualSpeedIndex</td>
+<td>4.197106981948453</td>
+<td>2.877041838454042e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-PerceptualSpeedIndex</td>
+<td>-37.6487442654915</td>
+<td>9.383879450856929e-211</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-PerceptualSpeedIndex</td>
+<td>-38.81558286300808</td>
+<td>4.238906391559247e-219</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-ContentfulSpeedIndex</td>
+<td>5.865685380304417</td>
+<td>5.596257506927941e-09</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-ContentfulSpeedIndex</td>
+<td>-68.85679583687306</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-ContentfulSpeedIndex</td>
+<td>-77.39087818200883</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-SpeedIndex</td>
+<td>6.058648678105257</td>
+<td>1.76949585091676e-09</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-SpeedIndex</td>
+<td>-77.00818478953875</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-SpeedIndex</td>
+<td>-85.7754012775023</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-videoRecordingStart</td>
+<td>3.7675009468346903</td>
+<td>0.00017186504085512798</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-instagram-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-videoRecordingStart</td>
+<td>122.23126253221189</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-instagram-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-instagram-videoRecordingStart</td>
+<td>120.33262384462213</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-FirstVisualChange</td>
+<td>-11.113295342062889</td>
+<td>1.3708675268694238e-27</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-FirstVisualChange</td>
+<td>-49.706912534130694</td>
+<td>1.690172172619422e-304</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-FirstVisualChange</td>
+<td>-40.68928923341046</td>
+<td>1.8691890830113654e-236</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-PerceptualSpeedIndex</td>
+<td>-5.5048505778782575</td>
+<td>4.366548385361394e-08</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-PerceptualSpeedIndex</td>
+<td>-64.18397642057586</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-PerceptualSpeedIndex</td>
+<td>-59.54891350225943</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-videoRecordingStart</td>
+<td>5.207402228873469</td>
+<td>2.191612530844499e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-videoRecordingStart</td>
+<td>122.188012387007</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-videoRecordingStart</td>
+<td>123.59372607884393</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-ContentfulSpeedIndex</td>
+<td>-4.3920876360268615</td>
+<td>1.2045242119108563e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-ContentfulSpeedIndex</td>
+<td>-71.05139136185127</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-ContentfulSpeedIndex</td>
+<td>-66.7121384643153</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-SpeedIndex</td>
+<td>-5.460842644594126</td>
+<td>5.5719331995697097e-08</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-SpeedIndex</td>
+<td>-60.80786698041149</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-SpeedIndex</td>
+<td>-56.818487175680424</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-LastVisualChange</td>
+<td>-5.603940239671605</td>
+<td>2.5058784403286038e-08</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-bing-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-LastVisualChange</td>
+<td>-78.45971540559249</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-bing-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-bing-LastVisualChange</td>
+<td>-73.3802179977543</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-SpeedIndex</td>
+<td>3.989132372720401</td>
+<td>6.953590412856756e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-SpeedIndex</td>
+<td>-4.830951704791071</td>
+<td>1.514617818992064e-06</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-SpeedIndex</td>
+<td>-10.53960281610647</td>
+<td>5.074543945202579e-25</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-PerceptualSpeedIndex</td>
+<td>4.41049048672575</td>
+<td>1.1054375003449473e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-PerceptualSpeedIndex</td>
+<td>-5.942885374854099</td>
+<td>3.562526447509963e-09</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-PerceptualSpeedIndex</td>
+<td>-12.672577411335993</td>
+<td>7.210457788418346e-35</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-ContentfulSpeedIndex</td>
+<td>4.363370414955847</td>
+<td>1.368914839413949e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-ContentfulSpeedIndex</td>
+<td>-2.294301592656861</td>
+<td>0.02192667208907711</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-ContentfulSpeedIndex</td>
+<td>-7.942391139933506</td>
+<td>4.124093753387352e-15</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-FirstVisualChange</td>
+<td>4.087742255641489</td>
+<td>4.5884115908904975e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-FirstVisualChange</td>
+<td>-0.7305775330455275</td>
+<td>0.46516447594759136</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-FirstVisualChange</td>
+<td>-5.344616195479408</td>
+<td>1.0613645096983573e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-LastVisualChange</td>
+<td>3.3883415639282624</td>
+<td>0.000721516339824073</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-LastVisualChange</td>
+<td>1.0965440409566556</td>
+<td>0.27303705054001287</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-LastVisualChange</td>
+<td>-3.0072157181400834</td>
+<td>0.0026849162109098363</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-videoRecordingStart</td>
+<td>5.189773493465494</td>
+<td>2.3958452255584697e-07</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-videoRecordingStart</td>
+<td>124.50155329207865</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-ebay-kleinanzeigen-videoRecordingStart</td>
+<td>125.18084423044688</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-videoRecordingStart</td>
+<td>4.674516047654097</td>
+<td>3.235110157860603e-06</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-videoRecordingStart</td>
+<td>123.19888655120967</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-videoRecordingStart</td>
+<td>117.76675546805143</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-FirstVisualChange</td>
+<td>-10.412692553893429</td>
+<td>1.7107412607131024e-24</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-FirstVisualChange</td>
+<td>-91.55132912807983</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-FirstVisualChange</td>
+<td>-74.93976594249128</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-LastVisualChange</td>
+<td>-4.286248348959721</td>
+<td>1.943454120450798e-05</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-LastVisualChange</td>
+<td>-101.44794297764015</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-LastVisualChange</td>
+<td>-95.52323160582824</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-SpeedIndex</td>
+<td>-3.897754424759607</td>
+<td>0.00010175420947657457</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-SpeedIndex</td>
+<td>-114.81362338452305</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-SpeedIndex</td>
+<td>-109.06083209780634</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-ContentfulSpeedIndex</td>
+<td>-12.093963927352897</td>
+<td>4.4929067785247516e-32</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-ContentfulSpeedIndex</td>
+<td>-86.14642628752055</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-ContentfulSpeedIndex</td>
+<td>-71.57256417985057</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-PerceptualSpeedIndex</td>
+<td>-7.7320952896374715</td>
+<td>2.0292304938531418e-14</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-youtube-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-PerceptualSpeedIndex</td>
+<td>-115.21637941589803</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-youtube-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-youtube-PerceptualSpeedIndex</td>
+<td>-102.6404157023953</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-LastVisualChange</td>
+<td>10.699224586173584</td>
+<td>9.12369529000202e-26</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-LastVisualChange</td>
+<td>-59.451318547777596</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-LastVisualChange</td>
+<td>-132.39408779979865</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-FirstVisualChange</td>
+<td>-0.20911200782372893</td>
+<td>0.8343901737628041</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-FirstVisualChange</td>
+<td>-63.62105666381767</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-FirstVisualChange</td>
+<td>-112.43261387738451</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-PerceptualSpeedIndex</td>
+<td>0.8711717451801684</td>
+<td>0.3838045956895385</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-PerceptualSpeedIndex</td>
+<td>-88.90143260572187</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-PerceptualSpeedIndex</td>
+<td>-154.37312280018773</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-videoRecordingStart</td>
+<td>4.555520832963288</td>
+<td>5.663849958147915e-06</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-videoRecordingStart</td>
+<td>120.22148397843968</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-videoRecordingStart</td>
+<td>119.34418745083944</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-SpeedIndex</td>
+<td>-1.3689247198246506</td>
+<td>0.17123482572259455</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-SpeedIndex</td>
+<td>-59.36646872915978</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-SpeedIndex</td>
+<td>-99.15078536234385</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-ContentfulSpeedIndex</td>
+<td>1.002944070585141</td>
+<td>0.3160551853840378</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-espn-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-ContentfulSpeedIndex</td>
+<td>-52.848559016792166</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-espn-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-espn-ContentfulSpeedIndex</td>
+<td>-86.78500211508022</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-SpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-SpeedIndex</td>
+<td>-1.294760711147763</td>
+<td>0.19560821413038967</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-SpeedIndex</td>
+<td>-21.913660458444262</td>
+<td>2.647853103027473e-91</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-SpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-SpeedIndex</td>
+<td>-17.506015929978037</td>
+<td>6.964680591037987e-62</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-LastVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-LastVisualChange</td>
+<td>1.9071011599350751</td>
+<td>0.05670425087511824</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-LastVisualChange</td>
+<td>11.384468983492793</td>
+<td>9.76628933475946e-29</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-LastVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-LastVisualChange</td>
+<td>10.422434492465122</td>
+<td>1.685744616903803e-24</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-videoRecordingStart</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-videoRecordingStart</td>
+<td>4.842448552047687</td>
+<td>1.4192734756983458e-06</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-videoRecordingStart</td>
+<td>124.59317157713059</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-videoRecordingStart</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-videoRecordingStart</td>
+<td>121.93984433093223</td>
+<td>0.0</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-PerceptualSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-PerceptualSpeedIndex</td>
+<td>1.1538990850145774</td>
+<td>0.24873104441685887</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-PerceptualSpeedIndex</td>
+<td>-30.5528174876946</td>
+<td>3.0114753672831244e-156</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-PerceptualSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-PerceptualSpeedIndex</td>
+<td>-28.807070680812565</td>
+<td>4.4573242047817896e-142</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-FirstVisualChange</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-FirstVisualChange</td>
+<td>-0.4613316712637916</td>
+<td>0.6446296213406436</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-FirstVisualChange</td>
+<td>-42.42177058107151</td>
+<td>1.4800618011428102e-250</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-FirstVisualChange</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-FirstVisualChange</td>
+<td>-28.85684819661202</td>
+<td>1.8438435948918873e-142</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-ContentfulSpeedIndex</td>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-ContentfulSpeedIndex</td>
+<td>1.3572411480222366</td>
+<td>0.17491508997175712</td>
+</tr>
+                <tr>
+<td>p2-8-arm-browsertime-tp6m-fenix-cold-amazon-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-ContentfulSpeedIndex</td>
+<td>-19.53807008777532</td>
+<td>4.680527781590989e-75</td>
+</tr>
+                <tr>
+<td>p2-8-aarch-browsertime-tp6m-fenix-cold-amazon-ContentfulSpeedIndex</td>
+<td>g5-7-browsertime-tp6m-fenix-cold-amazon-ContentfulSpeedIndex</td>
+<td>-18.77647389886838</td>
+<td>6.358871529512323e-70</td>
+</tr>
+</table>
+    </script>
+    <iframe
+      id="eval-frame"
+      src="/eval-frame/"
+      sandbox="allow-scripts allow-modals allow-same-origin"
+      allowfullscreen="true"
+      allowvr="yes"
+    ></iframe>
+    <script>
+      window.evalFrameOrigin = "<%= EVAL_FRAME_ORIGIN %>";
+    </script>
+    <script src="/iodide.js"></script>
+  </body>
+</html>

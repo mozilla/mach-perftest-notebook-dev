@@ -29,7 +29,7 @@ class PerftestNotebook(object):
             transformation logic. Must implement the Transformer
             interface.
         '''
-        self.fmt_data = {}
+        self.fmt_data = {}      # format data, will be the input to analyzer
         self.file_groups = file_groups
         self.config = config
 
@@ -128,7 +128,7 @@ class PerftestNotebook(object):
                                 e['subtest'] = subtest
                             else:
                                 e['subtest'] = '%s-%s' % (subtest, e['subtest'])
-                        fmt_data.extend(trfm_data)
+                        fmt_data.extend(trfm_data)      # appened tranformed data to fmt_data
                     else:
                         if 'subtest' not in trfm_data:
                             trfm_data['subtest'] = subtest
@@ -145,19 +145,19 @@ class PerftestNotebook(object):
                 else:
                     fmt_data.append(trfm_data)
 
-        self.fmt_data = fmt_data
+        self.fmt_data = fmt_data         # now fmt_data is transformed data
 
         if 'analysis' in self.config:
             # Analyze the data
             all_results = {}
-            self.analyzer.data = fmt_data
+            self.analyzer.data = fmt_data       # parse formated data to analyzer
             for func in self.config['analysis']:
                 all_results[func] = getattr(self.analyzer, func)()
             return all_results
 
         return self.fmt_data
 
-
+# Main starts here:
 def main():
     args = parse_args()
 
@@ -173,7 +173,7 @@ def main():
     ptnb = PerftestNotebook(
         config['file_groups'], config, custom_transform=custom_transform
     )
-    results = ptnb.process()
+    results = ptnb.process()    # returns either raw data or analyzed data.
 
     if 'analysis' in config:
         # TODO: Implement filtering techniques or add a configuration
