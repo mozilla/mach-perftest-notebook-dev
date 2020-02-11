@@ -14,7 +14,7 @@ class NotebookAnalyzer(object):
 
         :param dict data: Standardized data, post-transformation.
         '''
-        self.data = data        
+        self.data = data
 
     def split_subtests(self):
         '''
