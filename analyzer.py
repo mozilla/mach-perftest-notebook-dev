@@ -25,7 +25,7 @@ class NotebookAnalyzer(object):
             return {'': self.data}
 
         split_data = {}
-        for entry in self.data:                 # for every array element in data
+        for entry in self.data:                 
             subtest = entry['subtest']          # subtest = subtest's name
             if subtest not in split_data:       # if subtest name does not exist
                 split_data[subtest] = []        # create a new array for it
@@ -198,3 +198,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
