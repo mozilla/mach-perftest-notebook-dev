@@ -10,6 +10,7 @@ class Transformer(object):
     '''
     Abstract class for data transformers.
     '''
+
     def __init__(self, files=None):
         '''
         Initialize the transformer with files.
@@ -21,7 +22,7 @@ class Transformer(object):
     @property
     def files(self):
         return self._files
-    
+
     @files.setter
     def files(self, val):
         if not type(val) == list:
@@ -117,18 +118,11 @@ class SimplePerfherderTransformer(Transformer):
         self.entry_number += 1
         return {
             'data': {
-             'value': data['suites'][0]['value'],
-             'xaxis': self.entry_number
+                'value': data['suites'][0]['value'],
+                'xaxis': self.entry_number
             }
         }
 
     def merge(self, sde):
-        merged = {'data': []}
-        data = [entry['data'] for entry in sde]
-
-        dsorted = sorted(data, key=lambda t: t['xaxis'])
-
-        for val in dsorted:
-            merged['data'].append(val)
         self.entry_number = 0
-        return merged
+        return {'data': [entry['data'] for entry in sde]}

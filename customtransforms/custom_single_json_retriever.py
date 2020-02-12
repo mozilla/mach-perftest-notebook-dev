@@ -12,14 +12,9 @@ class SingleJsonRetriever(Transformer):
         ret = []
         self.entry_number += 1
 
-        flatted_data = flat(data, [])
-
-        for k, v in flatted_data.items():
-            data_obj = []
-            for i in v:
-                data_obj.append({'value': i, 'xaxis': self.entry_number})
+        for k, v in flat(data, ()).items():
             ret.append({
-                'data': data_obj,
+                'data': [{'value': i, 'xaxis': self.entry_number} for i in v],
                 'subtest': k
             })
 
