@@ -12,6 +12,8 @@ class SingleJsonRetriever(Transformer):
         ret = []
         self.entry_number += 1
 
+        # flat(data, ()) returns a dict that have one key per dictionray path
+        # in the original data.
         for k, v in flat(data, ()).items():
             ret.append({
                 'data': [{'value': i, 'xaxis': self.entry_number} for i in v],

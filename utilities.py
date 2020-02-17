@@ -10,20 +10,20 @@ def flat(data, parent_dir):
 
     :return dict: {subtest:json_value}
     '''
-    def recursive_helper(data, parent_dir, ret):
+    def _helper(data, parent_dir, ret):
         if isinstance(data, list):
             for item in data:
-                ret.update(recursive_helper(item, parent_dir, ret))
+                ret.update(_helper(item, parent_dir, ret))
         elif isinstance(data, dict):
             for k, v in data.items():
                 current_dir = parent_dir + (k,)
                 subtest = '.'.join(current_dir)
                 if isinstance(v, Iterable):
-                    ret.update(recursive_helper(v, current_dir, ret))
+                    ret.update(_helper(v, current_dir, ret))
                 elif v:
                     update_value = ret.get(subtest, [])
                     update_value.append(v)
                     ret.update({subtest: update_value})
         return ret
 
-    return recursive_helper(data, parent_dir, {})
+    return _helper(data, parent_dir, {})
