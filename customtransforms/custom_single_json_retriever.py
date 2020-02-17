@@ -21,4 +21,5 @@ class SingleJsonRetriever(Transformer):
         return ret
 
     def merge(self, data):
+        self.entry_number = 0
         return data
