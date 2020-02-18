@@ -12,7 +12,7 @@ class SingleJsonRetriever(Transformer):
         ret = []
         self.entry_number += 1
 
-        # flat(data, ()) returns a dict that have one key per dictionray path
+        # flat(data, ()) returns a dict that have one key per dictionary path
         # in the original data.
         for k, v in flat(data, ()).items():
             ret.append({

@@ -3,8 +3,8 @@ from collections import Iterable
 
 def flat(data, parent_dir):
     '''
-    Convert JSON data from
-        [{
+    Converts a dictionary with nested entries like this
+        {
             "dict1": {
                 "dict2": {
                     "key1": value1,
@@ -20,9 +20,9 @@ def flat(data, parent_dir):
                 ...
             }
             ...
-        }]
+        }
     
-    to a dictionary
+    to a "flattened" dictionary like this that has no nested entries:
         {
             "dict1.dict2.key1": value1,
             "dict1.dict2.key2": value2,

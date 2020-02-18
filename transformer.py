@@ -10,7 +10,6 @@ class Transformer(object):
     '''
     Abstract class for data transformers.
     '''
-
     def __init__(self, files=None):
         '''
         Initialize the transformer with files.
@@ -22,7 +21,7 @@ class Transformer(object):
     @property
     def files(self):
         return self._files
-
+    
     @files.setter
     def files(self, val):
         if not type(val) == list:

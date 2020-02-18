@@ -2,4 +2,4 @@ output: testing/output/issue-1-output.json
 custom_transform: customtransforms/custom_single_json_retriever.py
 
 file_groups:
-    issue_1: ["/home/vhyt/Documents/Mozilla/Perftest/browsertime.json"]
+    issue_1: ["testing/resources/browsertime.json"]
