@@ -3,12 +3,39 @@ from collections import Iterable
 
 def flat(data, parent_dir):
     '''
-    Convert JSON data to a dictionary.
+    Convert JSON data from
+        [{
+            "dict1": {
+                "dict2": {
+                    "key1": value1,
+                    "key2": value2,
+                    ...
+                },
+                ...
+            },
+            ...
+            "dict3": {
+                "key3": value3,
+                "key4": value4,
+                ...
+            }
+            ...
+        }]
+    
+    to a dictionary
+        {
+            "dict1.dict2.key1": value1,
+            "dict1.dict2.key2": value2,
+            ...
+            "dict3.key3": value3,
+            "dict3.key4": value4,
+            ...
+        }
 
     :param Iterable data : json data.
     :param tuple parent_dir: json fields. 
 
-    :return dict: {subtest:json_value}
+    :return dict: {subtest: value}
     '''
     def _helper(data, parent_dir, ret):
         if isinstance(data, list):
