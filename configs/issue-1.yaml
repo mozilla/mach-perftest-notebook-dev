@@ -1,5 +1,0 @@
-output: outputs/issue-1-output.json
-custom_transform: customtransforms/custom_single_json_retriever.py
-
-file_groups:
-    issue_1: ["/home/vhyt/Documents/Mozilla/Perftest/browsertime.json"]
