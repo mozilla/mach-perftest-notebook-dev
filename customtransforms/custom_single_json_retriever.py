@@ -22,6 +22,20 @@ class SingleJsonRetriever(Transformer):
 
         return ret
 
-    def merge(self, data):
+    def merge(self, sde):
+        grouped_data = {}
+        for entry in sde:
+            subtest = entry['subtest']
+            data = grouped_data.get(subtest, [])
+            data.extend(entry['data'])
+            grouped_data.update({subtest: data})
+
+        merged_data = []
+        for k, v in grouped_data.items():
+            merged_data.append({
+                'data': v,
+                'subtest': k
+            })
+
         self.entry_number = 0
-        return data
+        return merged_data

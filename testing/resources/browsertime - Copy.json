@@ -1,0 +1,923 @@
+[
+    {
+        "info": {
+            "browsertime": {
+                "version": "4.9.2-android"
+            },
+            "url": "https://www.sitespeed.io",
+            "timestamp": "2019-10-16T18:59:55-04:00",
+            "connectivity": {
+                "engine": "external",
+                "profile": "native"
+            },
+            "extra": {}
+        },
+        "files": {
+            "video": [],
+            "screenshot": [],
+            "timeline": [],
+            "consoleLog": [],
+            "netLog": [],
+            "perfLog": []
+        },
+        "cdp": {
+            "performance": []
+        },
+        "timestamps": [
+            "2019-10-16T18:59:49-04:00",
+            "2019-10-16T18:59:58-04:00",
+            "2019-10-16T19:00:07-04:00"
+        ],
+        "browserScripts": [
+            {
+                "browser": {
+                    "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0",
+                    "windowSize": "1366x695"
+                },
+                "pageinfo": {
+                    "documentHeight": 3814,
+                    "documentSize": {
+                        "decodedBodySize": 34386,
+                        "encodedBodySize": 9095,
+                        "transferSize": 9764
+                    },
+                    "documentTitle": "Welcome to the wonderful world of Web Performance",
+                    "documentWidth": 1358,
+                    "navigationStartTime": 1571266789280,
+                    "nextHopProtocol": "h2",
+                    "responsive": true,
+                    "url": "https://www.sitespeed.io/",
+                    "visualElements": {
+                        "heroes": [
+                            {
+                                "filename": "team.png",
+                                "height": 433,
+                                "name": "LargestImage",
+                                "width": 500,
+                                "x": 149,
+                                "y": 50
+                            },
+                            {
+                                "filename": null,
+                                "height": 173,
+                                "name": "Heading",
+                                "width": 510,
+                                "x": 699,
+                                "y": 66
+                            }
+                        ],
+                        "viewport": {
+                            "height": 695,
+                            "width": 1358
+                        }
+                    }
+                },
+                "timings": {
+                    "firstPaint": 404,
+                    "loadEventEnd": 455,
+                    "navigationTiming": {
+                        "connectStart": 48,
+                        "domComplete": 455,
+                        "domContentLoadedEventEnd": 438,
+                        "domContentLoadedEventStart": 438,
+                        "domInteractive": 313,
+                        "domainLookupEnd": 48,
+                        "domainLookupStart": 4,
+                        "duration": 455,
+                        "fetchStart": 1,
+                        "loadEventEnd": 455,
+                        "loadEventStart": 455,
+                        "redirectEnd": 0,
+                        "redirectStart": 0,
+                        "requestStart": 247,
+                        "responseEnd": 300,
+                        "responseStart": 277,
+                        "secureConnectionStart": 73,
+                        "startTime": 0,
+                        "unloadEventEnd": 0,
+                        "unloadEventStart": 0,
+                        "workerStart": 0
+                    },
+                    "pageTimings": {
+                        "backEndTime": 277,
+                        "domContentLoadedTime": 438,
+                        "domInteractiveTime": 313,
+                        "domainLookupTime": 44,
+                        "frontEndTime": 155,
+                        "pageDownloadTime": 23,
+                        "pageLoadTime": 455,
+                        "redirectionTime": 0,
+                        "serverConnectionTime": 199,
+                        "serverResponseTime": 53
+                    },
+                    "rumSpeedIndex": 430,
+                    "serverTimings": [],
+                    "timeToContentfulPaint": 417,
+                    "timeToDomContentFlushed": 437,
+                    "timeToFirstInteractive": 437,
+                    "userTimings": {
+                        "marks": [],
+                        "measures": []
+                    }
+                }
+            },
+            {
+                "browser": {
+                    "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0",
+                    "windowSize": "1366x695"
+                },
+                "pageinfo": {
+                    "documentHeight": 3814,
+                    "documentSize": {
+                        "decodedBodySize": 34386,
+                        "encodedBodySize": 9095,
+                        "transferSize": 9764
+                    },
+                    "documentTitle": "Welcome to the wonderful world of Web Performance",
+                    "documentWidth": 1358,
+                    "navigationStartTime": 1571266798478,
+                    "nextHopProtocol": "h2",
+                    "responsive": true,
+                    "url": "https://www.sitespeed.io/",
+                    "visualElements": {
+                        "heroes": [
+                            {
+                                "filename": "team.png",
+                                "height": 433,
+                                "name": "LargestImage",
+                                "width": 500,
+                                "x": 149,
+                                "y": 50
+                            },
+                            {
+                                "filename": null,
+                                "height": 173,
+                                "name": "Heading",
+                                "width": 510,
+                                "x": 699,
+                                "y": 66
+                            }
+                        ],
+                        "viewport": {
+                            "height": 695,
+                            "width": 1358
+                        }
+                    }
+                },
+                "timings": {
+                    "firstPaint": 365,
+                    "loadEventEnd": 414,
+                    "navigationTiming": {
+                        "connectStart": 26,
+                        "domComplete": 413,
+                        "domContentLoadedEventEnd": 357,
+                        "domContentLoadedEventStart": 356,
+                        "domInteractive": 257,
+                        "domainLookupEnd": 26,
+                        "domainLookupStart": 25,
+                        "duration": 414,
+                        "fetchStart": 2,
+                        "loadEventEnd": 414,
+                        "loadEventStart": 414,
+                        "redirectEnd": 0,
+                        "redirectStart": 0,
+                        "requestStart": 163,
+                        "responseEnd": 215,
+                        "responseStart": 191,
+                        "secureConnectionStart": 51,
+                        "startTime": 0,
+                        "unloadEventEnd": 0,
+                        "unloadEventStart": 0,
+                        "workerStart": 0
+                    },
+                    "pageTimings": {
+                        "backEndTime": 191,
+                        "domContentLoadedTime": 356,
+                        "domInteractiveTime": 257,
+                        "domainLookupTime": 1,
+                        "frontEndTime": 199,
+                        "pageDownloadTime": 24,
+                        "pageLoadTime": 414,
+                        "redirectionTime": 0,
+                        "serverConnectionTime": 136,
+                        "serverResponseTime": 52
+                    },
+                    "rumSpeedIndex": 382,
+                    "serverTimings": [],
+                    "timeToContentfulPaint": 386,
+                    "timeToDomContentFlushed": 355,
+                    "timeToFirstInteractive": 386,
+                    "userTimings": {
+                        "marks": [],
+                        "measures": []
+                    }
+                }
+            },
+            {
+                "browser": {
+                    "userAgent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:69.0) Gecko/20100101 Firefox/69.0",
+                    "windowSize": "1366x695"
+                },
+                "pageinfo": {
+                    "documentHeight": 3814,
+                    "documentSize": {
+                        "decodedBodySize": 34386,
+                        "encodedBodySize": 9095,
+                        "transferSize": 9764
+                    },
+                    "documentTitle": "Welcome to the wonderful world of Web Performance",
+                    "documentWidth": 1358,
+                    "navigationStartTime": 1571266807695,
+                    "nextHopProtocol": "h2",
+                    "responsive": true,
+                    "url": "https://www.sitespeed.io/",
+                    "visualElements": {
+                        "heroes": [
+                            {
+                                "filename": "team.png",
+                                "height": 433,
+                                "name": "LargestImage",
+                                "width": 500,
+                                "x": 149,
+                                "y": 50
+                            },
+                            {
+                                "filename": null,
+                                "height": 173,
+                                "name": "Heading",
+                                "width": 510,
+                                "x": 699,
+                                "y": 66
+                            }
+                        ],
+                        "viewport": {
+                            "height": 695,
+                            "width": 1358
+                        }
+                    }
+                },
+                "timings": {
+                    "firstPaint": 350,
+                    "loadEventEnd": 361,
+                    "navigationTiming": {
+                        "connectStart": 6,
+                        "domComplete": 361,
+                        "domContentLoadedEventEnd": 341,
+                        "domContentLoadedEventStart": 341,
+                        "domInteractive": 211,
+                        "domainLookupEnd": 6,
+                        "domainLookupStart": 5,
+                        "duration": 361,
+                        "fetchStart": 0,
+                        "loadEventEnd": 361,
+                        "loadEventStart": 361,
+                        "redirectEnd": 0,
+                        "redirectStart": 0,
+                        "requestStart": 117,
+                        "responseEnd": 173,
+                        "responseStart": 149,
+                        "secureConnectionStart": 32,
+                        "startTime": 0,
+                        "unloadEventEnd": 0,
+                        "unloadEventStart": 0,
+                        "workerStart": 0
+                    },
+                    "pageTimings": {
+                        "backEndTime": 149,
+                        "domContentLoadedTime": 341,
+                        "domInteractiveTime": 211,
+                        "domainLookupTime": 1,
+                        "frontEndTime": 188,
+                        "pageDownloadTime": 24,
+                        "pageLoadTime": 361,
+                        "redirectionTime": 0,
+                        "serverConnectionTime": 111,
+                        "serverResponseTime": 56
+                    },
+                    "rumSpeedIndex": 326,
+                    "serverTimings": [],
+                    "timeToContentfulPaint": 367,
+                    "timeToDomContentFlushed": 339,
+                    "timeToFirstInteractive": 367,
+                    "userTimings": {
+                        "marks": [],
+                        "measures": []
+                    }
+                }
+            }
+        ],
+        "visualMetrics": [],
+        "cpu": [],
+        "fullyLoaded": [],
+        "errors": [
+            [],
+            [],
+            []
+        ],
+        "statistics": {
+            "pageinfo": {
+                "documentHeight": {
+                    "median": 3814,
+                    "mean": 3814,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 3814,
+                    "p10": 3814,
+                    "p90": 3814,
+                    "p99": 3814,
+                    "max": 3814
+                },
+                "documentSize": {
+                    "decodedBodySize": {
+                        "median": 34386,
+                        "mean": 34386,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 34386,
+                        "p10": 34386,
+                        "p90": 34386,
+                        "p99": 34386,
+                        "max": 34386
+                    },
+                    "encodedBodySize": {
+                        "median": 9095,
+                        "mean": 9095,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 9095,
+                        "p10": 9095,
+                        "p90": 9095,
+                        "p99": 9095,
+                        "max": 9095
+                    },
+                    "transferSize": {
+                        "median": 9764,
+                        "mean": 9764,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 9764,
+                        "p10": 9764,
+                        "p90": 9764,
+                        "p99": 9764,
+                        "max": 9764
+                    }
+                },
+                "documentWidth": {
+                    "median": 1358,
+                    "mean": 1358,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 1358,
+                    "p10": 1358,
+                    "p90": 1358,
+                    "p99": 1358,
+                    "max": 1358
+                },
+                "navigationStartTime": {
+                    "median": 1571266798478,
+                    "mean": 1571266798484,
+                    "mdev": 0,
+                    "stddev": 0,
+                    "min": 1571266789280,
+                    "p10": 1571266789280,
+                    "p90": 1571266807695,
+                    "p99": 1571266807695,
+                    "max": 1571266807695
+                },
+                "visualElements": {
+                    "heroes": [
+                        {
+                            "height": {
+                                "median": 433,
+                                "mean": 433,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 433,
+                                "p10": 433,
+                                "p90": 433,
+                                "p99": 433,
+                                "max": 433
+                            },
+                            "width": {
+                                "median": 500,
+                                "mean": 500,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 500,
+                                "p10": 500,
+                                "p90": 500,
+                                "p99": 500,
+                                "max": 500
+                            },
+                            "x": {
+                                "median": 149,
+                                "mean": 149,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 149,
+                                "p10": 149,
+                                "p90": 149,
+                                "p99": 149,
+                                "max": 149
+                            },
+                            "y": {
+                                "median": 50,
+                                "mean": 50,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 50,
+                                "p10": 50,
+                                "p90": 50,
+                                "p99": 50,
+                                "max": 50
+                            }
+                        },
+                        {
+                            "height": {
+                                "median": 173,
+                                "mean": 173,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 173,
+                                "p10": 173,
+                                "p90": 173,
+                                "p99": 173,
+                                "max": 173
+                            },
+                            "width": {
+                                "median": 510,
+                                "mean": 510,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 510,
+                                "p10": 510,
+                                "p90": 510,
+                                "p99": 510,
+                                "max": 510
+                            },
+                            "x": {
+                                "median": 699,
+                                "mean": 699,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 699,
+                                "p10": 699,
+                                "p90": 699,
+                                "p99": 699,
+                                "max": 699
+                            },
+                            "y": {
+                                "median": 66,
+                                "mean": 66,
+                                "mdev": 0,
+                                "stddev": 0,
+                                "min": 66,
+                                "p10": 66,
+                                "p90": 66,
+                                "p99": 66,
+                                "max": 66
+                            }
+                        }
+                    ],
+                    "viewport": {
+                        "height": {
+                            "median": 695,
+                            "mean": 695,
+                            "mdev": 0,
+                            "stddev": 0,
+                            "min": 695,
+                            "p10": 695,
+                            "p90": 695,
+                            "p99": 695,
+                            "max": 695
+                        },
+                        "width": {
+                            "median": 1358,
+                            "mean": 1358,
+                            "mdev": 0,
+                            "stddev": 0,
+                            "min": 1358,
+                            "p10": 1358,
+                            "p90": 1358,
+                            "p99": 1358,
+                            "max": 1358
+                        }
+                    }
+                }
+            },
+            "timings": {
+                "firstPaint": {
+                    "median": 365,
+                    "mean": 373,
+                    "mdev": 13.1403,
+                    "stddev": 23,
+                    "min": 350,
+                    "p10": 350,
+                    "p90": 404,
+                    "p99": 404,
+                    "max": 404
+                },
+                "loadEventEnd": {
+                    "median": 414,
+                    "mean": 410,
+                    "mdev": 22.2161,
+                    "stddev": 38,
+                    "min": 361,
+                    "p10": 361,
+                    "p90": 455,
+                    "p99": 455,
+                    "max": 455
+                },
+                "navigationTiming": {
+                    "connectStart": {
+                        "median": 26,
+                        "mean": 27,
+                        "mdev": 9.9032,
+                        "stddev": 17,
+                        "min": 6,
+                        "p10": 6,
+                        "p90": 48,
+                        "p99": 48,
+                        "max": 48
+                    },
+                    "domComplete": {
+                        "median": 413,
+                        "mean": 410,
+                        "mdev": 22.1978,
+                        "stddev": 38,
+                        "min": 361,
+                        "p10": 361,
+                        "p90": 455,
+                        "p99": 455,
+                        "max": 455
+                    },
+                    "domContentLoadedEventEnd": {
+                        "median": 357,
+                        "mean": 379,
+                        "mdev": 24.5145,
+                        "stddev": 42,
+                        "min": 341,
+                        "p10": 341,
+                        "p90": 438,
+                        "p99": 438,
+                        "max": 438
+                    },
+                    "domContentLoadedEventStart": {
+                        "median": 356,
+                        "mean": 378,
+                        "mdev": 24.6141,
+                        "stddev": 43,
+                        "min": 341,
+                        "p10": 341,
+                        "p90": 438,
+                        "p99": 438,
+                        "max": 438
+                    },
+                    "domInteractive": {
+                        "median": 257,
+                        "mean": 260,
+                        "mdev": 24.0801,
+                        "stddev": 42,
+                        "min": 211,
+                        "p10": 211,
+                        "p90": 313,
+                        "p99": 313,
+                        "max": 313
+                    },
+                    "domainLookupEnd": {
+                        "median": 26,
+                        "mean": 27,
+                        "mdev": 9.9032,
+                        "stddev": 17,
+                        "min": 6,
+                        "p10": 6,
+                        "p90": 48,
+                        "p99": 48,
+                        "max": 48
+                    },
+                    "domainLookupStart": {
+                        "median": 5,
+                        "mean": 11,
+                        "mdev": 5.5844,
+                        "stddev": 10,
+                        "min": 4,
+                        "p10": 4,
+                        "p90": 25,
+                        "p99": 25,
+                        "max": 25
+                    },
+                    "duration": {
+                        "median": 414,
+                        "mean": 410,
+                        "mdev": 22.2161,
+                        "stddev": 38,
+                        "min": 361,
+                        "p10": 361,
+                        "p90": 455,
+                        "p99": 455,
+                        "max": 455
+                    },
+                    "fetchStart": {
+                        "median": 1,
+                        "mean": 1,
+                        "mdev": 0.4714,
+                        "stddev": 1,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 2,
+                        "p99": 2,
+                        "max": 2
+                    },
+                    "loadEventEnd": {
+                        "median": 414,
+                        "mean": 410,
+                        "mdev": 22.2161,
+                        "stddev": 38,
+                        "min": 361,
+                        "p10": 361,
+                        "p90": 455,
+                        "p99": 455,
+                        "max": 455
+                    },
+                    "loadEventStart": {
+                        "median": 414,
+                        "mean": 410,
+                        "mdev": 22.2161,
+                        "stddev": 38,
+                        "min": 361,
+                        "p10": 361,
+                        "p90": 455,
+                        "p99": 455,
+                        "max": 455
+                    },
+                    "redirectEnd": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    },
+                    "redirectStart": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    },
+                    "requestStart": {
+                        "median": 163,
+                        "mean": 176,
+                        "mdev": 31.0746,
+                        "stddev": 54,
+                        "min": 117,
+                        "p10": 117,
+                        "p90": 247,
+                        "p99": 247,
+                        "max": 247
+                    },
+                    "responseEnd": {
+                        "median": 215,
+                        "mean": 229,
+                        "mdev": 30.5008,
+                        "stddev": 53,
+                        "min": 173,
+                        "p10": 173,
+                        "p90": 300,
+                        "p99": 300,
+                        "max": 300
+                    },
+                    "responseStart": {
+                        "median": 191,
+                        "mean": 206,
+                        "mdev": 30.7583,
+                        "stddev": 53,
+                        "min": 149,
+                        "p10": 149,
+                        "p90": 277,
+                        "p99": 277,
+                        "max": 277
+                    },
+                    "secureConnectionStart": {
+                        "median": 51,
+                        "mean": 52,
+                        "mdev": 9.6724,
+                        "stddev": 17,
+                        "min": 32,
+                        "p10": 32,
+                        "p90": 73,
+                        "p99": 73,
+                        "max": 73
+                    },
+                    "startTime": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    },
+                    "unloadEventEnd": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    },
+                    "unloadEventStart": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    },
+                    "workerStart": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    }
+                },
+                "pageTimings": {
+                    "backEndTime": {
+                        "median": 191,
+                        "mean": 206,
+                        "mdev": 30.7583,
+                        "stddev": 53,
+                        "min": 149,
+                        "p10": 149,
+                        "p90": 277,
+                        "p99": 277,
+                        "max": 277
+                    },
+                    "domContentLoadedTime": {
+                        "median": 356,
+                        "mean": 378,
+                        "mdev": 24.6141,
+                        "stddev": 43,
+                        "min": 341,
+                        "p10": 341,
+                        "p90": 438,
+                        "p99": 438,
+                        "max": 438
+                    },
+                    "domInteractiveTime": {
+                        "median": 257,
+                        "mean": 260,
+                        "mdev": 24.0801,
+                        "stddev": 42,
+                        "min": 211,
+                        "p10": 211,
+                        "p90": 313,
+                        "p99": 313,
+                        "max": 313
+                    },
+                    "domainLookupTime": {
+                        "median": 1,
+                        "mean": 15,
+                        "mdev": 11.7031,
+                        "stddev": 20,
+                        "min": 1,
+                        "p10": 1,
+                        "p90": 44,
+                        "p99": 44,
+                        "max": 44
+                    },
+                    "frontEndTime": {
+                        "median": 188,
+                        "mean": 181,
+                        "mdev": 10.7944,
+                        "stddev": 19,
+                        "min": 155,
+                        "p10": 155,
+                        "p90": 199,
+                        "p99": 199,
+                        "max": 199
+                    },
+                    "pageDownloadTime": {
+                        "median": 24,
+                        "mean": 24,
+                        "mdev": 0.2722,
+                        "stddev": 0,
+                        "min": 23,
+                        "p10": 23,
+                        "p90": 24,
+                        "p99": 24,
+                        "max": 24
+                    },
+                    "pageLoadTime": {
+                        "median": 414,
+                        "mean": 410,
+                        "mdev": 22.2161,
+                        "stddev": 38,
+                        "min": 361,
+                        "p10": 361,
+                        "p90": 455,
+                        "p99": 455,
+                        "max": 455
+                    },
+                    "redirectionTime": {
+                        "median": 0,
+                        "mean": 0,
+                        "mdev": 0,
+                        "stddev": 0,
+                        "min": 0,
+                        "p10": 0,
+                        "p90": 0,
+                        "p99": 0,
+                        "max": 0
+                    },
+                    "serverConnectionTime": {
+                        "median": 136,
+                        "mean": 149,
+                        "mdev": 21.3767,
+                        "stddev": 37,
+                        "min": 111,
+                        "p10": 111,
+                        "p90": 199,
+                        "p99": 199,
+                        "max": 199
+                    },
+                    "serverResponseTime": {
+                        "median": 53,
+                        "mean": 54,
+                        "mdev": 0.9813,
+                        "stddev": 2,
+                        "min": 52,
+                        "p10": 52,
+                        "p90": 56,
+                        "p99": 56,
+                        "max": 56
+                    }
+                },
+                "rumSpeedIndex": {
+                    "median": 382,
+                    "mean": 379,
+                    "mdev": 24.5372,
+                    "stddev": 42,
+                    "min": 326,
+                    "p10": 326,
+                    "p90": 430,
+                    "p99": 430,
+                    "max": 430
+                },
+                "timeToContentfulPaint": {
+                    "median": 386,
+                    "mean": 390,
+                    "mdev": 11.8977,
+                    "stddev": 21,
+                    "min": 367,
+                    "p10": 367,
+                    "p90": 417,
+                    "p99": 417,
+                    "max": 417
+                },
+                "timeToDomContentFlushed": {
+                    "median": 355,
+                    "mean": 377,
+                    "mdev": 24.7835,
+                    "stddev": 43,
+                    "min": 339,
+                    "p10": 339,
+                    "p90": 437,
+                    "p99": 437,
+                    "max": 437
+                },
+                "timeToFirstInteractive": {
+                    "median": 386,
+                    "mean": 397,
+                    "mdev": 17.0641,
+                    "stddev": 30,
+                    "min": 367,
+                    "p10": 367,
+                    "p90": 437,
+                    "p99": 437,
+                    "max": 437
+                }
+            }
+        }
+    }
+]
