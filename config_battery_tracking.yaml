@@ -1,0 +1,9 @@
+custom_transform: customtransforms/custom_multiartifact_transform.py
+output: battery_tracking.json
+
+file_groups:
+  g5-7:
+    task_group_id: AGlbi4WZSSSAnaBThyHoJA
+    path: /home/sparky/mozilla-source
+    artifact: [battery-before, battery-after, live_backing]
+    run_number: 14

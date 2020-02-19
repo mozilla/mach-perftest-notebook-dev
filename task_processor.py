@@ -14,6 +14,18 @@ def log(msg):
         print(msg)
 
 
+def pattern_match(name, artifacts_to_get):
+    '''
+    Match an artifact that was requested with the name we have.
+    '''
+    if not artifacts_to_get:
+        return None
+    for aname in artifacts_to_get:
+        if aname in name:
+            return aname
+    return None
+
+
 def sorted_nicely(data): 
     '''
     Sort the given iterable in the way that humans expect.
@@ -24,7 +36,7 @@ def sorted_nicely(data):
 
 
 def get_task_data_paths(task_group_id, path,
-                        run_number=None, artifact='', artifact_dir='',
+                        run_number=None, artifact=[], artifact_dir='',
                         suite_matcher='', silent=False):
     '''
     Opens a folder for a task group and returns the files
@@ -32,6 +44,9 @@ def get_task_data_paths(task_group_id, path,
     '''
     global SILENT
     SILENT = silent
+
+    if type(artifact) not in (list,):
+        artifact = [artifact]
 
     data = {}
 
@@ -65,39 +80,44 @@ def get_task_data_paths(task_group_id, path,
 
     # Find all the data for this task group
     for suite in all_suites:
-        if suite_matcher and suite_matcher not in suite:
-            continue
+        for aname in artifact:
+            if suite_matcher and suite_matcher not in suite:
+                continue
 
-        suite_dir = os.path.join(run_dir, suite)
+            suite_dir = os.path.join(run_dir, suite)
 
-        # Get the suite's data directory
-        if not artifact_dir:
-            artifact_dir = artifact
-        all_dirs = [
-            f
-            for f in os.listdir(suite_dir)
-            if os.path.isdir(os.path.join(suite_dir, f))
-        ]
-        suite_data_dir = None
-        for d in all_dirs:
-            if artifact_dir in d or (not artifact_dir and d.endswith('_data')):
-                suite_data_dir = os.path.join(suite_dir, d)
-                break
+            # Get the suite's data directory
+            if not artifact_dir:
+                artifact_dir = aname
+            all_dirs = [
+                f
+                for f in os.listdir(suite_dir)
+                if os.path.isdir(os.path.join(suite_dir, f))
+            ]
+            suite_data_dir = None
+            for d in all_dirs:
+                if pattern_match(d, [aname]) or (not artifact_dir and d.endswith('_data')):
+                    suite_data_dir = os.path.join(suite_dir, d)
+                    break
 
-        if not suite_data_dir:
-            log("Cannot find data directory in %s, skipping" % suite_dir)
-            continue
+            if not suite_data_dir:
+                log("Cannot find data directory in %s, skipping" % suite_dir)
+                continue
 
-        # Now find all data files and order them
-        all_files = glob.glob(os.path.join(suite_data_dir, '**/*'), recursive=True)
+            # Now find all data files and order them
+            all_files = glob.glob(os.path.join(suite_data_dir, '**/*'), recursive=True)
 
-        all_files = sorted_nicely([
-            file
-            for file in all_files
-            if artifact and artifact in os.path.split(file)[-1]
-        ])
+            all_files = [
+                file
+                for file in all_files
+                if artifact and pattern_match(os.path.split(file)[-1], [aname])
+            ]
 
-        data[suite] = all_files
+            if suite not in data:
+                data[suite] = []
+
+            data[suite].extend(all_files)
+            data[suite] = sorted_nicely(data[suite])
 
     return data
 
