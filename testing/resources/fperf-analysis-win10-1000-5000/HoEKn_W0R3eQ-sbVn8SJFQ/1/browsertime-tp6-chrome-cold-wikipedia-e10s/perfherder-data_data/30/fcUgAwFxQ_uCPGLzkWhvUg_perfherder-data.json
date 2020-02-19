@@ -1,0 +1,94 @@
+{
+  "application": {
+    "name": "chrome", 
+    "version": "79.0.3945.130"
+  }, 
+  "framework": {
+    "name": "browsertime"
+  }, 
+  "suites": [
+    {
+      "alertThreshold": 2.0, 
+      "extraOptions": [
+        "chrome"
+      ], 
+      "lowerIsBetter": true, 
+      "name": "wikipedia-cold", 
+      "subtests": [
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "fcp", 
+          "replicates": [
+            1518, 
+            1279, 
+            1359, 
+            1348, 
+            1271, 
+            1248, 
+            1233, 
+            1310, 
+            1338, 
+            1286, 
+            1312, 
+            1274, 
+            1326, 
+            1359, 
+            1355, 
+            1350, 
+            1381, 
+            1344, 
+            1386, 
+            1375, 
+            1291, 
+            1275, 
+            1299, 
+            1324, 
+            1331
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 1325.0
+        }, 
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "loadtime", 
+          "replicates": [
+            2414, 
+            2392, 
+            2277, 
+            2357, 
+            2403, 
+            2332, 
+            2348, 
+            2306, 
+            2381, 
+            2376, 
+            2369, 
+            2309, 
+            2346, 
+            2380, 
+            2417, 
+            2373, 
+            2337, 
+            2404, 
+            2353, 
+            2451, 
+            2305, 
+            2408, 
+            2440, 
+            2416, 
+            2388
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 2374.5
+        }
+      ], 
+      "type": "browsertime-pageload", 
+      "unit": "ms", 
+      "value": 1773.8
+    }
+  ]
+}

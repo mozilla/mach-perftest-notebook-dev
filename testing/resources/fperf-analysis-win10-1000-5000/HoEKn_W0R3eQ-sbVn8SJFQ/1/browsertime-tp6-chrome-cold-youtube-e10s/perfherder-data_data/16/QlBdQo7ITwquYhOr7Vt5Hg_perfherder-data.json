@@ -1,0 +1,94 @@
+{
+  "application": {
+    "name": "chrome", 
+    "version": "79.0.3945.130"
+  }, 
+  "framework": {
+    "name": "browsertime"
+  }, 
+  "suites": [
+    {
+      "alertThreshold": 2.0, 
+      "extraOptions": [
+        "chrome"
+      ], 
+      "lowerIsBetter": true, 
+      "name": "youtube-cold", 
+      "subtests": [
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "fcp", 
+          "replicates": [
+            772, 
+            742, 
+            717, 
+            724, 
+            702, 
+            727, 
+            725, 
+            707, 
+            726, 
+            716, 
+            740, 
+            710, 
+            727, 
+            709, 
+            709, 
+            757, 
+            709, 
+            733, 
+            773, 
+            725, 
+            742, 
+            731, 
+            756, 
+            739, 
+            788
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 726.5
+        }, 
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "loadtime", 
+          "replicates": [
+            1513, 
+            1454, 
+            1430, 
+            1418, 
+            1421, 
+            1608, 
+            1419, 
+            1437, 
+            1422, 
+            1433, 
+            1464, 
+            1572, 
+            1432, 
+            1567, 
+            1404, 
+            1502, 
+            1432, 
+            1474, 
+            1503, 
+            1635, 
+            1496, 
+            1483, 
+            1620, 
+            1632, 
+            1517
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 1469.0
+        }
+      ], 
+      "type": "browsertime-pageload", 
+      "unit": "ms", 
+      "value": 1033.13
+    }
+  ]
+}

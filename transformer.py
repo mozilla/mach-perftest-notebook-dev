@@ -125,4 +125,3 @@ class SimplePerfherderTransformer(Transformer):
     def merge(self, sde):
         self.entry_number = 0
         return {'data': [entry['data'] for entry in sde]}
-        

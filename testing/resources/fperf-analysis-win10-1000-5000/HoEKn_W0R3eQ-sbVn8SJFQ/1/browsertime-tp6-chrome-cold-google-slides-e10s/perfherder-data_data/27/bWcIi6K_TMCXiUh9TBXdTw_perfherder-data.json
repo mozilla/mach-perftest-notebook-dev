@@ -1,0 +1,94 @@
+{
+  "application": {
+    "name": "chrome", 
+    "version": "79.0.3945.130"
+  }, 
+  "framework": {
+    "name": "browsertime"
+  }, 
+  "suites": [
+    {
+      "alertThreshold": 2.0, 
+      "extraOptions": [
+        "chrome"
+      ], 
+      "lowerIsBetter": true, 
+      "name": "google-slides-cold", 
+      "subtests": [
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "fcp", 
+          "replicates": [
+            544, 
+            509, 
+            512, 
+            515, 
+            520, 
+            511, 
+            510, 
+            503, 
+            507, 
+            502, 
+            511, 
+            513, 
+            510, 
+            496, 
+            514, 
+            505, 
+            509, 
+            511, 
+            539, 
+            530, 
+            495, 
+            506, 
+            505, 
+            509, 
+            506
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 509.5
+        }, 
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "loadtime", 
+          "replicates": [
+            3061, 
+            3049, 
+            3008, 
+            3072, 
+            3060, 
+            3040, 
+            3069, 
+            3011, 
+            3029, 
+            3043, 
+            3051, 
+            3077, 
+            3057, 
+            2948, 
+            3071, 
+            3040, 
+            2984, 
+            3048, 
+            3224, 
+            3313, 
+            3003, 
+            3088, 
+            3101, 
+            3106, 
+            3030
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 3050.0
+        }
+      ], 
+      "type": "browsertime-pageload", 
+      "unit": "ms", 
+      "value": 1247.01
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "application": {
+    "name": "chrome", 
+    "version": "79.0.3945.130"
+  }, 
+  "framework": {
+    "name": "browsertime"
+  }, 
+  "suites": [
+    {
+      "alertThreshold": 2.0, 
+      "extraOptions": [
+        "chrome"
+      ], 
+      "lowerIsBetter": true, 
+      "name": "bing-search-cold", 
+      "subtests": [
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "fcp", 
+          "replicates": [
+            393, 
+            344, 
+            361, 
+            347, 
+            360, 
+            423, 
+            350, 
+            416, 
+            341, 
+            341, 
+            337, 
+            341, 
+            417, 
+            341, 
+            420, 
+            429, 
+            360, 
+            358, 
+            355, 
+            354, 
+            364, 
+            420, 
+            349, 
+            346, 
+            425
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 356.5
+        }, 
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "loadtime", 
+          "replicates": [
+            373, 
+            354, 
+            341, 
+            354, 
+            351, 
+            348, 
+            356, 
+            347, 
+            341, 
+            347, 
+            344, 
+            339, 
+            351, 
+            347, 
+            340, 
+            350, 
+            343, 
+            357, 
+            338, 
+            355, 
+            351, 
+            337, 
+            355, 
+            346, 
+            346
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 347.0
+        }
+      ], 
+      "type": "browsertime-pageload", 
+      "unit": "ms", 
+      "value": 351.72
+    }
+  ]
+}

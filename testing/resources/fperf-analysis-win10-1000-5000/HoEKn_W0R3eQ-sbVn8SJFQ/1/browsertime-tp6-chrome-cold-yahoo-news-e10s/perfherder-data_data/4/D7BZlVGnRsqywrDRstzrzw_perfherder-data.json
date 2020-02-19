@@ -1,0 +1,94 @@
+{
+  "application": {
+    "name": "chrome", 
+    "version": "79.0.3945.130"
+  }, 
+  "framework": {
+    "name": "browsertime"
+  }, 
+  "suites": [
+    {
+      "alertThreshold": 2.0, 
+      "extraOptions": [
+        "chrome"
+      ], 
+      "lowerIsBetter": true, 
+      "name": "yahoo-news-cold", 
+      "subtests": [
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "fcp", 
+          "replicates": [
+            633, 
+            608, 
+            611, 
+            624, 
+            627, 
+            644, 
+            608, 
+            619, 
+            644, 
+            646, 
+            628, 
+            605, 
+            604, 
+            624, 
+            604, 
+            657, 
+            639, 
+            608, 
+            645, 
+            641, 
+            628, 
+            619, 
+            687, 
+            615, 
+            612
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 624.0
+        }, 
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "loadtime", 
+          "replicates": [
+            1227, 
+            1448, 
+            1458, 
+            1470, 
+            1512, 
+            1471, 
+            1438, 
+            1463, 
+            1295, 
+            1305, 
+            1482, 
+            1440, 
+            1441, 
+            1281, 
+            1222, 
+            1478, 
+            1479, 
+            1295, 
+            1498, 
+            1320, 
+            1465, 
+            1236, 
+            1351, 
+            1467, 
+            1309
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 1444.5
+        }
+      ], 
+      "type": "browsertime-pageload", 
+      "unit": "ms", 
+      "value": 949.49
+    }
+  ]
+}

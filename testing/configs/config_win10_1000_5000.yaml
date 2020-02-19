@@ -3,6 +3,6 @@ output: testing/output/btimevwebext_win10_1000_5000.json
 file_groups:
   windows10:
     task_group_id: HoEKn_W0R3eQ-sbVn8SJFQ
-    path: /home/vhyt/Documents/Mozilla/Perftest/fperf-analysis-win10-1000-5000
+    path: testing/resources/fperf-analysis-win10-1000-5000
     artifact: perfherder-data
     run_number: 1
