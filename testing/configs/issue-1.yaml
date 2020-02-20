@@ -5,5 +5,5 @@ file_groups:
     issue_1:
         [
             "testing/resources/browsertime.json",
-            "testing/resources/browsertime\ -\ Copy.json",
+            "testing/resources/browsertime_copy.json",
         ]
