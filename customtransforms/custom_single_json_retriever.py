@@ -2,25 +2,24 @@ from transformer import Transformer
 from utilities import flat
 
 
-class LocalJsonRetriever(Transformer):
+class SingleJsonRetriever(Transformer):
     '''
     Transforms perfherder data into the standardized data format.
     '''
     entry_number = 0
 
     def transform(self, data):
-        ret = []
         self.entry_number += 1
 
         # flat(data, ()) returns a dict that have one key per dictionary path
         # in the original data.
-        for k, v in flat(data, ()).items():
-            ret.append({
+        return [
+            {
                 'data': [{'value': i, 'xaxis': self.entry_number} for i in v],
                 'subtest': k
-            })
-
-        return ret
+            }
+            for k, v in flat(data, ()).items()
+        ]
 
     def merge(self, sde):
         grouped_data = {}
@@ -30,12 +29,8 @@ class LocalJsonRetriever(Transformer):
             data.extend(entry['data'])
             grouped_data.update({subtest: data})
 
-        merged_data = []
-        for k, v in grouped_data.items():
-            merged_data.append({
-                'data': v,
-                'subtest': k
-            })
+        merged_data = [{'data': v, 'subtest': k}
+                       for k, v in grouped_data.items()]
 
         self.entry_number = 0
         return merged_data

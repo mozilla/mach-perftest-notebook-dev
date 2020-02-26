@@ -48,9 +48,7 @@ def flat(data, parent_dir):
                 if isinstance(v, Iterable):
                     ret.update(_helper(v, current_dir, ret))
                 elif v:
-                    update_value = ret.get(subtest, [])
-                    update_value.append(v)
-                    ret.update({subtest: update_value})
+                    ret.setdefault(subtest, []).append(v)
         return ret
 
     return _helper(data, parent_dir, {})

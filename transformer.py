@@ -123,5 +123,12 @@ class SimplePerfherderTransformer(Transformer):
         }
 
     def merge(self, sde):
+        merged = {'data': []}
+        for entry in sde:
+            if type(entry['data']) == list:
+                merged['data'].extend(entry['data'])
+            else:
+                merged['data'].append(entry['data'])
+
         self.entry_number = 0
-        return {'data': [entry['data'] for entry in sde]}
+        return merged
