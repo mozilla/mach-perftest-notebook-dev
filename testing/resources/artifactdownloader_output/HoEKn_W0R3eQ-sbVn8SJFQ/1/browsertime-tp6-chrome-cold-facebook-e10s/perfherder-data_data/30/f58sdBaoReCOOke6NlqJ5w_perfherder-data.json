@@ -1,0 +1,94 @@
+{
+  "application": {
+    "name": "chrome", 
+    "version": "79.0.3945.130"
+  }, 
+  "framework": {
+    "name": "browsertime"
+  }, 
+  "suites": [
+    {
+      "alertThreshold": 2.0, 
+      "extraOptions": [
+        "chrome"
+      ], 
+      "lowerIsBetter": true, 
+      "name": "facebook-cold", 
+      "subtests": [
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "fcp", 
+          "replicates": [
+            593, 
+            558, 
+            562, 
+            594, 
+            577, 
+            577, 
+            561, 
+            576, 
+            560, 
+            559, 
+            577, 
+            577, 
+            574, 
+            559, 
+            576, 
+            577, 
+            577, 
+            576, 
+            591, 
+            558, 
+            559, 
+            595, 
+            544, 
+            545, 
+            578
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 576.0
+        }, 
+        {
+          "alertThreshold": 2.0, 
+          "lowerIsBetter": true, 
+          "name": "loadtime", 
+          "replicates": [
+            1764, 
+            1689, 
+            1738, 
+            1738, 
+            1698, 
+            1757, 
+            1690, 
+            1750, 
+            1801, 
+            1730, 
+            1730, 
+            1696, 
+            1693, 
+            1741, 
+            1722, 
+            1740, 
+            1771, 
+            1723, 
+            1745, 
+            1691, 
+            1701, 
+            1747, 
+            1721, 
+            1707, 
+            1763
+          ], 
+          "shouldAlert": true, 
+          "unit": "ms", 
+          "value": 1730.0
+        }
+      ], 
+      "type": "browsertime-pageload", 
+      "unit": "ms", 
+      "value": 998.39
+    }
+  ]
+}

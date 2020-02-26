@@ -116,26 +116,19 @@ class SimplePerfherderTransformer(Transformer):
     def transform(self, data):
         self.entry_number += 1
         return {
-            'data': [data['suites'][0]['value']],
-            'xaxis': self.entry_number
+            'data': {
+                'value': data['suites'][0]['value'],
+                'xaxis': self.entry_number
+            }
         }
 
     def merge(self, sde):
-        merged = {'data': [], 'xaxis': []}
-
+        merged = {'data': []}
         for entry in sde:
-            if type(entry['xaxis']) in (dict, list,):
-                raise Exception(
-                    "Expecting non-iterable data type in xaxis entry, found %s" % type(entry['xaxis'])
-                )
-
-        data = [(entry['xaxis'], entry['data']) for entry in sde]
-
-        dsorted = sorted(data, key=lambda t: t[0])
-
-        for xval, val in dsorted:
-            merged['data'].extend(val)
-            merged['xaxis'].append(xval)
+            if type(entry['data']) == list:
+                merged['data'].extend(entry['data'])
+            else:
+                merged['data'].append(entry['data'])
 
         self.entry_number = 0
         return merged
