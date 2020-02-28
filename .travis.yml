@@ -5,12 +5,13 @@ python:
 branches:
   only:
   - master
-  - dev
-  - issue-9
+  - starter
+  - issue-9-travis-pytest
 
 install:
   - "pip install -r requirements.txt"
 
 script:
+- "python perftestnotebook.py --config=testing/configs/config_issue_1_test.yaml"
 - "python -m pytest -m first_run --capture=no tests"
 - "python -m pytest -m 'not first_run' --capture=no tests"

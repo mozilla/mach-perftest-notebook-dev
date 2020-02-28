@@ -1,4 +1,4 @@
-output: testing/output/artifactdownloader_output.json
+output: testing/outputs/artifactdownloader_output.json
 
 file_groups:
   windows10:

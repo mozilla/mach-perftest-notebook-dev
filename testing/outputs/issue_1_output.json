@@ -1,0 +1,6518 @@
+[
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.documentHeight"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.documentSize.decodedBodySize"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.documentSize.encodedBodySize"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.documentSize.transferSize"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.documentWidth"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266789280,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266798478,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266807695,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266789280,
+                "xaxis": 2
+            },
+            {
+                "value": 1571266798478,
+                "xaxis": 2
+            },
+            {
+                "value": 1571266807695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.navigationStartTime"
+    },
+    {
+        "data": [
+            {
+                "value": true,
+                "xaxis": 1
+            },
+            {
+                "value": true,
+                "xaxis": 1
+            },
+            {
+                "value": true,
+                "xaxis": 1
+            },
+            {
+                "value": true,
+                "xaxis": 2
+            },
+            {
+                "value": true,
+                "xaxis": 2
+            },
+            {
+                "value": true,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.responsive"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.visualElements.heroes.height"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.visualElements.heroes.width"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.visualElements.heroes.x"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.visualElements.heroes.y"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.visualElements.viewport.height"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.pageinfo.visualElements.viewport.width"
+    },
+    {
+        "data": [
+            {
+                "value": 404,
+                "xaxis": 1
+            },
+            {
+                "value": 365,
+                "xaxis": 1
+            },
+            {
+                "value": 350,
+                "xaxis": 1
+            },
+            {
+                "value": 404,
+                "xaxis": 2
+            },
+            {
+                "value": 365,
+                "xaxis": 2
+            },
+            {
+                "value": 350,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.firstPaint"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.loadEventEnd"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 26,
+                "xaxis": 1
+            },
+            {
+                "value": 6,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            },
+            {
+                "value": 26,
+                "xaxis": 2
+            },
+            {
+                "value": 6,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.connectStart"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 413,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            },
+            {
+                "value": 413,
+                "xaxis": 2
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.domComplete"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 357,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            },
+            {
+                "value": 357,
+                "xaxis": 2
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.domContentLoadedEventEnd"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 356,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            },
+            {
+                "value": 356,
+                "xaxis": 2
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.domContentLoadedEventStart"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 257,
+                "xaxis": 1
+            },
+            {
+                "value": 211,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            },
+            {
+                "value": 257,
+                "xaxis": 2
+            },
+            {
+                "value": 211,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.domInteractive"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 26,
+                "xaxis": 1
+            },
+            {
+                "value": 6,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            },
+            {
+                "value": 26,
+                "xaxis": 2
+            },
+            {
+                "value": 6,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.domainLookupEnd"
+    },
+    {
+        "data": [
+            {
+                "value": 4,
+                "xaxis": 1
+            },
+            {
+                "value": 25,
+                "xaxis": 1
+            },
+            {
+                "value": 5,
+                "xaxis": 1
+            },
+            {
+                "value": 4,
+                "xaxis": 2
+            },
+            {
+                "value": 25,
+                "xaxis": 2
+            },
+            {
+                "value": 5,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.domainLookupStart"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.duration"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 2,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            },
+            {
+                "value": 2,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.fetchStart"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.loadEventEnd"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.loadEventStart"
+    },
+    {
+        "data": [
+            {
+                "value": 247,
+                "xaxis": 1
+            },
+            {
+                "value": 163,
+                "xaxis": 1
+            },
+            {
+                "value": 117,
+                "xaxis": 1
+            },
+            {
+                "value": 247,
+                "xaxis": 2
+            },
+            {
+                "value": 163,
+                "xaxis": 2
+            },
+            {
+                "value": 117,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.requestStart"
+    },
+    {
+        "data": [
+            {
+                "value": 300,
+                "xaxis": 1
+            },
+            {
+                "value": 215,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 300,
+                "xaxis": 2
+            },
+            {
+                "value": 215,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.responseEnd"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 191,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            },
+            {
+                "value": 191,
+                "xaxis": 2
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.responseStart"
+    },
+    {
+        "data": [
+            {
+                "value": 73,
+                "xaxis": 1
+            },
+            {
+                "value": 51,
+                "xaxis": 1
+            },
+            {
+                "value": 32,
+                "xaxis": 1
+            },
+            {
+                "value": 73,
+                "xaxis": 2
+            },
+            {
+                "value": 51,
+                "xaxis": 2
+            },
+            {
+                "value": 32,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.secureConnectionStart"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 191,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            },
+            {
+                "value": 191,
+                "xaxis": 2
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.backEndTime"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 356,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            },
+            {
+                "value": 356,
+                "xaxis": 2
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.domContentLoadedTime"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 257,
+                "xaxis": 1
+            },
+            {
+                "value": 211,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            },
+            {
+                "value": 257,
+                "xaxis": 2
+            },
+            {
+                "value": 211,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.domInteractiveTime"
+    },
+    {
+        "data": [
+            {
+                "value": 44,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 44,
+                "xaxis": 2
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.domainLookupTime"
+    },
+    {
+        "data": [
+            {
+                "value": 155,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 188,
+                "xaxis": 1
+            },
+            {
+                "value": 155,
+                "xaxis": 2
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            },
+            {
+                "value": 188,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.frontEndTime"
+    },
+    {
+        "data": [
+            {
+                "value": 23,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 23,
+                "xaxis": 2
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.pageDownloadTime"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.pageLoadTime"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 136,
+                "xaxis": 1
+            },
+            {
+                "value": 111,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            },
+            {
+                "value": 136,
+                "xaxis": 2
+            },
+            {
+                "value": 111,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.serverConnectionTime"
+    },
+    {
+        "data": [
+            {
+                "value": 53,
+                "xaxis": 1
+            },
+            {
+                "value": 52,
+                "xaxis": 1
+            },
+            {
+                "value": 56,
+                "xaxis": 1
+            },
+            {
+                "value": 53,
+                "xaxis": 2
+            },
+            {
+                "value": 52,
+                "xaxis": 2
+            },
+            {
+                "value": 56,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.serverResponseTime"
+    },
+    {
+        "data": [
+            {
+                "value": 430,
+                "xaxis": 1
+            },
+            {
+                "value": 382,
+                "xaxis": 1
+            },
+            {
+                "value": 326,
+                "xaxis": 1
+            },
+            {
+                "value": 430,
+                "xaxis": 2
+            },
+            {
+                "value": 382,
+                "xaxis": 2
+            },
+            {
+                "value": 326,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.rumSpeedIndex"
+    },
+    {
+        "data": [
+            {
+                "value": 417,
+                "xaxis": 1
+            },
+            {
+                "value": 386,
+                "xaxis": 1
+            },
+            {
+                "value": 367,
+                "xaxis": 1
+            },
+            {
+                "value": 417,
+                "xaxis": 2
+            },
+            {
+                "value": 386,
+                "xaxis": 2
+            },
+            {
+                "value": 367,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.timeToContentfulPaint"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 355,
+                "xaxis": 1
+            },
+            {
+                "value": 339,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            },
+            {
+                "value": 355,
+                "xaxis": 2
+            },
+            {
+                "value": 339,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.timeToDomContentFlushed"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 386,
+                "xaxis": 1
+            },
+            {
+                "value": 367,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            },
+            {
+                "value": 386,
+                "xaxis": 2
+            },
+            {
+                "value": 367,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.timeToFirstInteractive"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.median"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.min"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.max"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.median"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.min"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.max"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.median"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.min"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.max"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.median"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.min"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.max"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.median"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.min"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.max"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266798478,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266798478,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266798484,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266798484,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266789280,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266789280,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266789280,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266789280,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266807695,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266807695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266807695,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266807695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 1571266807695,
+                "xaxis": 1
+            },
+            {
+                "value": 1571266807695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.median"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.min"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.max"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.median"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.min"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.max"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.median"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.min"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.max"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.median"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.min"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.max"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.median"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.min"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.max"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.median"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.min"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.max"
+    },
+    {
+        "data": [
+            {
+                "value": 365,
+                "xaxis": 1
+            },
+            {
+                "value": 365,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.median"
+    },
+    {
+        "data": [
+            {
+                "value": 373,
+                "xaxis": 1
+            },
+            {
+                "value": 373,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 13.1403,
+                "xaxis": 1
+            },
+            {
+                "value": 13.1403,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 23,
+                "xaxis": 1
+            },
+            {
+                "value": 23,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 350,
+                "xaxis": 1
+            },
+            {
+                "value": 350,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.min"
+    },
+    {
+        "data": [
+            {
+                "value": 350,
+                "xaxis": 1
+            },
+            {
+                "value": 350,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 404,
+                "xaxis": 1
+            },
+            {
+                "value": 404,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 404,
+                "xaxis": 1
+            },
+            {
+                "value": 404,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 404,
+                "xaxis": 1
+            },
+            {
+                "value": 404,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.max"
+    },
+    {
+        "data": [
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.median"
+    },
+    {
+        "data": [
+            {
+                "value": 410,
+                "xaxis": 1
+            },
+            {
+                "value": 410,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 22.2161,
+                "xaxis": 1
+            },
+            {
+                "value": 22.2161,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.min"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.max"
+    },
+    {
+        "data": [
+            {
+                "value": 26,
+                "xaxis": 1
+            },
+            {
+                "value": 26,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 27,
+                "xaxis": 1
+            },
+            {
+                "value": 27,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 9.9032,
+                "xaxis": 1
+            },
+            {
+                "value": 9.9032,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 17,
+                "xaxis": 1
+            },
+            {
+                "value": 17,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 6,
+                "xaxis": 1
+            },
+            {
+                "value": 6,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 6,
+                "xaxis": 1
+            },
+            {
+                "value": 6,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 413,
+                "xaxis": 1
+            },
+            {
+                "value": 413,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.median"
+    },
+    {
+        "data": [
+            {
+                "value": 410,
+                "xaxis": 1
+            },
+            {
+                "value": 410,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 22.1978,
+                "xaxis": 1
+            },
+            {
+                "value": 22.1978,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.min"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.max"
+    },
+    {
+        "data": [
+            {
+                "value": 357,
+                "xaxis": 1
+            },
+            {
+                "value": 357,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.median"
+    },
+    {
+        "data": [
+            {
+                "value": 379,
+                "xaxis": 1
+            },
+            {
+                "value": 379,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.5145,
+                "xaxis": 1
+            },
+            {
+                "value": 24.5145,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 42,
+                "xaxis": 1
+            },
+            {
+                "value": 42,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.min"
+    },
+    {
+        "data": [
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.max"
+    },
+    {
+        "data": [
+            {
+                "value": 356,
+                "xaxis": 1
+            },
+            {
+                "value": 356,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 378,
+                "xaxis": 1
+            },
+            {
+                "value": 378,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.6141,
+                "xaxis": 1
+            },
+            {
+                "value": 24.6141,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 43,
+                "xaxis": 1
+            },
+            {
+                "value": 43,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 257,
+                "xaxis": 1
+            },
+            {
+                "value": 257,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.median"
+    },
+    {
+        "data": [
+            {
+                "value": 260,
+                "xaxis": 1
+            },
+            {
+                "value": 260,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.0801,
+                "xaxis": 1
+            },
+            {
+                "value": 24.0801,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 42,
+                "xaxis": 1
+            },
+            {
+                "value": 42,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 211,
+                "xaxis": 1
+            },
+            {
+                "value": 211,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.min"
+    },
+    {
+        "data": [
+            {
+                "value": 211,
+                "xaxis": 1
+            },
+            {
+                "value": 211,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.max"
+    },
+    {
+        "data": [
+            {
+                "value": 26,
+                "xaxis": 1
+            },
+            {
+                "value": 26,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.median"
+    },
+    {
+        "data": [
+            {
+                "value": 27,
+                "xaxis": 1
+            },
+            {
+                "value": 27,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 9.9032,
+                "xaxis": 1
+            },
+            {
+                "value": 9.9032,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 17,
+                "xaxis": 1
+            },
+            {
+                "value": 17,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 6,
+                "xaxis": 1
+            },
+            {
+                "value": 6,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.min"
+    },
+    {
+        "data": [
+            {
+                "value": 6,
+                "xaxis": 1
+            },
+            {
+                "value": 6,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 48,
+                "xaxis": 1
+            },
+            {
+                "value": 48,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.max"
+    },
+    {
+        "data": [
+            {
+                "value": 5,
+                "xaxis": 1
+            },
+            {
+                "value": 5,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 11,
+                "xaxis": 1
+            },
+            {
+                "value": 11,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 5.5844,
+                "xaxis": 1
+            },
+            {
+                "value": 5.5844,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 10,
+                "xaxis": 1
+            },
+            {
+                "value": 10,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 4,
+                "xaxis": 1
+            },
+            {
+                "value": 4,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 4,
+                "xaxis": 1
+            },
+            {
+                "value": 4,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 25,
+                "xaxis": 1
+            },
+            {
+                "value": 25,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 25,
+                "xaxis": 1
+            },
+            {
+                "value": 25,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 25,
+                "xaxis": 1
+            },
+            {
+                "value": 25,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.median"
+    },
+    {
+        "data": [
+            {
+                "value": 410,
+                "xaxis": 1
+            },
+            {
+                "value": 410,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 22.2161,
+                "xaxis": 1
+            },
+            {
+                "value": 22.2161,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.min"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.max"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 0.4714,
+                "xaxis": 1
+            },
+            {
+                "value": 0.4714,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 2,
+                "xaxis": 1
+            },
+            {
+                "value": 2,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 2,
+                "xaxis": 1
+            },
+            {
+                "value": 2,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 2,
+                "xaxis": 1
+            },
+            {
+                "value": 2,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.median"
+    },
+    {
+        "data": [
+            {
+                "value": 410,
+                "xaxis": 1
+            },
+            {
+                "value": 410,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 22.2161,
+                "xaxis": 1
+            },
+            {
+                "value": 22.2161,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.min"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.max"
+    },
+    {
+        "data": [
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 410,
+                "xaxis": 1
+            },
+            {
+                "value": 410,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 22.2161,
+                "xaxis": 1
+            },
+            {
+                "value": 22.2161,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 163,
+                "xaxis": 1
+            },
+            {
+                "value": 163,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 176,
+                "xaxis": 1
+            },
+            {
+                "value": 176,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 31.0746,
+                "xaxis": 1
+            },
+            {
+                "value": 31.0746,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 54,
+                "xaxis": 1
+            },
+            {
+                "value": 54,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 117,
+                "xaxis": 1
+            },
+            {
+                "value": 117,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 117,
+                "xaxis": 1
+            },
+            {
+                "value": 117,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 247,
+                "xaxis": 1
+            },
+            {
+                "value": 247,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 247,
+                "xaxis": 1
+            },
+            {
+                "value": 247,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 247,
+                "xaxis": 1
+            },
+            {
+                "value": 247,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 215,
+                "xaxis": 1
+            },
+            {
+                "value": 215,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.median"
+    },
+    {
+        "data": [
+            {
+                "value": 229,
+                "xaxis": 1
+            },
+            {
+                "value": 229,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 30.5008,
+                "xaxis": 1
+            },
+            {
+                "value": 30.5008,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 53,
+                "xaxis": 1
+            },
+            {
+                "value": 53,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.min"
+    },
+    {
+        "data": [
+            {
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 300,
+                "xaxis": 1
+            },
+            {
+                "value": 300,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 300,
+                "xaxis": 1
+            },
+            {
+                "value": 300,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 300,
+                "xaxis": 1
+            },
+            {
+                "value": 300,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.max"
+    },
+    {
+        "data": [
+            {
+                "value": 191,
+                "xaxis": 1
+            },
+            {
+                "value": 191,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 206,
+                "xaxis": 1
+            },
+            {
+                "value": 206,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 30.7583,
+                "xaxis": 1
+            },
+            {
+                "value": 30.7583,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 53,
+                "xaxis": 1
+            },
+            {
+                "value": 53,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 51,
+                "xaxis": 1
+            },
+            {
+                "value": 51,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.median"
+    },
+    {
+        "data": [
+            {
+                "value": 52,
+                "xaxis": 1
+            },
+            {
+                "value": 52,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 9.6724,
+                "xaxis": 1
+            },
+            {
+                "value": 9.6724,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 17,
+                "xaxis": 1
+            },
+            {
+                "value": 17,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 32,
+                "xaxis": 1
+            },
+            {
+                "value": 32,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.min"
+    },
+    {
+        "data": [
+            {
+                "value": 32,
+                "xaxis": 1
+            },
+            {
+                "value": 32,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 73,
+                "xaxis": 1
+            },
+            {
+                "value": 73,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 73,
+                "xaxis": 1
+            },
+            {
+                "value": 73,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 73,
+                "xaxis": 1
+            },
+            {
+                "value": 73,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.max"
+    },
+    {
+        "data": [
+            {
+                "value": 191,
+                "xaxis": 1
+            },
+            {
+                "value": 191,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 206,
+                "xaxis": 1
+            },
+            {
+                "value": 206,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 30.7583,
+                "xaxis": 1
+            },
+            {
+                "value": 30.7583,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 53,
+                "xaxis": 1
+            },
+            {
+                "value": 53,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 277,
+                "xaxis": 1
+            },
+            {
+                "value": 277,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 356,
+                "xaxis": 1
+            },
+            {
+                "value": 356,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 378,
+                "xaxis": 1
+            },
+            {
+                "value": 378,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.6141,
+                "xaxis": 1
+            },
+            {
+                "value": 24.6141,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 43,
+                "xaxis": 1
+            },
+            {
+                "value": 43,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 341,
+                "xaxis": 1
+            },
+            {
+                "value": 341,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 438,
+                "xaxis": 1
+            },
+            {
+                "value": 438,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 257,
+                "xaxis": 1
+            },
+            {
+                "value": 257,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 260,
+                "xaxis": 1
+            },
+            {
+                "value": 260,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.0801,
+                "xaxis": 1
+            },
+            {
+                "value": 24.0801,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 42,
+                "xaxis": 1
+            },
+            {
+                "value": 42,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 211,
+                "xaxis": 1
+            },
+            {
+                "value": 211,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 211,
+                "xaxis": 1
+            },
+            {
+                "value": 211,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 313,
+                "xaxis": 1
+            },
+            {
+                "value": 313,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 15,
+                "xaxis": 1
+            },
+            {
+                "value": 15,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 11.7031,
+                "xaxis": 1
+            },
+            {
+                "value": 11.7031,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 20,
+                "xaxis": 1
+            },
+            {
+                "value": 20,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 44,
+                "xaxis": 1
+            },
+            {
+                "value": 44,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 44,
+                "xaxis": 1
+            },
+            {
+                "value": 44,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 44,
+                "xaxis": 1
+            },
+            {
+                "value": 44,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 188,
+                "xaxis": 1
+            },
+            {
+                "value": 188,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 181,
+                "xaxis": 1
+            },
+            {
+                "value": 181,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 10.7944,
+                "xaxis": 1
+            },
+            {
+                "value": 10.7944,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 19,
+                "xaxis": 1
+            },
+            {
+                "value": 19,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 155,
+                "xaxis": 1
+            },
+            {
+                "value": 155,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 155,
+                "xaxis": 1
+            },
+            {
+                "value": 155,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 0.2722,
+                "xaxis": 1
+            },
+            {
+                "value": 0.2722,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 23,
+                "xaxis": 1
+            },
+            {
+                "value": 23,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 23,
+                "xaxis": 1
+            },
+            {
+                "value": 23,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 410,
+                "xaxis": 1
+            },
+            {
+                "value": 410,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 22.2161,
+                "xaxis": 1
+            },
+            {
+                "value": 22.2161,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 361,
+                "xaxis": 1
+            },
+            {
+                "value": 361,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 455,
+                "xaxis": 1
+            },
+            {
+                "value": 455,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 136,
+                "xaxis": 1
+            },
+            {
+                "value": 136,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "value": 149,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 21.3767,
+                "xaxis": 1
+            },
+            {
+                "value": 21.3767,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 37,
+                "xaxis": 1
+            },
+            {
+                "value": 37,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 111,
+                "xaxis": 1
+            },
+            {
+                "value": 111,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 111,
+                "xaxis": 1
+            },
+            {
+                "value": 111,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 199,
+                "xaxis": 1
+            },
+            {
+                "value": 199,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 53,
+                "xaxis": 1
+            },
+            {
+                "value": 53,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.median"
+    },
+    {
+        "data": [
+            {
+                "value": 54,
+                "xaxis": 1
+            },
+            {
+                "value": 54,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 0.9813,
+                "xaxis": 1
+            },
+            {
+                "value": 0.9813,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 2,
+                "xaxis": 1
+            },
+            {
+                "value": 2,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 52,
+                "xaxis": 1
+            },
+            {
+                "value": 52,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.min"
+    },
+    {
+        "data": [
+            {
+                "value": 52,
+                "xaxis": 1
+            },
+            {
+                "value": 52,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 56,
+                "xaxis": 1
+            },
+            {
+                "value": 56,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 56,
+                "xaxis": 1
+            },
+            {
+                "value": 56,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 56,
+                "xaxis": 1
+            },
+            {
+                "value": 56,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.max"
+    },
+    {
+        "data": [
+            {
+                "value": 382,
+                "xaxis": 1
+            },
+            {
+                "value": 382,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.median"
+    },
+    {
+        "data": [
+            {
+                "value": 379,
+                "xaxis": 1
+            },
+            {
+                "value": 379,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.5372,
+                "xaxis": 1
+            },
+            {
+                "value": 24.5372,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 42,
+                "xaxis": 1
+            },
+            {
+                "value": 42,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 326,
+                "xaxis": 1
+            },
+            {
+                "value": 326,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.min"
+    },
+    {
+        "data": [
+            {
+                "value": 326,
+                "xaxis": 1
+            },
+            {
+                "value": 326,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 430,
+                "xaxis": 1
+            },
+            {
+                "value": 430,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 430,
+                "xaxis": 1
+            },
+            {
+                "value": 430,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 430,
+                "xaxis": 1
+            },
+            {
+                "value": 430,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.max"
+    },
+    {
+        "data": [
+            {
+                "value": 386,
+                "xaxis": 1
+            },
+            {
+                "value": 386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.median"
+    },
+    {
+        "data": [
+            {
+                "value": 390,
+                "xaxis": 1
+            },
+            {
+                "value": 390,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 11.8977,
+                "xaxis": 1
+            },
+            {
+                "value": 11.8977,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 21,
+                "xaxis": 1
+            },
+            {
+                "value": 21,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 367,
+                "xaxis": 1
+            },
+            {
+                "value": 367,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.min"
+    },
+    {
+        "data": [
+            {
+                "value": 367,
+                "xaxis": 1
+            },
+            {
+                "value": 367,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 417,
+                "xaxis": 1
+            },
+            {
+                "value": 417,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 417,
+                "xaxis": 1
+            },
+            {
+                "value": 417,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 417,
+                "xaxis": 1
+            },
+            {
+                "value": 417,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.max"
+    },
+    {
+        "data": [
+            {
+                "value": 355,
+                "xaxis": 1
+            },
+            {
+                "value": 355,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.median"
+    },
+    {
+        "data": [
+            {
+                "value": 377,
+                "xaxis": 1
+            },
+            {
+                "value": 377,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 24.7835,
+                "xaxis": 1
+            },
+            {
+                "value": 24.7835,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 43,
+                "xaxis": 1
+            },
+            {
+                "value": 43,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 339,
+                "xaxis": 1
+            },
+            {
+                "value": 339,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.min"
+    },
+    {
+        "data": [
+            {
+                "value": 339,
+                "xaxis": 1
+            },
+            {
+                "value": 339,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.max"
+    },
+    {
+        "data": [
+            {
+                "value": 386,
+                "xaxis": 1
+            },
+            {
+                "value": 386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.median"
+    },
+    {
+        "data": [
+            {
+                "value": 397,
+                "xaxis": 1
+            },
+            {
+                "value": 397,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.mean"
+    },
+    {
+        "data": [
+            {
+                "value": 17.0641,
+                "xaxis": 1
+            },
+            {
+                "value": 17.0641,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.mdev"
+    },
+    {
+        "data": [
+            {
+                "value": 30,
+                "xaxis": 1
+            },
+            {
+                "value": 30,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.stddev"
+    },
+    {
+        "data": [
+            {
+                "value": 367,
+                "xaxis": 1
+            },
+            {
+                "value": 367,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.min"
+    },
+    {
+        "data": [
+            {
+                "value": 367,
+                "xaxis": 1
+            },
+            {
+                "value": 367,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.p10"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.p90"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.p99"
+    },
+    {
+        "data": [
+            {
+                "value": 437,
+                "xaxis": 1
+            },
+            {
+                "value": 437,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.max"
+    }
+]
