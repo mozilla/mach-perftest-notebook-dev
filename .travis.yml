@@ -12,6 +12,5 @@ install:
   - "pip install -r requirements.txt"
 
 script:
-- "python perftestnotebook.py --config=testing/configs/config_issue_1_test.yaml"
-- "python -m pytest -m first_run --capture=no tests"
-- "python -m pytest -m 'not first_run' --capture=no tests"
+- "python perftestnotebook.py --config=testing/configs/config_single_json.yaml"
+- "python -m pytest -v testing/tests/"

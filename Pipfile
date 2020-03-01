@@ -4,6 +4,8 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 
 [dev-packages]
+flake8 = "*"
+autopep8 = "*"
 
 [packages]
 matplotlib = "==3.1.1"
@@ -11,6 +13,4 @@ requests = "==2.23.0"
 scipy = "==1.4.1"
 numpy = "==1.17.3"
 PyYAML = "==5.3"
-
-[requires]
-python_version = "3.6"
+pytest = "==5.3.5"
