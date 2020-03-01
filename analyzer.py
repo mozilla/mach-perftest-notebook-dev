@@ -1,6 +1,16 @@
 import numpy as np
 import scipy.stats as stats
 
+<<<<<<< HEAD
+=======
+import requests
+
+import flask
+from flask import Flask, Response, request, send_file
+import os
+
+import webbrowser
+>>>>>>> scatter plot test data
 
 class NotebookAnalyzer(object):
     """
@@ -83,3 +93,70 @@ class NotebookAnalyzer(object):
                     )
 
         return results
+<<<<<<< HEAD
+=======
+    '''
+    # Later, create a seperate file/function for the server requests.
+    def start_local_server():
+        app = Flask(__name__)
+    '''
+    
+def main():
+    
+    '''
+    Currently not working. Might continue on this afterwards.
+    # Post to Iodide
+    def post_to_iodide():
+
+        url = "http://localhost:8000/customize"      
+        script_path = os.path.dirname(__file__)
+        data_relative_path = "testing/template/template.txt"
+        absolute_file_path = os.path.join(script_path,data_relative_path) 
+
+        files = {'template':open(absolute_file_path,'rb')}
+
+        requests.post(url,files=files)
+        #print(r.text)
+    '''
+
+
+    # Flask localhost with API for Iodide
+    app = Flask(__name__)
+    app.config["DEBUG"]= True
+    
+    @app.route('/data', methods=['GET'])
+    def return_data():
+
+        script_path = os.path.dirname(__file__)
+        data_relative_path = "testing/output/data.json"
+        absolute_file_path = os.path.join(script_path,data_relative_path)
+
+        response = flask.make_response(send_file(absolute_file_path))
+        response.headers['Access-Control-Allow-Origin'] = '*'
+
+        return response
+
+    '''
+    
+    @app.route('/post',methods=['GET'])
+    def send_template():
+        post_to_iodide()
+    
+    '''
+
+    webbrowser.open('upload_file.html')
+    
+    app.run()
+
+
+
+    
+    
+    
+    
+    
+    
+
+if __name__=="__main__":
+    main()
+>>>>>>> scatter plot test data
