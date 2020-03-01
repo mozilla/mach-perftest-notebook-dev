@@ -1,0 +1,16 @@
+language: python
+python:
+  - "3.6"
+
+branches:
+  only:
+  - master
+  - starter
+  - issue-9-travis-pytest
+
+install:
+  - "pip install -r requirements.txt"
+
+script:
+- "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml"
+- "python -m pytest -v testing/tests/"
