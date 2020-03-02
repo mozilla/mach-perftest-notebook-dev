@@ -38,7 +38,7 @@
 		// It will look like this after - an issue with this is that we will need to escape all `'`
 		// otherwise, this will results in javascript failures.
 		//var template = '%% md\n# Welcome to Iodide!\n\n\n<p id="htmlInMd"></p>\n\n\n%% js\n\ndocument.getElementById("htmlInMd").innerHTML = "parsedData[0].Address";\n\nvar data = document.getElementById("file0");\n\n\n\n%% fetch\n\n\n\n%% py \n\n\n\n'
-		var template = '%% md\n# Perftest Prototype\n\nTesting: \nnewLine: \ntab:    tabed       twoTabs\n%% fetch\n\ntext: data_string = http://127.0.0.1:5000/data\n\n%% js\n\nvar x = data_string;\n\n\n%% py \nfrom js import x\nimport matplotlib.pyplot as plt\nimport json\n\ndata_JSON = json.loads(x)\nfig,ax = plt.subplots()\n\nfor element in data_JSON:\n    x = element[\'xaxis\']\n    y = element[\'data\']\n    label = element[\'name\']+"\\n"+element[\'subtest\']\n    ax.scatter(x,y,label=label)\n\nplt.legend(loc=\'center left\', bbox_to_anchor=(1, 0.5))\nplt.show()\n\n'
+		var template = replace_me
 
 		// POST requests strip away new lines. Replace them here with a unique character pattern,
 		// then on the server-side replace these with new lines.

@@ -103,23 +103,6 @@ class NotebookAnalyzer(object):
     
 def main():
     
-    '''
-    Currently not working. Might continue on this afterwards.
-    # Post to Iodide
-    def post_to_iodide():
-
-        url = "http://localhost:8000/customize"      
-        script_path = os.path.dirname(__file__)
-        data_relative_path = "testing/template/template.txt"
-        absolute_file_path = os.path.join(script_path,data_relative_path) 
-
-        files = {'template':open(absolute_file_path,'rb')}
-
-        requests.post(url,files=files)
-        #print(r.text)
-    '''
-
-
     # Flask localhost with API for Iodide
     app = Flask(__name__)
     app.config["DEBUG"]= True
@@ -136,13 +119,25 @@ def main():
 
         return response
 
-    '''
+    # Open the template that was created
+    template = 'testing/template/template.txt'
+    tdata = ''
+    with open(template, 'r') as f:
+        tdata = f.read()
+
+    # Get our template HTML file
+    html = ''
+    with open('template_upload_file.html', 'r') as f:
+        html = f.read()
+
+    # Place the template into the `replace_me` area
+    # and save this file for viewing
+    # upload_file.html has javascript for upload
+    html = html.replace('replace_me', repr(tdata))
+    with open('upload_file.html', 'w+') as f:
+        f.write(html)
     
-    @app.route('/post',methods=['GET'])
-    def send_template():
-        post_to_iodide()
     
-    '''
 
     webbrowser.open('upload_file.html')
     
