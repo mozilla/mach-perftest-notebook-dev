@@ -1,5 +1,10 @@
 # mach-perftest-notebook-dev
+[![Build Status](https://travis-ci.com/mozilla/mach-perftest-notebook-dev.svg?branch=starter)](https://travis-ci.com/mozilla/mach-perftest-notebook-dev)
 Development Repository for Mach Perftest Notebook Tooling. This tool will be used to standardize analysis/visualization techniques across Mozilla.
+
+## Running the tool
+Call `python3 perftestnotebook.py --config=<CONFIG>` with a config of your choice. See `testing/configs` for examples.
+This will standardize the data based on the Transformer you are using and output that. In the near future, it will also open an Iodide webpage to visualize and analyze the data with a set of pre-built analysis/visualization techniques.
 
 ## Development Steps
 These are the issues we will need to solve in this development repository (1 and 2 will likely need to be developed in parallel). The audience for this tool are software developers so we can take advantage of this for data transformation/standardization and other aspects of this tool.
