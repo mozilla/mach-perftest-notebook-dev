@@ -8,13 +8,16 @@ from logger import NotebookLogger
 
 logger = NotebookLogger()
 
+
 def write_same_line(msg, sleep_time=0.01):
     stdout.write("\r%s" % str(msg))
     stdout.flush()
     time.sleep(sleep_time)
 
+
 def finish_same_line():
     stdout.write("\r  \r\n")
+
 
 class FrameRetriever(Transformer):
     entry_number = 0
@@ -26,21 +29,22 @@ class FrameRetriever(Transformer):
     def merge(self, sde):
         if NotebookLogger.debug:
             finish_same_line()
-        merged = {'data': [], 'xaxis': []}
+        merged = {"data": [], "xaxis": []}
 
         for entry in sde:
-            if type(entry['xaxis']) in (dict, list,):
+            if type(entry["xaxis"]) in (dict, list,):
                 raise Exception(
-                    "Expecting non-iterable data type in xaxis entry, found %s" % type(entry['xaxis'])
+                    "Expecting non-iterable data type in xaxis entry, found %s"
+                    % type(entry["xaxis"])
                 )
 
-        data = [(entry['xaxis'], entry['data']) for entry in sde]
+        data = [(entry["xaxis"], entry["data"]) for entry in sde]
 
         dsorted = sorted(data, key=lambda t: t[0])
 
         for xval, val in dsorted:
-            merged['data'].extend(val)
-            merged['xaxis'].append(xval)
+            merged["data"].extend(val)
+            merged["xaxis"].append(xval)
 
         self.entry_number = 0
         return merged
@@ -49,7 +53,4 @@ class FrameRetriever(Transformer):
         self.entry_number += 1
         if NotebookLogger.debug:
             write_same_line("On data point %s" % self.entry_number)
-        return [{
-            'data': [data],
-            'xaxis': self.entry_number
-        }]
+        return [{"data": [data], "xaxis": self.entry_number}]

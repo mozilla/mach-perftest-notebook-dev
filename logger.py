@@ -5,12 +5,13 @@ logger = None
 
 
 class NotebookLogger(object):
-    '''
+    """
     Simple logger for perftest-notebook.
-    '''
+    """
+
     debug = False
 
-    def __init__(self, name='perftest-notebook'):
+    def __init__(self, name="perftest-notebook"):
         self._logger = logger
         if not self._logger:
             self._logger = logging.getLogger(name)
