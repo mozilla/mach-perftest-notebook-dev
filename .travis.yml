@@ -7,6 +7,7 @@ branches:
     - master
     - starter
     - issue-9-travis-pytest
+    - issue-11-add-black-formatter
 
 install:
   - "pip install -r requirements.txt"
