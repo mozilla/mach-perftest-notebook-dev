@@ -19,5 +19,6 @@ Each of these steps should have proper testing for the functionality as well, py
 Once something basic is built, we will look into builing the mach tool for this in mozilla-central.
 
 ## Contributing
-Feel free to ping us in #perftest for information on how to contribute.
+Feel free to ping us in #perftest on [Riot](https://wiki.mozilla.org/Matrix) for information on how to contribute.
+
  
