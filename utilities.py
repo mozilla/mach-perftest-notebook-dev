@@ -2,7 +2,7 @@ from collections import Iterable
 
 
 def flat(data, parent_dir):
-    '''
+    """
     Converts a dictionary with nested entries like this
         {
             "dict1": {
@@ -36,7 +36,8 @@ def flat(data, parent_dir):
     :param tuple parent_dir: json fields. 
 
     :return dict: {subtest: value}
-    '''
+    """
+
     def _helper(data, parent_dir, ret):
         if isinstance(data, list):
             for item in data:
@@ -44,7 +45,7 @@ def flat(data, parent_dir):
         elif isinstance(data, dict):
             for k, v in data.items():
                 current_dir = parent_dir + (k,)
-                subtest = '.'.join(current_dir)
+                subtest = ".".join(current_dir)
                 if isinstance(v, Iterable):
                     ret.update(_helper(v, current_dir, ret))
                 elif v:

@@ -4,13 +4,14 @@ python:
 
 branches:
   only:
-  - master
-  - starter
-  - issue-9-travis-pytest
+    - master
+    - starter
+    - issue-9-travis-pytest
 
 install:
   - "pip install -r requirements.txt"
 
 script:
-- "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml"
-- "python -m pytest -v testing/tests/"
+  - "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml"
+  - "python -m black -l 100 ."
+  - "python -m pytest -v testing/tests/"
