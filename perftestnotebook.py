@@ -10,6 +10,12 @@ from notebookparser import parse_args
 from task_processor import get_task_data_paths
 from logger import NotebookLogger
 
+import flask
+from flask import Flask, Response, request, send_file
+
+import webbrowser
+
+
 logger = NotebookLogger()
 
 
@@ -179,7 +185,7 @@ def main():
                 new_results["ttest"].append(res)
 
         # Pretty print the results
-        print(json.dumps(new_results, sort_keys=True, indent=4))
+        #print(json.dumps(new_results, sort_keys=True, indent=4))
 
         with open("fperf-testing-test.json", "w") as f:
             json.dump(new_results, f, indent=4, sort_keys=True)
@@ -192,7 +198,7 @@ def main():
             plt.scatter([c for _ in entry["ts2"]], entry["ts2"], color="r")
         plt.show(block=True)
 
-    print(json.dumps(ptnb.fmt_data, indent=4, sort_keys=True))
+    #print(json.dumps(ptnb.fmt_data, indent=4, sort_keys=True))
 
     prefix = "output" if "prefix" not in config else config["prefix"]
     filepath = "%s_fmt_data.json" % prefix
@@ -206,5 +212,44 @@ def main():
         json.dump(ptnb.fmt_data, f, indent=4, sort_keys=True)
 
 
+<<<<<<< HEAD
 if __name__ == "__main__":
+=======
+    # Upload template file to Iodide
+    template = 'testing/template/template.txt'
+    tdata = ''
+    with open(template, 'r') as f:
+        tdata = f.read()
+
+    html = ''
+    with open('template_upload_file.html', 'r') as f:
+        html = f.read()
+
+    html = html.replace('replace_me', repr(tdata))
+    with open('upload_file.html', 'w+') as f:
+        f.write(html)
+    
+    webbrowser.open_new_tab('upload_file.html')
+
+    # Set up local server data API. 
+    # Iodide will visit localhost:5000/data
+    app = Flask(__name__)
+    app.config["DEBUG"]= False
+    
+    @app.route('/data', methods=['GET'])
+    def return_data():
+
+        script_path = os.path.dirname(__file__)
+        data_relative_path = "testing/output/data.json"
+        absolute_file_path = os.path.join(script_path,data_relative_path)
+
+        response = flask.make_response(send_file(absolute_file_path))
+        response.headers['Access-Control-Allow-Origin'] = '*'
+
+        return response
+    
+    app.run()
+
+if __name__=="__main__":
+>>>>>>> moved flask server from analyzer.py to perftestnotebook.py
     main()

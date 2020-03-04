@@ -1,6 +1,6 @@
-import numpy as np
 import scipy.stats as stats
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 import requests
@@ -12,6 +12,8 @@ import os
 import webbrowser
 >>>>>>> scatter plot test data
 
+=======
+>>>>>>> moved flask server from analyzer.py to perftestnotebook.py
 class NotebookAnalyzer(object):
     """
     Analyze the standardized data. The methods in these functions
@@ -103,54 +105,7 @@ class NotebookAnalyzer(object):
     
 def main():
     
-    # Flask localhost with API for Iodide
-    app = Flask(__name__)
-    app.config["DEBUG"]= True
-    
-    @app.route('/data', methods=['GET'])
-    def return_data():
-
-        script_path = os.path.dirname(__file__)
-        data_relative_path = "testing/output/data.json"
-        absolute_file_path = os.path.join(script_path,data_relative_path)
-
-        response = flask.make_response(send_file(absolute_file_path))
-        response.headers['Access-Control-Allow-Origin'] = '*'
-
-        return response
-
-    # Open the template that was created
-    template = 'testing/template/template.txt'
-    tdata = ''
-    with open(template, 'r') as f:
-        tdata = f.read()
-
-    # Get our template HTML file
-    html = ''
-    with open('template_upload_file.html', 'r') as f:
-        html = f.read()
-
-    # Place the template into the `replace_me` area
-    # and save this file for viewing
-    # upload_file.html has javascript for upload
-    html = html.replace('replace_me', repr(tdata))
-    with open('upload_file.html', 'w+') as f:
-        f.write(html)
-    
-    
-
-    webbrowser.open('upload_file.html')
-    
-    app.run()
-
-
-
-    
-    
-    
-    
-    
-    
+    print("running analyzer.py")
 
 if __name__=="__main__":
     main()

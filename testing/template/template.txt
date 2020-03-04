@@ -1,9 +1,7 @@
 %% md
 # Perftest Prototype
 
-Testing: 
-newLine: 
-tab:    tabed       twoTabs
+<h2>press the "run full notebook" button on your top left corner to run</h2>
 %% fetch
 
 text: data_string = http://127.0.0.1:5000/data
