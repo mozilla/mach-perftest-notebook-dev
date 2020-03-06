@@ -96,12 +96,15 @@ class NotebookAnalyzer(object):
 
         return results
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     '''
     # Later, create a seperate file/function for the server requests.
     def start_local_server():
         app = Flask(__name__)
     '''
+=======
+>>>>>>> deleted unused codes
     
 def main():
     
