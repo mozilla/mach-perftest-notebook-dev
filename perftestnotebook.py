@@ -1,20 +1,17 @@
 import json
 import os
 import pathlib
-import yaml
-
-import transformer as tfmr
-
-from analyzer import NotebookAnalyzer
-from notebookparser import parse_args
-from task_processor import get_task_data_paths
-from logger import NotebookLogger
-
-import flask
-from flask import Flask, Response, request, send_file
-
 import webbrowser
 
+import yaml
+
+import flask
+import transformer as tfmr
+from analyzer import NotebookAnalyzer
+from flask import Flask, Response, request, send_file
+from logger import NotebookLogger
+from notebookparser import parse_args
+from task_processor import get_task_data_paths
 
 logger = NotebookLogger()
 
@@ -57,10 +54,14 @@ class PerftestNotebook(object):
                 obj = getattr(module, name)
                 if isinstance(obj, type) and issubclass(obj, tfmr.Transformer):
                     self.transformer = obj(files=[])
-                    logger.info("Found %s transformer" % self.transformer.__class__.__name__)
+                    logger.info(
+                        "Found %s transformer" % self.transformer.__class__.__name__
+                    )
                     break
             if not self.transformer:
-                raise Exception("Could not get a transformer from %s" % custom_transform)
+                raise Exception(
+                    "Could not get a transformer from %s" % custom_transform
+                )
         else:
             self.transformer = tfmr.SimplePerfherderTransformer(files=[])
 
@@ -101,10 +102,14 @@ class PerftestNotebook(object):
 
             files = newf
         else:
-            raise Exception("Unknown file grouping type provided here: %s" % file_grouping)
+            raise Exception(
+                "Unknown file grouping type provided here: %s" % file_grouping
+            )
 
         if not files:
-            raise Exception("Could not find any files in this configuration: %s" % file_grouping)
+            raise Exception(
+                "Could not find any files in this configuration: %s" % file_grouping
+            )
 
         return files
 
@@ -136,7 +141,10 @@ class PerftestNotebook(object):
                         if "subtest" not in trfm_data:
                             trfm_data["subtest"] = subtest
                         else:
-                            trfm_data["subtest"] = "%s-%s" % (subtest, trfm_data["subtest"],)
+                            trfm_data["subtest"] = "%s-%s" % (
+                                subtest,
+                                trfm_data["subtest"],
+                            )
                         fmt_data.append(trfm_data)
             else:
                 # Transform the data
@@ -173,32 +181,11 @@ def main():
 
     custom_transform = config.get("custom_transform", None)
 
-    ptnb = PerftestNotebook(config["file_groups"], config, custom_transform=custom_transform)
+    ptnb = PerftestNotebook(
+        config["file_groups"], config, custom_transform=custom_transform
+    )
     results = ptnb.process()
 
-    if "analysis" in config:
-        # TODO: Implement filtering techniques or add a configuration
-        # for the analysis?
-        new_results = {"ttest": []}
-        for res in results["ttest"]:
-            if abs(res["pval"]) < 0.005:
-                new_results["ttest"].append(res)
-
-        # Pretty print the results
-        #print(json.dumps(new_results, sort_keys=True, indent=4))
-
-        with open("fperf-testing-test.json", "w") as f:
-            json.dump(new_results, f, indent=4, sort_keys=True)
-
-        from matplotlib import pyplot as plt
-
-        plt.figure()
-        for c, entry in enumerate(new_results["ttest"]):
-            plt.scatter([c for _ in entry["ts1"]], entry["ts1"], color="b")
-            plt.scatter([c for _ in entry["ts2"]], entry["ts2"], color="r")
-        plt.show(block=True)
-
-    #print(json.dumps(ptnb.fmt_data, indent=4, sort_keys=True))
 
     prefix = "output" if "prefix" not in config else config["prefix"]
     filepath = "%s_fmt_data.json" % prefix
@@ -211,41 +198,41 @@ def main():
     with open(filepath, "w") as f:
         json.dump(ptnb.fmt_data, f, indent=4, sort_keys=True)
 
-
     # Upload template file to Iodide
-    template = 'testing/template/template.txt'
-    tdata = ''
-    with open(template, 'r') as f:
+    template = "testing/template/template.txt"
+    tdata = ""
+    with open(template, "r") as f:
         tdata = f.read()
 
-    html = ''
-    with open('template_upload_file.html', 'r') as f:
+    html = ""
+    with open("template_upload_file.html", "r") as f:
         html = f.read()
 
-    html = html.replace('replace_me', repr(tdata))
-    with open('upload_file.html', 'w+') as f:
+    html = html.replace("replace_me", repr(tdata))
+    with open("upload_file.html", "w+") as f:
         f.write(html)
-    
-    webbrowser.open_new_tab('upload_file.html')
 
-    # Set up local server data API. 
+    webbrowser.open_new_tab("upload_file.html")
+
+    # Set up local server data API.
     # Iodide will visit localhost:5000/data
     app = Flask(__name__)
-    app.config["DEBUG"]= False
-    
-    @app.route('/data', methods=['GET'])
+    app.config["DEBUG"] = False
+
+    @app.route("/data", methods=["GET"])
     def return_data():
 
         script_path = os.path.dirname(__file__)
         data_relative_path = "testing/output/data.json"
-        absolute_file_path = os.path.join(script_path,data_relative_path)
+        absolute_file_path = os.path.join(script_path, data_relative_path)
 
         response = flask.make_response(send_file(absolute_file_path))
-        response.headers['Access-Control-Allow-Origin'] = '*'
+        response.headers["Access-Control-Allow-Origin"] = "*"
 
         return response
-    
+
     app.run()
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     main()
