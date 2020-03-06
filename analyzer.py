@@ -1,19 +1,5 @@
 import scipy.stats as stats
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-import requests
-
-import flask
-from flask import Flask, Response, request, send_file
-import os
-
-import webbrowser
->>>>>>> scatter plot test data
-
-=======
->>>>>>> moved flask server from analyzer.py to perftestnotebook.py
 class NotebookAnalyzer(object):
     """
     Analyze the standardized data. The methods in these functions
@@ -95,16 +81,7 @@ class NotebookAnalyzer(object):
                     )
 
         return results
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    '''
-    # Later, create a seperate file/function for the server requests.
-    def start_local_server():
-        app = Flask(__name__)
-    '''
-=======
->>>>>>> deleted unused codes
+
     
 def main():
     
@@ -112,4 +89,4 @@ def main():
 
 if __name__=="__main__":
     main()
->>>>>>> scatter plot test data
+    
