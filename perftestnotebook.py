@@ -212,9 +212,6 @@ def main():
         json.dump(ptnb.fmt_data, f, indent=4, sort_keys=True)
 
 
-<<<<<<< HEAD
-if __name__ == "__main__":
-=======
     # Upload template file to Iodide
     template = 'testing/template/template.txt'
     tdata = ''
@@ -251,5 +248,4 @@ if __name__ == "__main__":
     app.run()
 
 if __name__=="__main__":
->>>>>>> moved flask server from analyzer.py to perftestnotebook.py
     main()
