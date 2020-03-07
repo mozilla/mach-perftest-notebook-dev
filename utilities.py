@@ -55,7 +55,7 @@ def flat(data, parent_dir):
     return _helper(data, parent_dir, {})
 
 
-def get_nested_items(nested_obj, nested_keys):
+def get_values_from_nested_object(nested_obj, nested_keys):
     """
     This function returns the items found from a nested object by a nested key list. 
 
