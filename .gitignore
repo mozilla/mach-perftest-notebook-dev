@@ -144,3 +144,7 @@ upload_file.html
 
 # test outputs
 testing/outputs/
+
+Pipfile
+
+Pipfile.lock
