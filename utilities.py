@@ -53,3 +53,29 @@ def flat(data, parent_dir):
         return ret
 
     return _helper(data, parent_dir, {})
+
+
+def get_nested_items(nested_obj, nested_keys):
+    """
+    This function returns the items found from a nested object by a nested key list. 
+
+    :param Iterable nested_obj: nested data object.
+    :param list nested_keys: nested keys.
+
+    :return list: the values found by nested keys.
+    """
+    ret = []
+
+    def _helper(nested_obj, nested_keys):
+        if nested_keys:
+            if isinstance(nested_obj, list):
+                for entry in nested_obj:
+                    _helper(entry, nested_keys)
+            elif isinstance(nested_obj, dict) and len(nested_keys) == 1:
+                ret.append(nested_obj[nested_keys[0]])
+            else:
+                _helper(nested_obj[nested_keys[0]], nested_keys[1:])
+
+    _helper(nested_obj, nested_keys)
+
+    return ret
