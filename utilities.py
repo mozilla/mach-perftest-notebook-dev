@@ -1,4 +1,4 @@
-from collections import Iterable
+from collections.abc import Iterable
 
 
 def flat(data, parent_dir):
