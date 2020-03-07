@@ -31,4 +31,6 @@ def test_single_json_retriever():
                     resource_data = json.load(rf)
                     nested_keys = entry["subtest"].split(".")
 
-                    assert data["value"] in get_values_from_nested_object(resource_data, nested_keys)
+                    assert data["value"] in get_values_from_nested_object(
+                        resource_data, nested_keys
+                    )
