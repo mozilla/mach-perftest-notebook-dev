@@ -23,6 +23,7 @@ def parse_args():
     )
     parser.add_argument(
         "--no-iodide",
+        "-ni",
         required=False,
         action="store_true",
         default=False,

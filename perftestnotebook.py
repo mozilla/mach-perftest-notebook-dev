@@ -113,7 +113,7 @@ class PerftestNotebook(object):
 
         return files
 
-    def process(self):
+    def process(self, args):
         """
         Process the file groups and return the results of the requested analyses.
 
@@ -158,15 +158,74 @@ class PerftestNotebook(object):
 
         self.fmt_data = fmt_data
 
+        """
+        Write formatted data output to filepath
+        """
+        print(json.dumps(self.fmt_data, indent=4, sort_keys=True))
+
+        prefix = "output" if "prefix" not in self.config else self.config["prefix"]
+        output_data_filepath = "%s_fmt_data.json" % prefix
+
+        if "output" in self.config:
+            output_data_filepath = self.config["output"]
+
+        print("Writing results to %s" % output_data_filepath)
+
+        with open(output_data_filepath, "w") as f:
+            json.dump(self.fmt_data, f, indent=4, sort_keys=True)
+
+        """
+        Analyze data
+        """
         if "analysis" in self.config:
             # Analyze the data
-            all_results = {}
-            self.analyzer.data = fmt_data
-            for func in self.config["analysis"]:
-                all_results[func] = getattr(self.analyzer, func)()
-            return all_results
+            # TODO
+            # something like: 
+            # for analysis_method in analysis:
+            #   analyzer.process(analysis_method,self.fmt_data)
+            pass
+
+        """
+        Post to iodide server
+        """
+        if args.no_iodide:
+            pass
+        else:
+            self.post_to_iodide(output_data_filepath)
 
         return self.fmt_data
+
+    def post_to_iodide(self, output_data_filepath):
+        # Upload template file to Iodide
+        template = "testing/template/template.txt"
+        tdata = ""
+        with open(template, "r") as f:
+            tdata = f.read()
+
+        html = ""
+        with open("template_upload_file.html", "r") as f:
+            html = f.read()
+
+        html = html.replace("replace_me", repr(tdata))
+        with open("upload_file.html", "w+") as f:
+            f.write(html)
+
+        webbrowser.open_new_tab("upload_file.html")
+
+        # Set up local server data API.
+        # Iodide will visit localhost:5000/data
+        app = Flask(__name__)
+        app.config["DEBUG"] = False
+
+        @app.route("/data", methods=["GET"])
+        def return_data():
+
+            response = flask.make_response(send_file(output_data_filepath))
+            response.headers["Access-Control-Allow-Origin"] = "*"
+
+            return response
+
+        app.run()
 
 
 def main():
@@ -184,54 +243,7 @@ def main():
     ptnb = PerftestNotebook(
         config["file_groups"], config, custom_transform=custom_transform
     )
-    results = ptnb.process()
-
-
-    prefix = "output" if "prefix" not in config else config["prefix"]
-    filepath = "%s_fmt_data.json" % prefix
-
-    if "output" in config:
-        filepath = config["output"]
-
-    print("Writing results to %s" % filepath)
-
-    with open(filepath, "w") as f:
-        json.dump(ptnb.fmt_data, f, indent=4, sort_keys=True)
-
-    # Upload template file to Iodide
-    template = "testing/template/template.txt"
-    tdata = ""
-    with open(template, "r") as f:
-        tdata = f.read()
-
-    html = ""
-    with open("template_upload_file.html", "r") as f:
-        html = f.read()
-
-    html = html.replace("replace_me", repr(tdata))
-    with open("upload_file.html", "w+") as f:
-        f.write(html)
-
-    webbrowser.open_new_tab("upload_file.html")
-
-    # Set up local server data API.
-    # Iodide will visit localhost:5000/data
-    app = Flask(__name__)
-    app.config["DEBUG"] = False
-
-    @app.route("/data", methods=["GET"])
-    def return_data():
-
-        script_path = os.path.dirname(__file__)
-        data_relative_path = "testing/output/data.json"
-        absolute_file_path = os.path.join(script_path, data_relative_path)
-
-        response = flask.make_response(send_file(absolute_file_path))
-        response.headers["Access-Control-Allow-Origin"] = "*"
-
-        return response
-
-    app.run()
+    results = ptnb.process(args)
 
 
 if __name__ == "__main__":
