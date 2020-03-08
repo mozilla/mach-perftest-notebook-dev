@@ -134,5 +134,13 @@ dmypy.json
 # pytype static type analyzer
 .pytype/
 
-#vscode
+#-----Project specific-----
+
+# vscode
 .vscode
+
+# file to be uploaded to iodide
+upload_file.html 
+
+# test outputs
+testing/outputs/
