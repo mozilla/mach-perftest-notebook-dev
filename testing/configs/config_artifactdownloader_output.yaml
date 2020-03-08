@@ -6,3 +6,6 @@ file_groups:
     path: testing/resources/artifactdownloader_output
     artifact: perfherder-data
     run_number: 1
+
+analysis:
+  - ttest
