@@ -21,4 +21,11 @@ def parse_args():
     parser.add_argument(
         "--debug", action="store_true", default=False, help="Enable additional debug logging.",
     )
+    parser.add_argument(
+        "--no-iodide",
+        required=False,
+        action="store_true",
+        default=False,
+        help="Start notebook without posting to iodide server"
+    )
     return parser.parse_args()
