@@ -7,5 +7,3 @@ file_groups:
     artifact: perfherder-data
     run_number: 1
 
-analysis:
-  - ttest
