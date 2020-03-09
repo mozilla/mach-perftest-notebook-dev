@@ -24,9 +24,8 @@ def parse_args():
     parser.add_argument(
         "--no-iodide",
         "-ni",
-        required=False,
         action="store_true",
         default=False,
-        help="Start notebook without posting to iodide server"
+        help="Run this tool without starting the iodide server at the end."
     )
     return parser.parse_args()
