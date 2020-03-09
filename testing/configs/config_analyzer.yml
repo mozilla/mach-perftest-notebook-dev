@@ -1,0 +1,11 @@
+output: testing/outputs/artifactdownloader_output.json
+
+file_groups:
+  windows10:
+    task_group_id: HoEKn_W0R3eQ-sbVn8SJFQ
+    path: testing/resources/artifactdownloader_output
+    artifact: perfherder-data
+    run_number: 1
+
+analysis:
+  - scatterplot
