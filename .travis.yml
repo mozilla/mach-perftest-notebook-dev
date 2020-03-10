@@ -14,5 +14,7 @@ install:
 
 script:
   - "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml -ni"
+  - "python perftestnotebook.py --config=testing/configs/config_analyzer.yaml -ni"
   - "python -m black -l 100 ."
   - "python -m pytest -v testing/tests/"
+  

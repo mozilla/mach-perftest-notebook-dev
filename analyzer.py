@@ -33,61 +33,29 @@ class NotebookAnalyzer(object):
 
         return split_data
 
-    def ttest(self):
-        """
-        Take the data and perform a cross-ttest on the rows.
-        Data returned looks like the following:
-        ```
-            [
-                {
-                    'ttest': 7.2,
-                    'pval': 0.01,
-                    'name1': macosx-raptor,
-                    'name2': macosx-browsertime
-                }, ...
-            ]
-        ```
+    def get_header(self):
+        template_header_path = "testing/resources/template/header"
+        with open(template_header_path, "r") as f:
+            template_header_content = f.read()
+            return template_header_content
 
-        :return dict: List of results.
-        """
-        results = []
+    def get_analysis_template(self,func):
+        template_function_folder_path = "testing/resources/analysis-templates/"
+        template_function_file_path = template_function_folder_path + func
+        print(template_function_file_path)
+        with open(template_function_file_path,"r") as f:
+            return f.read()
 
-        split_data = self.split_subtests()
 
-        for subtest in split_data:
-            done = {}
-            for entry1 in split_data[subtest]:
-                name = entry1["name"]
-
-                for entry2 in split_data[subtest]:
-                    if entry2["name"] == name:
-                        continue
-                    if (
-                        "%s-%s" % (name, entry2["name"]) in done
-                        or "%s-%s" % (entry2["name"], name) in done
-                    ):
-                        continue
-                    done["%s-%s" % (name, entry2["name"])] = True
-
-                    tval, pval = stats.ttest_ind(entry1["data"], entry2["data"])
-
-                    results.append(
-                        {
-                            "ttest": tval,
-                            "pval": pval,
-                            "name1": name + "-%s" % subtest,
-                            "name2": entry2["name"] + "-%s" % subtest,
-                            "ts1": entry1["data"],
-                            "ts2": entry2["data"],
-                        }
-                    )
-
-        return results
-
-    
 def main():
     
     print("running analyzer.py")
+    analyzer = NotebookAnalyzer(None)
+    print(analyzer.get_header())
+
+    tempString = analyzer.get_analysis_template("scatterplot")
+    print(tempString)
+
 
 if __name__=="__main__":
     main()

@@ -113,7 +113,7 @@ class PerftestNotebook(object):
 
         return files
 
-    def process(self, args):
+    def process(self, no_iodide):
         """
         Process the file groups and return the results of the requested analyses.
 
@@ -177,36 +177,38 @@ class PerftestNotebook(object):
         """
         Analyze data
         """
+        analyzer_templates = ""
         if "analysis" in self.config:
-            # Analyze the data
-            # TODO
-            # something like: 
-            # for analysis_method in analysis:
-            #   analyzer.process(analysis_method,self.fmt_data)
-            pass
+            
+            print(self.config["analysis"])
+            # without readLine
+            for func in self.config["analysis"]:
+                analyzer_templates = analyzer_templates + self.analyzer.get_analysis_template(func)
+            
 
         """
         Post to iodide server
         """
-        if args.no_iodide:
-            pass
-        else:
-            self.post_to_iodide(output_data_filepath)
+        if not no_iodide:
+           self.post_to_iodide(output_data_filepath,analyzer_templates)
 
         return self.fmt_data
 
-    def post_to_iodide(self, output_data_filepath):
-        # Upload template file to Iodide
-        template = "testing/template/template.txt"
-        tdata = ""
-        with open(template, "r") as f:
-            tdata = f.read()
+    def post_to_iodide(self, output_data_filepath,analyzer_templates):
+        """# Upload template file to Iodide"""
+        print(output_data_filepath)
+        template_header_path = "testing/resources/template/header"
+        template_content = ""
+
+        with open(template_header_path, "r") as f:
+            template_content = template_content + f.read()
+            template_content = template_content + analyzer_templates
 
         html = ""
         with open("template_upload_file.html", "r") as f:
             html = f.read()
+            html = html.replace("replace_me", repr(template_content))
 
-        html = html.replace("replace_me", repr(tdata))
         with open("upload_file.html", "w+") as f:
             f.write(html)
 
@@ -243,7 +245,7 @@ def main():
     ptnb = PerftestNotebook(
         config["file_groups"], config, custom_transform=custom_transform
     )
-    results = ptnb.process(args)
+    results = ptnb.process(args.no_iodide)
 
 
 if __name__ == "__main__":
