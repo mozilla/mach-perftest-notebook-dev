@@ -102,6 +102,15 @@ class PerftestNotebook(object):
 
         return files
 
+    def parse_output(self):
+        prefix = "output" if "prefix" not in self.config else self.config["prefix"]
+        filepath = "%s_fmt_data.json" % prefix
+
+        if "output" in self.config:
+            filepath = self.config["output"]
+
+        return filepath
+
     def process(self):
         """
         Process the file groups and return the results of the requested analyses.
@@ -194,11 +203,7 @@ def main():
 
     print(json.dumps(ptnb.fmt_data, indent=4, sort_keys=True))
 
-    prefix = "output" if "prefix" not in config else config["prefix"]
-    filepath = "%s_fmt_data.json" % prefix
-
-    if "output" in config:
-        filepath = config["output"]
+    filepath = ptnb.parse_output()
 
     print("Writing results to %s" % filepath)
 

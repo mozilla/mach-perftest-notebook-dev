@@ -89,15 +89,12 @@ class Transformer(object):
             # Transform data
             try:
                 data = self.transform(data)
-                if type(data) == list:
-                    for entry in data:
-                        for ele in entry["data"]:
-                            ele.update({"file": file})
-                    trfmdata.extend(data)
-                else:
-                    for entry in data["data"]:
-                        entry.update({"file": file})
-                    trfmdata.append(data)
+                if type(data) != list:
+                    data = [data]
+                for entry in data:
+                    for ele in entry["data"]:
+                        ele.update({"file": file})
+                trfmdata.extend(data)
             except Exception as e:
                 logger.warning("Failed to transform file %s, skipping" % file)
                 logger.warning("%s %s" % (e.__class__.__name__, e))
