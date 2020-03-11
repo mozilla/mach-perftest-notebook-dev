@@ -82,7 +82,6 @@ def get_nested_values(nested_obj, nested_keys=None):
                 _helper(entry, nested_keys)
         elif nested_obj:
             ret.append(nested_obj)
-        print(ret)
 
     _helper(nested_obj, nested_keys)
 

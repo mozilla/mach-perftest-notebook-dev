@@ -4,6 +4,8 @@ import perftestnotebook
 import pytest
 import yaml
 from utilities import get_nested_values
+from functools import reduce
+from operator import add
 
 
 class TestTransformer(object):
@@ -53,6 +55,7 @@ class TestTransformer(object):
                         data_xaxis.update({data["xaxis"]: data_xaxis.get(data["xaxis"], 0) + 1})
 
                     assert len(test_data_files) == len(target_resource_files)
+                    assert len(entry["data"]) == reduce(add, data_xaxis.values())
 
                     for data in entry["data"]:
                         with open(data["file"], "r") as rf:
@@ -66,5 +69,4 @@ class TestTransformer(object):
     def test_single_json_retriever(self):
         test_config = "testing/configs/config_single_json_test.yaml"
         target_config = "testing/configs/config_single_json.yaml"
-
         self.default_transformer(test_config, target_config)
