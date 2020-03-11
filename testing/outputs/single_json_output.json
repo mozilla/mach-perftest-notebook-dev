@@ -960,6 +960,11 @@
                 "xaxis": 1
             },
             {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
                 "file": "testing/resources/browsertime_copy.json",
                 "value": 1,
                 "xaxis": 2
@@ -967,6 +972,11 @@
             {
                 "file": "testing/resources/browsertime_copy.json",
                 "value": 2,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
                 "xaxis": 2
             }
         ],
@@ -1044,6 +1054,78 @@
         ],
         "name": "issue_1",
         "subtest": "browserScripts.timings.navigationTiming.loadEventStart"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.redirectEnd"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.redirectStart"
     },
     {
         "data": [
@@ -1188,6 +1270,150 @@
         ],
         "name": "issue_1",
         "subtest": "browserScripts.timings.navigationTiming.secureConnectionStart"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.startTime"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.unloadEventEnd"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.unloadEventStart"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.navigationTiming.workerStart"
     },
     {
         "data": [
@@ -1445,6 +1671,42 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "browserScripts.timings.pageTimings.redirectionTime"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 199,
                 "xaxis": 1
             },
@@ -1693,6 +1955,38 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 3814,
                 "xaxis": 1
             },
@@ -1800,6 +2094,38 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.pageinfo.documentSize.decodedBodySize.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.stddev"
     },
     {
         "data": [
@@ -1917,6 +2243,38 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 9095,
                 "xaxis": 1
             },
@@ -2024,6 +2382,38 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.pageinfo.documentSize.transferSize.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.stddev"
     },
     {
         "data": [
@@ -2141,6 +2531,38 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 1358,
                 "xaxis": 1
             },
@@ -2248,6 +2670,38 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.pageinfo.navigationStartTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.stddev"
     },
     {
         "data": [
@@ -2380,6 +2834,58 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.pageinfo.visualElements.heroes.height.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.stddev"
     },
     {
         "data": [
@@ -2567,6 +3073,58 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 500,
                 "xaxis": 1
             },
@@ -2744,6 +3302,58 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.pageinfo.visualElements.heroes.x.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.stddev"
     },
     {
         "data": [
@@ -2931,6 +3541,58 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 50,
                 "xaxis": 1
             },
@@ -3093,6 +3755,38 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 695,
                 "xaxis": 1
             },
@@ -3200,6 +3894,38 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.pageinfo.visualElements.viewport.width.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.stddev"
     },
     {
         "data": [
@@ -4789,6 +5515,38 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 2,
                 "xaxis": 1
             },
@@ -5120,6 +5878,294 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.timings.navigationTiming.loadEventStart.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.max"
     },
     {
         "data": [
@@ -5696,6 +6742,582 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.timings.navigationTiming.secureConnectionStart.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.max"
     },
     {
         "data": [
@@ -6469,6 +8091,22 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 23,
                 "xaxis": 1
             },
@@ -6688,6 +8326,150 @@
         ],
         "name": "issue_1",
         "subtest": "statistics.timings.pageTimings.pageLoadTime.max"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.median"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.mdev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.min"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.p10"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.p90"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.p99"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.max"
     },
     {
         "data": [

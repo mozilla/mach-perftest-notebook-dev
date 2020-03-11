@@ -6,15 +6,12 @@ branches:
   only:
     - master
     - starter
-    - issue-9-travis-pytest
-    - issue-11-add-Black-formatter
     - issue-17-unit-tests
 
 install:
   - "pip install -r requirements.txt"
 
 script:
-  - "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml -ni"
-  - "python perftestnotebook.py --config=testing/configs/config_analyzer.yaml -ni"
   - "python -m black -l 100 ."
+  - "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml"
   - "python -m pytest -v testing/tests/"

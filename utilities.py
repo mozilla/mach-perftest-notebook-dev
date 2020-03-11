@@ -48,16 +48,16 @@ def flat(data, parent_dir):
                 subtest = ".".join(current_dir)
                 if isinstance(v, Iterable):
                     ret.update(_helper(v, current_dir, ret))
-                elif v:
+                elif v or v == 0:
                     ret.setdefault(subtest, []).append(v)
         return ret
 
     return _helper(data, parent_dir, {})
 
 
-def get_values_from_nested_object(nested_obj, nested_keys):
+def get_nested_values(nested_obj, nested_keys=None):
     """
-    This function returns the items found from a nested object by a nested key list. 
+    This function returns the items found from a nested object by a nested key list. If nested_keys=None, then return all existed values.
 
     :param Iterable nested_obj: nested data object.
     :param list nested_keys: nested keys.
@@ -75,6 +75,14 @@ def get_values_from_nested_object(nested_obj, nested_keys):
                 ret.append(nested_obj[nested_keys[0]])
             else:
                 _helper(nested_obj[nested_keys[0]], nested_keys[1:])
+        elif type(nested_obj) == dict:
+            _helper(list(nested_obj.values()))
+        elif type(nested_obj) == list:
+            for entry in nested_obj:
+                _helper(entry, nested_keys)
+        elif nested_obj:
+            ret.append(nested_obj)
+        print(ret)
 
     _helper(nested_obj, nested_keys)
 

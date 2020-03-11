@@ -105,7 +105,16 @@ class PerftestNotebook(object):
 
         return files
 
-    def process(self, no_iodide=False):
+    def parse_output(self):
+        prefix = "output" if "prefix" not in self.config else self.config["prefix"]
+        filepath = "%s_fmt_data.json" % prefix
+
+        if "output" in self.config:
+            filepath = self.config["output"]
+
+        return filepath
+
+    def process(self):
         """
         Process the file groups and return the results of the requested analyses.
 
@@ -204,15 +213,9 @@ class PerftestNotebook(object):
         app.run()
 
 
-def main():
-    args = parse_args()
+    filepath = ptnb.parse_output()
 
-    NotebookLogger.debug = args.debug
-
-    config = None
-    with open(args.config, "r") as f:
-        logger.info("yaml_path: {}".format(args.config))
-        config = yaml.safe_load(f)
+    print("Writing results to %s" % filepath)
 
     custom_transform = config.get("custom_transform", None)
 
