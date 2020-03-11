@@ -47,6 +47,7 @@ class TestTransformer(object):
                         assert "value" in data
                         assert "xaxis" in data
                         assert len(data) == 3
+                        assert data["file"] in target_resource_files
 
                         test_data_files.add(data["file"])
                         data_xaxis.update({data["xaxis"]: data_xaxis.get(data["xaxis"], 0) + 1})
