@@ -1,0 +1,485 @@
+[
+    {
+        "data": [
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/0/AFpqAm9kSp6qZpnXLCVMhw_perfherder-data.json",
+                "value": 984.47,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/1/AQz5saClQG6bBDDW0Iym9Q_perfherder-data.json",
+                "value": 970.14,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/2/DtxQfjtFSIaUSiBbIGNS8Q_perfherder-data.json",
+                "value": 978.97,
+                "xaxis": 3
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/3/E0_hX7VeQgq5cs7g5jgPIA_perfherder-data.json",
+                "value": 968.45,
+                "xaxis": 4
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/4/ER57UavlQimpEy3feGVJWQ_perfherder-data.json",
+                "value": 973.77,
+                "xaxis": 5
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/5/FaAQCgC5QuuO4vPnKIMVsQ_perfherder-data.json",
+                "value": 996.96,
+                "xaxis": 6
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/6/HB9stTyiRDeGkF3XGeMj_A_perfherder-data.json",
+                "value": 1000.06,
+                "xaxis": 7
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/7/HSuAeClSTx-cB4v-4RpZhg_perfherder-data.json",
+                "value": 975.45,
+                "xaxis": 8
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/8/Hkt7AYvtRZa7MDBWEJRIGQ_perfherder-data.json",
+                "value": 977.52,
+                "xaxis": 9
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/9/HlqMEPTqRz2x-IZZvkm0HQ_perfherder-data.json",
+                "value": 995.41,
+                "xaxis": 10
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/10/KGaEer0PQ9ay96k_daZ-2A_perfherder-data.json",
+                "value": 999.36,
+                "xaxis": 11
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/11/LMXrhAXKSlyXwrFJgxmN2Q_perfherder-data.json",
+                "value": 988.7,
+                "xaxis": 12
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/12/MNac08dxToipDSqMQ3MgZg_perfherder-data.json",
+                "value": 992.8,
+                "xaxis": 13
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/13/OvB3F8s-QjCPgS6Prw0Pug_perfherder-data.json",
+                "value": 961.12,
+                "xaxis": 14
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/14/Pn8NeshmReyWfw47ojnKFQ_perfherder-data.json",
+                "value": 992.34,
+                "xaxis": 15
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/15/QbIz6jJaRluPVx2orUOcAQ_perfherder-data.json",
+                "value": 983.75,
+                "xaxis": 16
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/16/QjFwKSLyQvaNdfuiT637Pg_perfherder-data.json",
+                "value": 986.85,
+                "xaxis": 17
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/17/T2LGY6q9To2yHlVnemTcXA_perfherder-data.json",
+                "value": 987.69,
+                "xaxis": 18
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/18/Ta2jPqR1Q-iEYwhX-tXCpg_perfherder-data.json",
+                "value": 968.18,
+                "xaxis": 19
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/19/VfQMBMUIRAW0g_foetRfqQ_perfherder-data.json",
+                "value": 1000.95,
+                "xaxis": 20
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/20/WtNSZ7dBTna3F3VyFr419w_perfherder-data.json",
+                "value": 998.83,
+                "xaxis": 21
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/21/XP1ziJ3nQuuUQN9u9O0olA_perfherder-data.json",
+                "value": 962.88,
+                "xaxis": 22
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/22/XU6yhilFRo-_zI6avNZXFw_perfherder-data.json",
+                "value": 1000.73,
+                "xaxis": 23
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/23/YOKEuDlTSKylWkfoQs8r3A_perfherder-data.json",
+                "value": 1003.54,
+                "xaxis": 24
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/24/YVv3IcPDRIekx1g5H57rgQ_perfherder-data.json",
+                "value": 975.4,
+                "xaxis": 25
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/25/Z47rD09eT8eQxy7bn_WjFg_perfherder-data.json",
+                "value": 974.98,
+                "xaxis": 26
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/26/ZJ4NUbXbTi-U6Z2OLKwAjA_perfherder-data.json",
+                "value": 982.86,
+                "xaxis": 27
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/27/cPDg1IAoSGSyeGi-5X5MHw_perfherder-data.json",
+                "value": 993.43,
+                "xaxis": 28
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/28/cZ0DD813QYy1IbDrSfiImQ_perfherder-data.json",
+                "value": 989.57,
+                "xaxis": 29
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/29/euer_NNPTu2SyF9FVZRBFw_perfherder-data.json",
+                "value": 967.62,
+                "xaxis": 30
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-amazon-e10s/perfherder-data_data/30/fvAXwzhWRs2H6lrI7c0Z9Q_perfherder-data.json",
+                "value": 1005.01,
+                "xaxis": 31
+            }
+        ],
+        "name": "windows10",
+        "subtest": "browsertime-tp6-chrome-cold-amazon-e10s"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/0/B5_3kIdlQRy0fqcW8D-23w_perfherder-data.json",
+                "value": 369.8,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/1/CI3YpzD_TVmXZfT1BL6ntw_perfherder-data.json",
+                "value": 356.13,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/2/EHVBtKMBRSmzNGrzohZouQ_perfherder-data.json",
+                "value": 356.37,
+                "xaxis": 3
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/3/G0Qd1e2mSUeuGHGSWutIug_perfherder-data.json",
+                "value": 369.21,
+                "xaxis": 4
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/4/GQL3XF6DR2e7AoXFIZCMvA_perfherder-data.json",
+                "value": 348.9,
+                "xaxis": 5
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/5/GWXfvUJ8RLSfECrcwI7sIg_perfherder-data.json",
+                "value": 351.19,
+                "xaxis": 6
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/6/GjUMEIShTiC9CDsMAYwQPg_perfherder-data.json",
+                "value": 348.67,
+                "xaxis": 7
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/7/HE5myjpURMKPfcEqkGxNUQ_perfherder-data.json",
+                "value": 331.2,
+                "xaxis": 8
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/8/I1nw9zKWSqC5CAnuu1n82A_perfherder-data.json",
+                "value": 359.32,
+                "xaxis": 9
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/9/I_AYjQk5ShmFi1pyPVUM_g_perfherder-data.json",
+                "value": 362.32,
+                "xaxis": 10
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/10/Jn8LWQo1TT-KJBQZRSz_tg_perfherder-data.json",
+                "value": 352.19,
+                "xaxis": 11
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/11/M4wb3uMNRvaAnbtU9AzdxA_perfherder-data.json",
+                "value": 369.03,
+                "xaxis": 12
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/12/MVob_XxjSAKp2WGIHGpkSA_perfherder-data.json",
+                "value": 368.93,
+                "xaxis": 13
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/13/MfNJtznrQZ68iNtYAdM4Yw_perfherder-data.json",
+                "value": 359.8,
+                "xaxis": 14
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/14/MlIu0bDFQy--INtn0zV_8w_perfherder-data.json",
+                "value": 352.47,
+                "xaxis": 15
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/15/OBAJ48x8SG6FRIZkY-y6Dg_perfherder-data.json",
+                "value": 350.47,
+                "xaxis": 16
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/16/RWLMNOABR1K0MM6MOZqgkA_perfherder-data.json",
+                "value": 353.24,
+                "xaxis": 17
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/17/Rg_bWUf9TVaguHxqO89Wfw_perfherder-data.json",
+                "value": 375.04,
+                "xaxis": 18
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/18/Runs15r5SJKfhdAg094V1g_perfherder-data.json",
+                "value": 368.35,
+                "xaxis": 19
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/19/UzP6mxoySjiDKbuO-UGACQ_perfherder-data.json",
+                "value": 373.68,
+                "xaxis": 20
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/20/WNcUFTQcQfCPaUnyYtaEMw_perfherder-data.json",
+                "value": 372.82,
+                "xaxis": 21
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/21/YVpvJ4cGStK6UMFm57fsbQ_perfherder-data.json",
+                "value": 352.69,
+                "xaxis": 22
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/22/aDwCMUz3QX2b3S_j_PN8lA_perfherder-data.json",
+                "value": 347.67,
+                "xaxis": 23
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/23/azqEqoXSTlCbOedso1ZA8A_perfherder-data.json",
+                "value": 347.74,
+                "xaxis": 24
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/24/bSZsoKkCSbK9KXceLt5Ugg_perfherder-data.json",
+                "value": 349.47,
+                "xaxis": 25
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/25/cMsVn2ivSeacD0ejOFQwHw_perfherder-data.json",
+                "value": 356.88,
+                "xaxis": 26
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/26/cm7bf2AUS7yl0o9rgWrRRA_perfherder-data.json",
+                "value": 350.46,
+                "xaxis": 27
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/27/de-2eynZRvu_ZkM4G1Pn8w_perfherder-data.json",
+                "value": 347.65,
+                "xaxis": 28
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/28/dxeKoIFLRxmTcoqEH2800Q_perfherder-data.json",
+                "value": 351.19,
+                "xaxis": 29
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/29/ev-zftVLS1mbCxMi7pqIyw_perfherder-data.json",
+                "value": 355.93,
+                "xaxis": 30
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-bing-search-e10s/perfherder-data_data/30/fOw5mWeLQmO6bE8QqTXK6w_perfherder-data.json",
+                "value": 351.72,
+                "xaxis": 31
+            }
+        ],
+        "name": "windows10",
+        "subtest": "browsertime-tp6-chrome-cold-bing-search-e10s"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/0/AeV-xQv6TBOGyVuY3otWBQ_perfherder-data.json",
+                "value": 1001.13,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/1/CHqfNN7oSRSdcyrk89wQVQ_perfherder-data.json",
+                "value": 998.39,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/2/CXpifOpATZGjELlAc0nooQ_perfherder-data.json",
+                "value": 980.02,
+                "xaxis": 3
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/3/DPanIsblTKyJ1CwIPN06JQ_perfherder-data.json",
+                "value": 997.09,
+                "xaxis": 4
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/4/ERwIlbmXS6ujN6DKTtR8ZA_perfherder-data.json",
+                "value": 988.55,
+                "xaxis": 5
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/5/EtdW3OCTSwehqhmtnkqI7Q_perfherder-data.json",
+                "value": 1003.15,
+                "xaxis": 6
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/6/FEbMcvJXRBm97BeIbfTS1w_perfherder-data.json",
+                "value": 993.18,
+                "xaxis": 7
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/7/H_eEkrlnT7i2Ntg9DXjCwA_perfherder-data.json",
+                "value": 1000.41,
+                "xaxis": 8
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/8/HqRezOSJR3WW_Du5gqF-Zw_perfherder-data.json",
+                "value": 979.75,
+                "xaxis": 9
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/9/JKj8zOzSQtaMI48HCjYHgg_perfherder-data.json",
+                "value": 998.1,
+                "xaxis": 10
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/10/MZkporYfSwqTiGVDmIPbzg_perfherder-data.json",
+                "value": 989.0,
+                "xaxis": 11
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/11/MwEoHVQ3Q1Svz6z_o7ylSw_perfherder-data.json",
+                "value": 998.54,
+                "xaxis": 12
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/12/NXOjVaAKS4SwS1ZPrAicLg_perfherder-data.json",
+                "value": 991.02,
+                "xaxis": 13
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/13/QpDZJNxoRECr6Mibpq-fGA_perfherder-data.json",
+                "value": 1003.87,
+                "xaxis": 14
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/14/QyO4GI4xSYyPkt2dbqri-w_perfherder-data.json",
+                "value": 1000.7,
+                "xaxis": 15
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/15/RXznBHtgTUWFbc5DLwCt1A_perfherder-data.json",
+                "value": 981.03,
+                "xaxis": 16
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/16/S41z9oLqQEOtqCeuAP6AIg_perfherder-data.json",
+                "value": 998.08,
+                "xaxis": 17
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/17/Slnz3BE-SYSOGxGTVH_USg_perfherder-data.json",
+                "value": 983.51,
+                "xaxis": 18
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/18/StLzT5m6RviyJD_0lhbDTw_perfherder-data.json",
+                "value": 987.26,
+                "xaxis": 19
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/19/TX1Wu7oCS3yOxdEenb6WkQ_perfherder-data.json",
+                "value": 987.96,
+                "xaxis": 20
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/20/TpFcUr7NTQSnDfKA-wSa_g_perfherder-data.json",
+                "value": 988.28,
+                "xaxis": 21
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/21/UfTzimYARw2QnZU3RpZDiA_perfherder-data.json",
+                "value": 999.68,
+                "xaxis": 22
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/22/XhPwTmP5RAyhPEOD8yBQ6g_perfherder-data.json",
+                "value": 982.32,
+                "xaxis": 23
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/23/ZAA92httQ-WftbT5ZgKcAA_perfherder-data.json",
+                "value": 998.54,
+                "xaxis": 24
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/24/ZhZiMGdVQYiXdErfCxBBDA_perfherder-data.json",
+                "value": 986.54,
+                "xaxis": 25
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/25/cjSRTtTiRey1UR2EKUBTlg_perfherder-data.json",
+                "value": 987.81,
+                "xaxis": 26
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/26/cnXX4bJ0TdqrF4OiBoPtWQ_perfherder-data.json",
+                "value": 995.94,
+                "xaxis": 27
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/27/d25KY_agSnia8zuRvW201A_perfherder-data.json",
+                "value": 996.23,
+                "xaxis": 28
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/28/dh9MnNTZRDSfFTGRl3nzGA_perfherder-data.json",
+                "value": 996.23,
+                "xaxis": 29
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/29/eGh7sR8jRROEr_naBrkVgQ_perfherder-data.json",
+                "value": 981.32,
+                "xaxis": 30
+            },
+            {
+                "file": "testing/resources/artifactdownloader_output/HoEKn_W0R3eQ-sbVn8SJFQ/1/browsertime-tp6-chrome-cold-facebook-e10s/perfherder-data_data/30/f58sdBaoReCOOke6NlqJ5w_perfherder-data.json",
+                "value": 998.39,
+                "xaxis": 31
+            }
+        ],
+        "name": "windows10",
+        "subtest": "browsertime-tp6-chrome-cold-facebook-e10s"
+    }
+]

@@ -119,7 +119,7 @@ class SimplePerfherderTransformer(Transformer):
 
     def transform(self, data):
         self.entry_number += 1
-        return {"data": {"value": data["suites"][0]["value"], "xaxis": self.entry_number}}
+        return {"data": [{"value": data["suites"][0]["value"], "xaxis": self.entry_number}]}
 
     def merge(self, sde):
         merged = {"data": []}
