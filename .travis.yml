@@ -17,4 +17,3 @@ script:
   - "python perftestnotebook.py --config=testing/configs/config_analyzer.yaml -ni"
   - "python -m black -l 100 ."
   - "python -m pytest -v testing/tests/"
-  

@@ -10,9 +10,3 @@ text: data_string = http://127.0.0.1:5000/data
 %% js
 
 var data_object = JSON.parse(data_string);
-
-
-%% py 
-from js import data_object
-import json
-import numpy as np

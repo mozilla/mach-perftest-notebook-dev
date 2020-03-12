@@ -1,3 +1,5 @@
+import os
+
 import numpy as np
 import scipy.stats as stats
 
@@ -39,9 +41,9 @@ class NotebookAnalyzer(object):
             template_header_content = f.read()
             return template_header_content
 
-    def get_analysis_template(self,func):
-        template_function_folder_path = "testing/resources/analysis-templates/"
-        template_function_file_path = template_function_folder_path + func
+    def get_notebook_section(self,func):
+        template_function_folder_path = "testing/resources/notebook-sections/"
+        template_function_file_path = os.path.join(template_function_folder_path,func)
         print(template_function_file_path)
         with open(template_function_file_path,"r") as f:
             return f.read()

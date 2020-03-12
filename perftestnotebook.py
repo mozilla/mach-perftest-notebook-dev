@@ -121,6 +121,7 @@ class PerftestNotebook(object):
             funtions that were called.
         """
         fmt_data = []
+        notebook_sections = ""
 
         for name, files in self.file_groups.items():
             files = self.parse_file_grouping(files)
@@ -158,11 +159,7 @@ class PerftestNotebook(object):
 
         self.fmt_data = fmt_data
 
-        """
-        Write formatted data output to filepath
-        """
-        print(json.dumps(self.fmt_data, indent=4, sort_keys=True))
-
+        # Write formatted data output to filepath
         prefix = "output" if "prefix" not in self.config else self.config["prefix"]
         output_data_filepath = "%s_fmt_data.json" % prefix
 
@@ -174,37 +171,26 @@ class PerftestNotebook(object):
         with open(output_data_filepath, "w") as f:
             json.dump(self.fmt_data, f, indent=4, sort_keys=True)
 
-        """
-        Analyze data
-        """
-        analyzer_templates = ""
+        # Gather config["analysis"] corresponding notebook sections
         if "analysis" in self.config:
-            
-            print(self.config["analysis"])
-            # without readLine
             for func in self.config["analysis"]:
-                analyzer_templates = analyzer_templates + self.analyzer.get_analysis_template(func)
+                notebook_sections = notebook_sections + self.analyzer.get_notebook_section(func)
             
 
-        """
-        Post to iodide server
-        """
+        # Post to Iodide server
         if not no_iodide:
-           self.post_to_iodide(output_data_filepath,analyzer_templates)
+           self.post_to_iodide(output_data_filepath,notebook_sections)
 
         return self.fmt_data
 
-    def post_to_iodide(self, output_data_filepath,analyzer_templates):
-        """# Upload template file to Iodide"""
-        print(output_data_filepath)
-        template_header_path = "testing/resources/template/header"
-        template_content = ""
+    def post_to_iodide(self, output_data_filepath,notebook_sections):
+
+        template_header_path = "testing/resources/notebook-sections/header"
 
         with open(template_header_path, "r") as f:
-            template_content = template_content + f.read()
-            template_content = template_content + analyzer_templates
+            template_content = f.read()
+            template_content = template_content + notebook_sections
 
-        html = ""
         with open("template_upload_file.html", "r") as f:
             html = f.read()
             html = html.replace("replace_me", repr(template_content))
