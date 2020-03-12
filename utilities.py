@@ -37,22 +37,24 @@ def flat(data, parent_dir):
 
     :return dict: {subtest: value}
     """
+    ret = {}
 
-    def _helper(data, parent_dir, ret):
+    def _helper(data, parent_dir):
         if isinstance(data, list):
             for item in data:
-                ret.update(_helper(item, parent_dir, ret))
+                _helper(item, parent_dir)
         elif isinstance(data, dict):
             for k, v in data.items():
                 current_dir = parent_dir + (k,)
                 subtest = ".".join(current_dir)
                 if isinstance(v, Iterable):
-                    ret.update(_helper(v, current_dir, ret))
+                    _helper(v, current_dir)
                 elif v or v == 0:
                     ret.setdefault(subtest, []).append(v)
-        return ret
 
-    return _helper(data, parent_dir, {})
+    _helper(data, parent_dir)
+
+    return ret
 
 
 def get_nested_values(nested_obj, nested_keys=None):
@@ -76,7 +78,7 @@ def get_nested_values(nested_obj, nested_keys=None):
             else:
                 _helper(nested_obj[nested_keys[0]], nested_keys[1:])
         elif type(nested_obj) == dict:
-            _helper(list(nested_obj.values()))
+            _helper(list(nested_obj.values()), nested_keys)
         elif type(nested_obj) == list:
             for entry in nested_obj:
                 _helper(entry, nested_keys)
