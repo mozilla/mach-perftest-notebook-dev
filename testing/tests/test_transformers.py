@@ -82,7 +82,7 @@ class TestTransformer(object):
                 assert len(nested_values) == data_xaxis[data["xaxis"]]
 
         assert len(test_data_files) == len(target_resource_files)
-        assert filecmp.cmp(test_output_filepath, target_output_filepath)
+        assert filecmp.cmp(test_output_filepath, target_output_filepath, shallow=False)
 
     def test_simple_perfherder_transformer(self):
         test_config = "testing/configs/config_artifactdownloader_output_test.yaml"
