@@ -26,6 +26,6 @@ def parse_args():
         "-ni",
         action="store_true",
         default=False,
-        help="Run this tool without starting the iodide server at the end."
+        help="Run this tool without starting the iodide server at the end.",
     )
     return parser.parse_args()

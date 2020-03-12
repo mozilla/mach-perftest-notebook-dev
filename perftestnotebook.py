@@ -54,14 +54,10 @@ class PerftestNotebook(object):
                 obj = getattr(module, name)
                 if isinstance(obj, type) and issubclass(obj, tfmr.Transformer):
                     self.transformer = obj(files=[])
-                    logger.info(
-                        "Found %s transformer" % self.transformer.__class__.__name__
-                    )
+                    logger.info("Found %s transformer" % self.transformer.__class__.__name__)
                     break
             if not self.transformer:
-                raise Exception(
-                    "Could not get a transformer from %s" % custom_transform
-                )
+                raise Exception("Could not get a transformer from %s" % custom_transform)
         else:
             self.transformer = tfmr.SimplePerfherderTransformer(files=[])
 
@@ -102,14 +98,10 @@ class PerftestNotebook(object):
 
             files = newf
         else:
-            raise Exception(
-                "Unknown file grouping type provided here: %s" % file_grouping
-            )
+            raise Exception("Unknown file grouping type provided here: %s" % file_grouping)
 
         if not files:
-            raise Exception(
-                "Could not find any files in this configuration: %s" % file_grouping
-            )
+            raise Exception("Could not find any files in this configuration: %s" % file_grouping)
 
         return files
 
@@ -142,10 +134,7 @@ class PerftestNotebook(object):
                         if "subtest" not in trfm_data:
                             trfm_data["subtest"] = subtest
                         else:
-                            trfm_data["subtest"] = "%s-%s" % (
-                                subtest,
-                                trfm_data["subtest"],
-                            )
+                            trfm_data["subtest"] = "%s-%s" % (subtest, trfm_data["subtest"],)
                         fmt_data.append(trfm_data)
             else:
                 # Transform the data
@@ -175,15 +164,14 @@ class PerftestNotebook(object):
         if "analysis" in self.config:
             for func in self.config["analysis"]:
                 notebook_sections = notebook_sections + self.analyzer.get_notebook_section(func)
-            
 
         # Post to Iodide server
         if not no_iodide:
-           self.post_to_iodide(output_data_filepath,notebook_sections)
+            self.post_to_iodide(output_data_filepath, notebook_sections)
 
         return self.fmt_data
 
-    def post_to_iodide(self, output_data_filepath,notebook_sections):
+    def post_to_iodide(self, output_data_filepath, notebook_sections):
 
         template_header_path = "testing/resources/notebook-sections/header"
 
@@ -228,9 +216,7 @@ def main():
 
     custom_transform = config.get("custom_transform", None)
 
-    ptnb = PerftestNotebook(
-        config["file_groups"], config, custom_transform=custom_transform
-    )
+    ptnb = PerftestNotebook(config["file_groups"], config, custom_transform=custom_transform)
     results = ptnb.process(args.no_iodide)
 
 
