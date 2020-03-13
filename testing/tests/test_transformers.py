@@ -6,6 +6,7 @@ import yaml
 from utilities import get_nested_values
 from functools import reduce
 from operator import add
+from pathlib import Path
 
 
 class TestTransformer(object):
@@ -75,13 +76,15 @@ class TestTransformer(object):
             for data in entry["data"]:
                 with open(data["file"], "r") as f:
                     resource_data = json.load(f)
-                nested_keys = get_nested_keys(entry["subtest"])
+                nested_keys = get_nested_keys(entry)
                 nested_values = get_nested_values(resource_data, nested_keys)
 
                 assert data["value"] in nested_values
                 assert len(nested_values) == data_xaxis[data["xaxis"]]
 
         assert len(test_data_files) == len(target_resource_files)
+        assert Path(test_output_filepath).exists()
+        assert Path(target_output_filepath).exists()
         assert filecmp.cmp(test_output_filepath, target_output_filepath, shallow=False)
 
     def test_simple_perfherder_transformer(self):
@@ -92,4 +95,6 @@ class TestTransformer(object):
     def test_single_json_retriever(self):
         test_config = "testing/configs/config_single_json_test.yaml"
         target_config = "testing/configs/config_single_json.yaml"
-        self.check_transformation(test_config, target_config, lambda subtest: subtest.split("."))
+        self.check_transformation(
+            test_config, target_config, lambda entry: entry["subtest"].split(".")
+        )
