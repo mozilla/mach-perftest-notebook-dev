@@ -75,6 +75,7 @@ class Transformer(object):
         :return dict: Merged data.
         """
         trfmdata = []
+        self.files.sort()
 
         for file in self.files:
             data = {}

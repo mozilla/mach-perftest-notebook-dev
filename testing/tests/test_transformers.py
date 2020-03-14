@@ -29,6 +29,9 @@ class TestTransformer(object):
         :param str target_config_filepath: The local config file directory.
         :param function get_nested_keys: A function to get nested keys. The result is used to get data value from resource files.
         """
+        assert Path(test_config_filepath).exists()
+        assert Path(target_config_filepath).exists()
+
         with open(test_config_filepath, "r") as f, open(target_config_filepath, "r") as g:
             test_config = yaml.safe_load(f)
             target_config = yaml.safe_load(g)
@@ -50,6 +53,7 @@ class TestTransformer(object):
         test_output_filepath = test_ptnb.parse_output()
         target_output_filepath = target_ptnb.parse_output()
 
+        assert Path(test_output_filepath).exists()
         with open(test_output_filepath, "r") as f:
             test_output = json.load(f)
         assert isinstance(test_output, list)
@@ -76,6 +80,7 @@ class TestTransformer(object):
             assert len(entry["data"]) == reduce(add, data_xaxis.values())
 
             for data in entry["data"]:
+                assert Path(data["file"]).exists()
                 with open(data["file"], "r") as f:
                     resource_data = json.load(f)
                 nested_keys = get_nested_keys(entry)
