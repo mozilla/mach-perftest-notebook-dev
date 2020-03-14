@@ -1933,23 +1933,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentHeight.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 3814,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 3814,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentHeight.mean"
+        "subtest": "statistics.pageinfo.documentHeight.max"
     },
     {
         "data": [
@@ -1971,17 +1955,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 3814,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 3814,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentHeight.stddev"
+        "subtest": "statistics.pageinfo.documentHeight.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 3814,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 3814,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentHeight.median"
     },
     {
         "data": [
@@ -2051,17 +2051,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 3814,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 3814,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentHeight.max"
+        "subtest": "statistics.pageinfo.documentHeight.stddev"
     },
     {
         "data": [
@@ -2077,23 +2077,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 34386,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 34386,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.mean"
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.max"
     },
     {
         "data": [
@@ -2115,17 +2099,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 34386,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 34386,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.stddev"
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 34386,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 34386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.median"
     },
     {
         "data": [
@@ -2195,17 +2195,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 34386,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 34386,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.max"
+        "subtest": "statistics.pageinfo.documentSize.decodedBodySize.stddev"
     },
     {
         "data": [
@@ -2221,23 +2221,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 9095,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 9095,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.mean"
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.max"
     },
     {
         "data": [
@@ -2259,17 +2243,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 9095,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 9095,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.stddev"
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 9095,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 9095,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.median"
     },
     {
         "data": [
@@ -2339,17 +2339,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 9095,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 9095,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.max"
+        "subtest": "statistics.pageinfo.documentSize.encodedBodySize.stddev"
     },
     {
         "data": [
@@ -2365,23 +2365,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.transferSize.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 9764,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 9764,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.transferSize.mean"
+        "subtest": "statistics.pageinfo.documentSize.transferSize.max"
     },
     {
         "data": [
@@ -2403,17 +2387,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 9764,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 9764,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.transferSize.stddev"
+        "subtest": "statistics.pageinfo.documentSize.transferSize.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 9764,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 9764,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentSize.transferSize.median"
     },
     {
         "data": [
@@ -2483,17 +2483,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 9764,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 9764,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentSize.transferSize.max"
+        "subtest": "statistics.pageinfo.documentSize.transferSize.stddev"
     },
     {
         "data": [
@@ -2509,23 +2509,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentWidth.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 1358,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 1358,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentWidth.mean"
+        "subtest": "statistics.pageinfo.documentWidth.max"
     },
     {
         "data": [
@@ -2547,17 +2531,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 1358,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 1358,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentWidth.stddev"
+        "subtest": "statistics.pageinfo.documentWidth.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.documentWidth.median"
     },
     {
         "data": [
@@ -2627,49 +2627,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 1358,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 1358,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.documentWidth.max"
+        "subtest": "statistics.pageinfo.documentWidth.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 1571266798478,
+                "value": 1571266807695,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 1571266798478,
+                "value": 1571266807695,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.navigationStartTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 1571266798484,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 1571266798484,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.navigationStartTime.mean"
+        "subtest": "statistics.pageinfo.navigationStartTime.max"
     },
     {
         "data": [
@@ -2691,17 +2675,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 1571266798484,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 1571266798484,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.navigationStartTime.stddev"
+        "subtest": "statistics.pageinfo.navigationStartTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 1571266798478,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 1571266798478,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.navigationStartTime.median"
     },
     {
         "data": [
@@ -2771,17 +2771,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 1571266807695,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 1571266807695,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.navigationStartTime.max"
+        "subtest": "statistics.pageinfo.navigationStartTime.stddev"
     },
     {
         "data": [
@@ -2807,33 +2807,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.height.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 433,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 173,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 433,
-                "xaxis": 2
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 173,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.height.mean"
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.max"
     },
     {
         "data": [
@@ -2865,27 +2839,53 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 433,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 173,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 433,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 173,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.height.stddev"
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 433,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 173,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 433,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 173,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.median"
     },
     {
         "data": [
@@ -2995,27 +2995,27 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 433,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 173,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 433,
+                "value": 0,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 173,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.height.max"
+        "subtest": "statistics.pageinfo.visualElements.heroes.height.stddev"
     },
     {
         "data": [
@@ -3041,33 +3041,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.width.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 500,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 510,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 500,
-                "xaxis": 2
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 510,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.width.mean"
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.max"
     },
     {
         "data": [
@@ -3099,27 +3073,53 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 500,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 510,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 500,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 510,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.width.stddev"
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 500,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 510,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 500,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 510,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.median"
     },
     {
         "data": [
@@ -3229,27 +3229,27 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 500,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 510,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 500,
+                "value": 0,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 510,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.width.max"
+        "subtest": "statistics.pageinfo.visualElements.heroes.width.stddev"
     },
     {
         "data": [
@@ -3275,33 +3275,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.x.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 149,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 699,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 149,
-                "xaxis": 2
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 699,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.x.mean"
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.max"
     },
     {
         "data": [
@@ -3333,27 +3307,53 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 149,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 699,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 149,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 699,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.x.stddev"
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 149,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 699,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 149,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 699,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.median"
     },
     {
         "data": [
@@ -3463,27 +3463,27 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 149,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 699,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 149,
+                "value": 0,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 699,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.x.max"
+        "subtest": "statistics.pageinfo.visualElements.heroes.x.stddev"
     },
     {
         "data": [
@@ -3509,33 +3509,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.y.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 50,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 66,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 50,
-                "xaxis": 2
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 66,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.y.mean"
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.max"
     },
     {
         "data": [
@@ -3567,27 +3541,53 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 50,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 66,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 50,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 66,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.y.stddev"
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 50,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 66,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 50,
+                "xaxis": 2
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 66,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.median"
     },
     {
         "data": [
@@ -3697,27 +3697,27 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 50,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 66,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 50,
+                "value": 0,
                 "xaxis": 2
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 66,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.heroes.y.max"
+        "subtest": "statistics.pageinfo.visualElements.heroes.y.stddev"
     },
     {
         "data": [
@@ -3733,23 +3733,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.height.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 695,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 695,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.height.mean"
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.max"
     },
     {
         "data": [
@@ -3771,17 +3755,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 695,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 695,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.height.stddev"
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 695,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 695,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.median"
     },
     {
         "data": [
@@ -3851,17 +3851,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 695,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 695,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.height.max"
+        "subtest": "statistics.pageinfo.visualElements.viewport.height.stddev"
     },
     {
         "data": [
@@ -3877,23 +3877,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.width.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 1358,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 1358,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.width.mean"
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.max"
     },
     {
         "data": [
@@ -3915,17 +3899,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 1358,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 1358,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.width.stddev"
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 1358,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 1358,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.median"
     },
     {
         "data": [
@@ -3995,49 +3995,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 1358,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 1358,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.pageinfo.visualElements.viewport.width.max"
+        "subtest": "statistics.pageinfo.visualElements.viewport.width.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 365,
+                "value": 404,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 365,
+                "value": 404,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.firstPaint.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 373,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 373,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.firstPaint.mean"
+        "subtest": "statistics.timings.firstPaint.max"
     },
     {
         "data": [
@@ -4059,17 +4043,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 23,
+                "value": 373,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 23,
+                "value": 373,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.firstPaint.stddev"
+        "subtest": "statistics.timings.firstPaint.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 365,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 365,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.firstPaint.median"
     },
     {
         "data": [
@@ -4139,49 +4139,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 404,
+                "value": 23,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 404,
+                "value": 23,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.firstPaint.max"
+        "subtest": "statistics.timings.firstPaint.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.loadEventEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 410,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 410,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.loadEventEnd.mean"
+        "subtest": "statistics.timings.loadEventEnd.max"
     },
     {
         "data": [
@@ -4203,17 +4187,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.loadEventEnd.stddev"
+        "subtest": "statistics.timings.loadEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.loadEventEnd.median"
     },
     {
         "data": [
@@ -4283,49 +4283,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.loadEventEnd.max"
+        "subtest": "statistics.timings.loadEventEnd.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 26,
+                "value": 48,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 26,
+                "value": 48,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.connectStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 27,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 27,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.connectStart.mean"
+        "subtest": "statistics.timings.navigationTiming.connectStart.max"
     },
     {
         "data": [
@@ -4347,17 +4331,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 17,
+                "value": 27,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 17,
+                "value": 27,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.connectStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.connectStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 26,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 26,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.connectStart.median"
     },
     {
         "data": [
@@ -4427,49 +4427,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 48,
+                "value": 17,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 48,
+                "value": 17,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.connectStart.max"
+        "subtest": "statistics.timings.navigationTiming.connectStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 413,
+                "value": 455,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 413,
+                "value": 455,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domComplete.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 410,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 410,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domComplete.mean"
+        "subtest": "statistics.timings.navigationTiming.domComplete.max"
     },
     {
         "data": [
@@ -4491,17 +4475,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domComplete.stddev"
+        "subtest": "statistics.timings.navigationTiming.domComplete.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 413,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 413,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domComplete.median"
     },
     {
         "data": [
@@ -4571,49 +4571,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domComplete.max"
+        "subtest": "statistics.timings.navigationTiming.domComplete.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 357,
+                "value": 438,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 357,
+                "value": 438,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 379,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 379,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.mean"
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.max"
     },
     {
         "data": [
@@ -4635,17 +4619,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 42,
+                "value": 379,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 42,
+                "value": 379,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.stddev"
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 357,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 357,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.median"
     },
     {
         "data": [
@@ -4715,6 +4715,22 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 42,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 42,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 438,
                 "xaxis": 1
             },
@@ -4725,39 +4741,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventEnd.max"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 356,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 356,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 378,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 378,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.mean"
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.max"
     },
     {
         "data": [
@@ -4779,17 +4763,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 43,
+                "value": 378,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 43,
+                "value": 378,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 356,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 356,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.median"
     },
     {
         "data": [
@@ -4859,49 +4859,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 438,
+                "value": 43,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 438,
+                "value": 43,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.max"
+        "subtest": "statistics.timings.navigationTiming.domContentLoadedEventStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 257,
+                "value": 313,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 257,
+                "value": 313,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domInteractive.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 260,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 260,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domInteractive.mean"
+        "subtest": "statistics.timings.navigationTiming.domInteractive.max"
     },
     {
         "data": [
@@ -4923,17 +4907,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 42,
+                "value": 260,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 42,
+                "value": 260,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domInteractive.stddev"
+        "subtest": "statistics.timings.navigationTiming.domInteractive.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 257,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 257,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domInteractive.median"
     },
     {
         "data": [
@@ -5003,49 +5003,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 313,
+                "value": 42,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 313,
+                "value": 42,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domInteractive.max"
+        "subtest": "statistics.timings.navigationTiming.domInteractive.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 26,
+                "value": 48,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 26,
+                "value": 48,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 27,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 27,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.mean"
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.max"
     },
     {
         "data": [
@@ -5067,17 +5051,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 17,
+                "value": 27,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 17,
+                "value": 27,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.stddev"
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 26,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 26,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.median"
     },
     {
         "data": [
@@ -5147,49 +5147,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 48,
+                "value": 17,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 48,
+                "value": 17,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.max"
+        "subtest": "statistics.timings.navigationTiming.domainLookupEnd.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 5,
+                "value": 25,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 5,
+                "value": 25,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 11,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 11,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupStart.mean"
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.max"
     },
     {
         "data": [
@@ -5211,17 +5195,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 10,
+                "value": 11,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 10,
+                "value": 11,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 5,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 5,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.median"
     },
     {
         "data": [
@@ -5291,49 +5291,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 25,
+                "value": 10,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 25,
+                "value": 10,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.domainLookupStart.max"
+        "subtest": "statistics.timings.navigationTiming.domainLookupStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.duration.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 410,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 410,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.duration.mean"
+        "subtest": "statistics.timings.navigationTiming.duration.max"
     },
     {
         "data": [
@@ -5355,17 +5339,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.duration.stddev"
+        "subtest": "statistics.timings.navigationTiming.duration.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.duration.median"
     },
     {
         "data": [
@@ -5435,49 +5435,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.duration.max"
+        "subtest": "statistics.timings.navigationTiming.duration.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 1,
+                "value": 2,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 1,
+                "value": 2,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.fetchStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 1,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 1,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.fetchStart.mean"
+        "subtest": "statistics.timings.navigationTiming.fetchStart.max"
     },
     {
         "data": [
@@ -5509,7 +5493,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.fetchStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.fetchStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.fetchStart.median"
     },
     {
         "data": [
@@ -5579,49 +5579,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 2,
+                "value": 1,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 2,
+                "value": 1,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.fetchStart.max"
+        "subtest": "statistics.timings.navigationTiming.fetchStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 410,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 410,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventEnd.mean"
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.max"
     },
     {
         "data": [
@@ -5643,17 +5627,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventEnd.stddev"
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.median"
     },
     {
         "data": [
@@ -5723,6 +5723,22 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 38,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 38,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventEnd.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 455,
                 "xaxis": 1
             },
@@ -5733,39 +5749,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventEnd.max"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 414,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 414,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 410,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 410,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventStart.mean"
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.max"
     },
     {
         "data": [
@@ -5787,17 +5771,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.median"
     },
     {
         "data": [
@@ -5867,17 +5867,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.loadEventStart.max"
+        "subtest": "statistics.timings.navigationTiming.loadEventStart.stddev"
     },
     {
         "data": [
@@ -5893,23 +5893,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectEnd.mean"
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.max"
     },
     {
         "data": [
@@ -5941,7 +5925,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectEnd.stddev"
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.median"
     },
     {
         "data": [
@@ -6021,7 +6021,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectEnd.max"
+        "subtest": "statistics.timings.navigationTiming.redirectEnd.stddev"
     },
     {
         "data": [
@@ -6037,23 +6037,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectStart.mean"
+        "subtest": "statistics.timings.navigationTiming.redirectStart.max"
     },
     {
         "data": [
@@ -6085,7 +6069,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.redirectStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.redirectStart.median"
     },
     {
         "data": [
@@ -6165,39 +6165,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.redirectStart.max"
+        "subtest": "statistics.timings.navigationTiming.redirectStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 163,
+                "value": 247,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 163,
+                "value": 247,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.requestStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 176,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 176,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.requestStart.mean"
+        "subtest": "statistics.timings.navigationTiming.requestStart.max"
     },
     {
         "data": [
@@ -6219,17 +6203,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 54,
+                "value": 176,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 54,
+                "value": 176,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.requestStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.requestStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 163,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 163,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.requestStart.median"
     },
     {
         "data": [
@@ -6299,49 +6299,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 247,
+                "value": 54,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 247,
+                "value": 54,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.requestStart.max"
+        "subtest": "statistics.timings.navigationTiming.requestStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 215,
+                "value": 300,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 215,
+                "value": 300,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 229,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 229,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseEnd.mean"
+        "subtest": "statistics.timings.navigationTiming.responseEnd.max"
     },
     {
         "data": [
@@ -6363,17 +6347,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 53,
+                "value": 229,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 53,
+                "value": 229,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseEnd.stddev"
+        "subtest": "statistics.timings.navigationTiming.responseEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 215,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 215,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseEnd.median"
     },
     {
         "data": [
@@ -6443,49 +6443,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 300,
+                "value": 53,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 300,
+                "value": 53,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseEnd.max"
+        "subtest": "statistics.timings.navigationTiming.responseEnd.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 191,
+                "value": 277,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 191,
+                "value": 277,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 206,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 206,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseStart.mean"
+        "subtest": "statistics.timings.navigationTiming.responseStart.max"
     },
     {
         "data": [
@@ -6507,17 +6491,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 53,
+                "value": 206,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 53,
+                "value": 206,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.responseStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 191,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 191,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.responseStart.median"
     },
     {
         "data": [
@@ -6587,49 +6587,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 277,
+                "value": 53,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 277,
+                "value": 53,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.responseStart.max"
+        "subtest": "statistics.timings.navigationTiming.responseStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 51,
+                "value": 73,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 51,
+                "value": 73,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 52,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 52,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.mean"
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.max"
     },
     {
         "data": [
@@ -6651,17 +6635,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 17,
+                "value": 52,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 17,
+                "value": 52,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 51,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 51,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.median"
     },
     {
         "data": [
@@ -6731,17 +6731,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 73,
+                "value": 17,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 73,
+                "value": 17,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.max"
+        "subtest": "statistics.timings.navigationTiming.secureConnectionStart.stddev"
     },
     {
         "data": [
@@ -6757,23 +6757,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.startTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.startTime.mean"
+        "subtest": "statistics.timings.navigationTiming.startTime.max"
     },
     {
         "data": [
@@ -6805,7 +6789,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.startTime.stddev"
+        "subtest": "statistics.timings.navigationTiming.startTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.startTime.median"
     },
     {
         "data": [
@@ -6885,7 +6885,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.startTime.max"
+        "subtest": "statistics.timings.navigationTiming.startTime.stddev"
     },
     {
         "data": [
@@ -6901,23 +6901,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.mean"
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.max"
     },
     {
         "data": [
@@ -6949,7 +6933,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.stddev"
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.median"
     },
     {
         "data": [
@@ -7029,7 +7029,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.max"
+        "subtest": "statistics.timings.navigationTiming.unloadEventEnd.stddev"
     },
     {
         "data": [
@@ -7045,23 +7045,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventStart.mean"
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.max"
     },
     {
         "data": [
@@ -7093,7 +7077,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.median"
     },
     {
         "data": [
@@ -7173,7 +7173,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.unloadEventStart.max"
+        "subtest": "statistics.timings.navigationTiming.unloadEventStart.stddev"
     },
     {
         "data": [
@@ -7189,23 +7189,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.workerStart.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.workerStart.mean"
+        "subtest": "statistics.timings.navigationTiming.workerStart.max"
     },
     {
         "data": [
@@ -7237,7 +7221,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.workerStart.stddev"
+        "subtest": "statistics.timings.navigationTiming.workerStart.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.navigationTiming.workerStart.median"
     },
     {
         "data": [
@@ -7317,39 +7317,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.navigationTiming.workerStart.max"
+        "subtest": "statistics.timings.navigationTiming.workerStart.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 191,
+                "value": 277,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 191,
+                "value": 277,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.backEndTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 206,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 206,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.backEndTime.mean"
+        "subtest": "statistics.timings.pageTimings.backEndTime.max"
     },
     {
         "data": [
@@ -7371,17 +7355,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 53,
+                "value": 206,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 53,
+                "value": 206,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.backEndTime.stddev"
+        "subtest": "statistics.timings.pageTimings.backEndTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 191,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 191,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.backEndTime.median"
     },
     {
         "data": [
@@ -7451,49 +7451,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 277,
+                "value": 53,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 277,
+                "value": 53,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.backEndTime.max"
+        "subtest": "statistics.timings.pageTimings.backEndTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 356,
+                "value": 438,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 356,
+                "value": 438,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 378,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 378,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.mean"
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.max"
     },
     {
         "data": [
@@ -7515,17 +7499,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 43,
+                "value": 378,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 43,
+                "value": 378,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.stddev"
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 356,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 356,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.median"
     },
     {
         "data": [
@@ -7595,49 +7595,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 438,
+                "value": 43,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 438,
+                "value": 43,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.max"
+        "subtest": "statistics.timings.pageTimings.domContentLoadedTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 257,
+                "value": 313,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 257,
+                "value": 313,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domInteractiveTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 260,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 260,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domInteractiveTime.mean"
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.max"
     },
     {
         "data": [
@@ -7659,17 +7643,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 42,
+                "value": 260,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 42,
+                "value": 260,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domInteractiveTime.stddev"
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 257,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 257,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.median"
     },
     {
         "data": [
@@ -7739,49 +7739,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 313,
+                "value": 42,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 313,
+                "value": 42,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domInteractiveTime.max"
+        "subtest": "statistics.timings.pageTimings.domInteractiveTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 1,
+                "value": 44,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 1,
+                "value": 44,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domainLookupTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 15,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 15,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domainLookupTime.mean"
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.max"
     },
     {
         "data": [
@@ -7803,17 +7787,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 20,
+                "value": 15,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 20,
+                "value": 15,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domainLookupTime.stddev"
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 1,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 1,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.median"
     },
     {
         "data": [
@@ -7883,49 +7883,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 44,
+                "value": 20,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 44,
+                "value": 20,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.domainLookupTime.max"
+        "subtest": "statistics.timings.pageTimings.domainLookupTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 188,
+                "value": 199,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 188,
+                "value": 199,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.frontEndTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 181,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 181,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.frontEndTime.mean"
+        "subtest": "statistics.timings.pageTimings.frontEndTime.max"
     },
     {
         "data": [
@@ -7947,17 +7931,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 19,
+                "value": 181,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 19,
+                "value": 181,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.frontEndTime.stddev"
+        "subtest": "statistics.timings.pageTimings.frontEndTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 188,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 188,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.frontEndTime.median"
     },
     {
         "data": [
@@ -8027,17 +8027,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 199,
+                "value": 19,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 199,
+                "value": 19,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.frontEndTime.max"
+        "subtest": "statistics.timings.pageTimings.frontEndTime.stddev"
     },
     {
         "data": [
@@ -8053,23 +8053,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageDownloadTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 24,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 24,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageDownloadTime.mean"
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.max"
     },
     {
         "data": [
@@ -8091,17 +8075,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 0,
+                "value": 24,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
+                "value": 24,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageDownloadTime.stddev"
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 24,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 24,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.median"
     },
     {
         "data": [
@@ -8171,49 +8171,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 24,
+                "value": 0,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 24,
+                "value": 0,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageDownloadTime.max"
+        "subtest": "statistics.timings.pageTimings.pageDownloadTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 414,
+                "value": 455,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageLoadTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 410,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 410,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageLoadTime.mean"
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.max"
     },
     {
         "data": [
@@ -8235,17 +8219,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 38,
+                "value": 410,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageLoadTime.stddev"
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 414,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 414,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.median"
     },
     {
         "data": [
@@ -8315,17 +8315,17 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 455,
+                "value": 38,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.pageLoadTime.max"
+        "subtest": "statistics.timings.pageTimings.pageLoadTime.stddev"
     },
     {
         "data": [
@@ -8341,23 +8341,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.redirectionTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 0,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 0,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.redirectionTime.mean"
+        "subtest": "statistics.timings.pageTimings.redirectionTime.max"
     },
     {
         "data": [
@@ -8389,7 +8373,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.redirectionTime.stddev"
+        "subtest": "statistics.timings.pageTimings.redirectionTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 0,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 0,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.redirectionTime.median"
     },
     {
         "data": [
@@ -8469,39 +8469,23 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.redirectionTime.max"
+        "subtest": "statistics.timings.pageTimings.redirectionTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 136,
+                "value": 199,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 136,
+                "value": 199,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverConnectionTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 149,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 149,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverConnectionTime.mean"
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.max"
     },
     {
         "data": [
@@ -8523,17 +8507,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 37,
+                "value": 149,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 37,
+                "value": 149,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverConnectionTime.stddev"
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 136,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 136,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.median"
     },
     {
         "data": [
@@ -8603,49 +8603,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 199,
+                "value": 37,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 199,
+                "value": 37,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverConnectionTime.max"
+        "subtest": "statistics.timings.pageTimings.serverConnectionTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 53,
+                "value": 56,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 53,
+                "value": 56,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverResponseTime.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 54,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 54,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverResponseTime.mean"
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.max"
     },
     {
         "data": [
@@ -8667,17 +8651,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 2,
+                "value": 54,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 2,
+                "value": 54,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverResponseTime.stddev"
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 53,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 53,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.median"
     },
     {
         "data": [
@@ -8747,49 +8747,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 56,
+                "value": 2,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 56,
+                "value": 2,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.pageTimings.serverResponseTime.max"
+        "subtest": "statistics.timings.pageTimings.serverResponseTime.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 382,
+                "value": 430,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 382,
+                "value": 430,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.rumSpeedIndex.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 379,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 379,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.rumSpeedIndex.mean"
+        "subtest": "statistics.timings.rumSpeedIndex.max"
     },
     {
         "data": [
@@ -8811,17 +8795,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 42,
+                "value": 379,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 42,
+                "value": 379,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.rumSpeedIndex.stddev"
+        "subtest": "statistics.timings.rumSpeedIndex.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 382,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 382,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.rumSpeedIndex.median"
     },
     {
         "data": [
@@ -8891,49 +8891,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 430,
+                "value": 42,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 430,
+                "value": 42,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.rumSpeedIndex.max"
+        "subtest": "statistics.timings.rumSpeedIndex.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 386,
+                "value": 417,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 386,
+                "value": 417,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToContentfulPaint.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 390,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 390,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.timeToContentfulPaint.mean"
+        "subtest": "statistics.timings.timeToContentfulPaint.max"
     },
     {
         "data": [
@@ -8955,17 +8939,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 21,
+                "value": 390,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 21,
+                "value": 390,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToContentfulPaint.stddev"
+        "subtest": "statistics.timings.timeToContentfulPaint.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 386,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToContentfulPaint.median"
     },
     {
         "data": [
@@ -9035,49 +9035,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 417,
+                "value": 21,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 417,
+                "value": 21,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToContentfulPaint.max"
+        "subtest": "statistics.timings.timeToContentfulPaint.stddev"
     },
     {
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 355,
+                "value": 437,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 355,
+                "value": 437,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToDomContentFlushed.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 377,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 377,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.timeToDomContentFlushed.mean"
+        "subtest": "statistics.timings.timeToDomContentFlushed.max"
     },
     {
         "data": [
@@ -9099,17 +9083,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 43,
+                "value": 377,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 43,
+                "value": 377,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToDomContentFlushed.stddev"
+        "subtest": "statistics.timings.timeToDomContentFlushed.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 355,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 355,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.median"
     },
     {
         "data": [
@@ -9179,6 +9179,22 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
+                "value": 43,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 43,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToDomContentFlushed.stddev"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
                 "value": 437,
                 "xaxis": 1
             },
@@ -9189,39 +9205,7 @@
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToDomContentFlushed.max"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 386,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 386,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.timeToFirstInteractive.median"
-    },
-    {
-        "data": [
-            {
-                "file": "testing/resources/browsertime.json",
-                "value": 397,
-                "xaxis": 1
-            },
-            {
-                "file": "testing/resources/browsertime_copy.json",
-                "value": 397,
-                "xaxis": 2
-            }
-        ],
-        "name": "issue_1",
-        "subtest": "statistics.timings.timeToFirstInteractive.mean"
+        "subtest": "statistics.timings.timeToFirstInteractive.max"
     },
     {
         "data": [
@@ -9243,17 +9227,33 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 30,
+                "value": 397,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 30,
+                "value": 397,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToFirstInteractive.stddev"
+        "subtest": "statistics.timings.timeToFirstInteractive.mean"
+    },
+    {
+        "data": [
+            {
+                "file": "testing/resources/browsertime.json",
+                "value": 386,
+                "xaxis": 1
+            },
+            {
+                "file": "testing/resources/browsertime_copy.json",
+                "value": 386,
+                "xaxis": 2
+            }
+        ],
+        "name": "issue_1",
+        "subtest": "statistics.timings.timeToFirstInteractive.median"
     },
     {
         "data": [
@@ -9323,16 +9323,16 @@
         "data": [
             {
                 "file": "testing/resources/browsertime.json",
-                "value": 437,
+                "value": 30,
                 "xaxis": 1
             },
             {
                 "file": "testing/resources/browsertime_copy.json",
-                "value": 437,
+                "value": 30,
                 "xaxis": 2
             }
         ],
         "name": "issue_1",
-        "subtest": "statistics.timings.timeToFirstInteractive.max"
+        "subtest": "statistics.timings.timeToFirstInteractive.stddev"
     }
 ]
