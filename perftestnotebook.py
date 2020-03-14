@@ -161,6 +161,7 @@ class PerftestNotebook(object):
                 all_results[func] = getattr(self.analyzer, func)()
             return all_results
 
+        fmt_data.sort(key=lambda entry: entry["subtest"])
         return self.fmt_data
 
 
