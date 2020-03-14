@@ -178,6 +178,7 @@ class PerftestNotebook(object):
         if not no_iodide:
             self.post_to_iodide(output_data_filepath, notebook_sections)
 
+        fmt_data.sort(key=lambda entry: entry["subtest"])
         return self.fmt_data
 
     def post_to_iodide(self, output_data_filepath, notebook_sections):
