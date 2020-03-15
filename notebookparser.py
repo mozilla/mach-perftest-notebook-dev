@@ -1,5 +1,6 @@
 import argparse
 
+
 """
 Argument parsing is going to get very complex very quickly so
 we leave the parser in it's own file.

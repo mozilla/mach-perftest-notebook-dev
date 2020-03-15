@@ -3,12 +3,12 @@ import os
 import pathlib
 import webbrowser
 
-import yaml
-
 import flask
+import yaml
+from flask import Flask, Response, request, send_file
+
 import transformer as tfmr
 from analyzer import NotebookAnalyzer
-from flask import Flask, Response, request, send_file
 from logger import NotebookLogger
 from notebookparser import parse_args
 from task_processor import get_task_data_paths
@@ -163,7 +163,7 @@ class PerftestNotebook(object):
         # Gather config["analysis"] corresponding notebook sections
         if "analysis" in self.config:
             for func in self.config["analysis"]:
-                notebook_sections = notebook_sections + self.analyzer.get_notebook_section(func)
+                notebook_sections += self.analyzer.get_notebook_section(func)
 
         # Post to Iodide server
         if not no_iodide:

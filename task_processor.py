@@ -1,7 +1,7 @@
-import os
-import re
 import glob
 import json
+import os
+import re
 
 TESTING = 0
 SILENT = False

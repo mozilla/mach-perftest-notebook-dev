@@ -44,20 +44,5 @@ class NotebookAnalyzer(object):
     def get_notebook_section(self, func):
         template_function_folder_path = "testing/resources/notebook-sections/"
         template_function_file_path = os.path.join(template_function_folder_path, func)
-        print(template_function_file_path)
         with open(template_function_file_path, "r") as f:
             return f.read()
-
-
-def main():
-
-    print("running analyzer.py")
-    analyzer = NotebookAnalyzer(None)
-    print(analyzer.get_header())
-
-    tempString = analyzer.get_analysis_template("scatterplot")
-    print(tempString)
-
-
-if __name__ == "__main__":
-    main()

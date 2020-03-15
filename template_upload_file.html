@@ -8,12 +8,12 @@
                 form.action = path;
                 form.id = 'uploadform';
 
-                for(const key in params){
-                    if(params.hasOwnProperty(key)){
+                for (const key in params) {
+                    if (params.hasOwnProperty(key)) {
                         const textarea = document.createElement('textarea');
-                        textarea.name=key;
+                        textarea.name = key;
                         textarea.value = params[key];
-                        textarea.style.display="none";
+                        textarea.style.display = "none";
                         form.appendChild(textarea);
                     }
                 }
