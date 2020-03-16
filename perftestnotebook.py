@@ -105,7 +105,7 @@ class PerftestNotebook(object):
 
         return files
 
-    def process(self, no_iodide=True):
+    def process(self, no_iodide=False):
         """
         Process the file groups and return the results of the requested analyses.
 
