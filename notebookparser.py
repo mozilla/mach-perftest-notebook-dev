@@ -1,5 +1,6 @@
 import argparse
 
+
 """
 Argument parsing is going to get very complex very quickly so
 we leave the parser in it's own file.
@@ -20,5 +21,12 @@ def parse_args():
     )
     parser.add_argument(
         "--debug", action="store_true", default=False, help="Enable additional debug logging.",
+    )
+    parser.add_argument(
+        "--no-iodide",
+        "-ni",
+        action="store_true",
+        default=False,
+        help="Run this tool without starting the iodide server at the end.",
     )
     return parser.parse_args()

@@ -1,10 +1,11 @@
-import cv2
-import numpy as np
-from sys import stdout
 import time
+from sys import stdout
 
-from transformer import Transformer
+import numpy as np
+
+import cv2
 from logger import NotebookLogger
+from transformer import Transformer
 
 logger = NotebookLogger()
 

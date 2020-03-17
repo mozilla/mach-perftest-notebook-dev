@@ -1,12 +1,13 @@
 import argparse
+import glob
 import json
 import os
-import zipfile
-import requests
 import shutil
 import threading
 import time
-import glob
+import zipfile
+
+import requests
 
 try:
     from urllib.parse import urlencode

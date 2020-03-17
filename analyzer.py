@@ -1,3 +1,5 @@
+import os
+
 import numpy as np
 import scipy.stats as stats
 
@@ -33,53 +35,14 @@ class NotebookAnalyzer(object):
 
         return split_data
 
-    def ttest(self):
-        """
-        Take the data and perform a cross-ttest on the rows.
-        Data returned looks like the following:
-        ```
-            [
-                {
-                    'ttest': 7.2,
-                    'pval': 0.01,
-                    'name1': macosx-raptor,
-                    'name2': macosx-browsertime
-                }, ...
-            ]
-        ```
+    def get_header(self):
+        template_header_path = "testing/resources/template/header"
+        with open(template_header_path, "r") as f:
+            template_header_content = f.read()
+            return template_header_content
 
-        :return dict: List of results.
-        """
-        results = []
-
-        split_data = self.split_subtests()
-
-        for subtest in split_data:
-            done = {}
-            for entry1 in split_data[subtest]:
-                name = entry1["name"]
-
-                for entry2 in split_data[subtest]:
-                    if entry2["name"] == name:
-                        continue
-                    if (
-                        "%s-%s" % (name, entry2["name"]) in done
-                        or "%s-%s" % (entry2["name"], name) in done
-                    ):
-                        continue
-                    done["%s-%s" % (name, entry2["name"])] = True
-
-                    tval, pval = stats.ttest_ind(entry1["data"], entry2["data"])
-
-                    results.append(
-                        {
-                            "ttest": tval,
-                            "pval": pval,
-                            "name1": name + "-%s" % subtest,
-                            "name2": entry2["name"] + "-%s" % subtest,
-                            "ts1": entry1["data"],
-                            "ts2": entry2["data"],
-                        }
-                    )
-
-        return results
+    def get_notebook_section(self, func):
+        template_function_folder_path = "testing/resources/notebook-sections/"
+        template_function_file_path = os.path.join(template_function_folder_path, func)
+        with open(template_function_file_path, "r") as f:
+            return f.read()

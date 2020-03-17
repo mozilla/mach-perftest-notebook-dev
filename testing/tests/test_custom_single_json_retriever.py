@@ -1,5 +1,6 @@
-import pytest
 import filecmp
+
+import pytest
 
 
 def test_single_json_retriever():
