@@ -1,15 +1,12 @@
+#!/usr/bin/env python3
 import json
 import os
 import pathlib
-import webbrowser
-
-import flask
 import yaml
-from flask import Flask, Response, request, send_file
 
 import transformer as tfmr
+
 from analyzer import NotebookAnalyzer
-from logger import NotebookLogger
 from notebookparser import parse_args
 from task_processor import get_task_data_paths
 from logger import NotebookLogger
@@ -23,7 +20,7 @@ class PerftestNotebook(object):
     Controller class for the Perftest-Notebook.
     """
 
-    def __init__(self, file_groups, config, custom_transform=None, sort_files=True):
+    def __init__(self, file_groups, config, custom_transform=None):
         """
         Initializes PerftestNotebook.
 
@@ -37,7 +34,6 @@ class PerftestNotebook(object):
         self.fmt_data = {}
         self.file_groups = file_groups
         self.config = config
-        self.sort_files = sort_files
 
         if custom_transform:
             if not os.path.exists(custom_transform):
@@ -133,7 +129,6 @@ class PerftestNotebook(object):
             funtions that were called.
         """
         fmt_data = []
-        notebook_sections = ""
 
         for name, files in self.file_groups.items():
             files = self.parse_file_grouping(files)
@@ -168,66 +163,63 @@ class PerftestNotebook(object):
 
         self.fmt_data = fmt_data
 
-        # Write formatted data output to filepath
-        prefix = "output" if "prefix" not in self.config else self.config["prefix"]
-        output_data_filepath = "%s_fmt_data.json" % prefix
-
-        if "output" in self.config:
-            output_data_filepath = self.config["output"]
-
-        print("Writing results to %s" % output_data_filepath)
-
-        with open(output_data_filepath, "w") as f:
-            json.dump(self.fmt_data, f, indent=4, sort_keys=True)
-
-        # Gather config["analysis"] corresponding notebook sections
         if "analysis" in self.config:
+            # Analyze the data
+            all_results = {}
+            self.analyzer.data = fmt_data
             for func in self.config["analysis"]:
-                notebook_sections += self.analyzer.get_notebook_section(func)
+                all_results[func] = getattr(self.analyzer, func)()
+            return all_results
 
+        fmt_data.sort(key=lambda entry: entry["subtest"])
         return self.fmt_data
 
-    def post_to_iodide(self, output_data_filepath, notebook_sections):
 
-        template_header_path = "testing/resources/notebook-sections/header"
+def main():
+    args = parse_args()
 
-        with open(template_header_path, "r") as f:
-            template_content = f.read()
-            template_content = template_content + notebook_sections
+    NotebookLogger.debug = args.debug
 
-        with open("template_upload_file.html", "r") as f:
-            html = f.read()
-            html = html.replace("replace_me", repr(template_content))
+    config = None
+    with open(args.config, "r") as f:
+        logger.info("yaml_path: {}".format(args.config))
+        config = yaml.safe_load(f)
 
-        with open("upload_file.html", "w+") as f:
-            f.write(html)
+    custom_transform = config.get("custom_transform", None)
 
-        webbrowser.open_new_tab("upload_file.html")
+    ptnb = PerftestNotebook(config["file_groups"], config, custom_transform=custom_transform)
+    results = ptnb.process()
 
-        # Set up local server data API.
-        # Iodide will visit localhost:5000/data
-        app = Flask(__name__)
-        app.config["DEBUG"] = False
+    if "analysis" in config:
+        # TODO: Implement filtering techniques or add a configuration
+        # for the analysis?
+        new_results = {"ttest": []}
+        for res in results["ttest"]:
+            if abs(res["pval"]) < 0.005:
+                new_results["ttest"].append(res)
 
-        @app.route("/data", methods=["GET"])
-        def return_data():
+        # Pretty print the results
+        print(json.dumps(new_results, sort_keys=True, indent=4))
 
-            response = flask.make_response(send_file(output_data_filepath))
-            response.headers["Access-Control-Allow-Origin"] = "*"
+        with open("fperf-testing-test.json", "w") as f:
+            json.dump(new_results, f, indent=4, sort_keys=True)
 
-            return response
+        from matplotlib import pyplot as plt
 
-        app.run()
+        plt.figure()
+        for c, entry in enumerate(new_results["ttest"]):
+            plt.scatter([c for _ in entry["ts1"]], entry["ts1"], color="b")
+            plt.scatter([c for _ in entry["ts2"]], entry["ts2"], color="r")
+        plt.show(block=True)
 
+    print(json.dumps(ptnb.fmt_data, indent=4, sort_keys=True))
 
     filepath = ptnb.parse_output()
 
     print("Writing results to %s" % filepath)
 
-    custom_transform = config.get("custom_transform", None)
-
-    ptnb = PerftestNotebook(config["file_groups"], config, custom_transform=custom_transform)
-    results = ptnb.process(args.no_iodide)
+    with open(filepath, "w") as f:
+        json.dump(ptnb.fmt_data, f, indent=4, sort_keys=True)
 
 
 if __name__ == "__main__":

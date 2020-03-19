@@ -18,16 +18,23 @@ class TestTransformer(object):
             - Both of test and local config files from the arguments have "file_groups" field.
             - Each entry of the transformed output has "data", "name", and "subtest" fields.
                 - Each "data" field has "file", "value", and "xaxis" fields.
-                    - Each file from "file" field is included in the "file_groups" field of the config file.
-                    - The number of files from "file" field is equal to the size of "file_groups" of the config file.
-                    - The number of xaxis from "xaxis" field is equal to the number of items got from the resource object by nested keys.
-                    - Each value from "value" field is included in the values got from the recource object nested key. 
-                    - The length of "data" field is equal to the sum of the occuerrence of each xaxis.
+                    - Each file from "file" field is included in the
+                     "file_groups" field of the config file.
+                    - The number of files from "file" field is equal to
+                     the size of "file_groups" of the config file.
+                    - The number of xaxis from "xaxis" field is equal to
+                     the number of items got from the resource object by
+                      nested keys.
+                    - Each value from "value" field is included in the
+                     values got from the recource object nested key. 
+                    - The length of "data" field is equal to the sum of
+                     the occuerrence of each xaxis.
             - The test output file is the same as the local output file.
 
         :param str test_config_filepath: The test config file directory.
         :param str target_config_filepath: The local config file directory.
-        :param function get_nested_keys: A function to get nested keys. The result is used to get data value from resource files.
+        :param function get_nested_keys: A function to get nested keys.
+         The result is used to get data value from resource files.
         """
         assert Path(test_config_filepath).exists()
         assert Path(target_config_filepath).exists()
