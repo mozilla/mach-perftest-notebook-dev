@@ -20,7 +20,7 @@ class PerftestNotebook(object):
     Controller class for the Perftest-Notebook.
     """
 
-    def __init__(self, file_groups, config, custom_transform=None):
+    def __init__(self, file_groups, config, custom_transform=None, sort_files=True):
         """
         Initializes PerftestNotebook.
 
@@ -34,6 +34,7 @@ class PerftestNotebook(object):
         self.fmt_data = {}
         self.file_groups = file_groups
         self.config = config
+        self.sort_files = sort_files
 
         if custom_transform:
             if not os.path.exists(custom_transform):
@@ -171,7 +172,6 @@ class PerftestNotebook(object):
                 all_results[func] = getattr(self.analyzer, func)()
             return all_results
 
-        fmt_data.sort(key=lambda entry: entry["subtest"])
         return self.fmt_data
 
 
