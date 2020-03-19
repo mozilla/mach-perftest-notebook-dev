@@ -23,7 +23,7 @@ class PerftestNotebook(object):
     Controller class for the Perftest-Notebook.
     """
 
-    def __init__(self, file_groups, config, custom_transform=None):
+    def __init__(self, file_groups, config, custom_transform=None, sort_files=True):
         """
         Initializes PerftestNotebook.
 
@@ -37,6 +37,7 @@ class PerftestNotebook(object):
         self.fmt_data = {}
         self.file_groups = file_groups
         self.config = config
+        self.sort_files = sort_files
 
         if custom_transform:
             if not os.path.exists(custom_transform):
@@ -108,7 +109,7 @@ class PerftestNotebook(object):
             else:
                 for _, file_list in files.items():
                     file_list.sort()
-                files = OrderedDict(sorted(files))
+                files = OrderedDict(sorted(files.items(), key=lambda entry: entry[0]))
 
         if not files:
             raise Exception("Could not find any files in this configuration: %s" % file_grouping)
