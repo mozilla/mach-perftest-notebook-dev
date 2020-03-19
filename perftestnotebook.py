@@ -9,6 +9,7 @@ from analyzer import NotebookAnalyzer
 from notebookparser import parse_args
 from task_processor import get_task_data_paths
 from logger import NotebookLogger
+from collections import OrderedDict
 
 logger = NotebookLogger()
 
@@ -97,6 +98,14 @@ class PerftestNotebook(object):
         else:
             raise Exception("Unknown file grouping type provided here: %s" % file_grouping)
 
+        if self.sort_files:
+            if type(files) == list:
+                files.sort()
+            else:
+                for _, file_list in files.items():
+                    file_list.sort()
+                files = OrderedDict(sorted(files))
+
         if not files:
             raise Exception("Could not find any files in this configuration: %s" % file_grouping)
 
@@ -122,7 +131,7 @@ class PerftestNotebook(object):
 
         for name, files in self.file_groups.items():
             files = self.parse_file_grouping(files)
-            if type(files) == dict:
+            if isinstance(files, dict):
                 for subtest, files in files.items():
                     self.transformer.files = files
 
@@ -161,7 +170,6 @@ class PerftestNotebook(object):
                 all_results[func] = getattr(self.analyzer, func)()
             return all_results
 
-        fmt_data.sort(key=lambda entry: entry["subtest"])
         return self.fmt_data
 
 
