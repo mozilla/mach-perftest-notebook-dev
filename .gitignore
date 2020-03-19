@@ -143,8 +143,8 @@ dmypy.json
 upload_file.html 
 
 # test outputs
-testing/outputs/
+testing/outputs/*_test.json
 
+# pipenv
 Pipfile
-
 Pipfile.lock
