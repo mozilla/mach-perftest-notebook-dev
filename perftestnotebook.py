@@ -12,6 +12,8 @@ from analyzer import NotebookAnalyzer
 from logger import NotebookLogger
 from notebookparser import parse_args
 from task_processor import get_task_data_paths
+from logger import NotebookLogger
+from collections import OrderedDict
 
 logger = NotebookLogger()
 
@@ -100,6 +102,14 @@ class PerftestNotebook(object):
         else:
             raise Exception("Unknown file grouping type provided here: %s" % file_grouping)
 
+        if self.sort_files:
+            if type(files) == list:
+                files.sort()
+            else:
+                for _, file_list in files.items():
+                    file_list.sort()
+                files = OrderedDict(sorted(files))
+
         if not files:
             raise Exception("Could not find any files in this configuration: %s" % file_grouping)
 
@@ -126,7 +136,7 @@ class PerftestNotebook(object):
 
         for name, files in self.file_groups.items():
             files = self.parse_file_grouping(files)
-            if type(files) == dict:
+            if isinstance(files, dict):
                 for subtest, files in files.items():
                     self.transformer.files = files
 
@@ -174,11 +184,6 @@ class PerftestNotebook(object):
             for func in self.config["analysis"]:
                 notebook_sections += self.analyzer.get_notebook_section(func)
 
-        # Post to Iodide server
-        if not no_iodide:
-            self.post_to_iodide(output_data_filepath, notebook_sections)
-
-        fmt_data.sort(key=lambda entry: entry["subtest"])
         return self.fmt_data
 
     def post_to_iodide(self, output_data_filepath, notebook_sections):
