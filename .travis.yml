@@ -13,6 +13,6 @@ install:
 
 script:
   - "python -m black -l 100 ."
-  - "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml"
-  - "python perftestnotebook.py --config=testing/configs/config_artifactdownloader_output_test.yaml"
+  - "python perftestnotebook.py --config=testing/configs/config_single_json_test.yaml --no-iodide"
+  - "python perftestnotebook.py --config=testing/configs/config_artifactdownloader_output_test.yaml --no-iodide"
   - "python -m pytest -v testing/tests/"
