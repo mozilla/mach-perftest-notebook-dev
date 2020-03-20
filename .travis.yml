@@ -6,7 +6,7 @@ branches:
   only:
     - master
     - starter
-    - issue-17-unit-tests
+    - /.*/
 
 install:
   - "pip install -r requirements.txt"
