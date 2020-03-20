@@ -21,7 +21,7 @@ class PerftestNotebook(object):
     Controller class for the Perftest-Notebook.
     """
 
-    def __init__(self, file_groups, config, custom_transform=None, sort_files=True):
+    def __init__(self, file_groups, config, custom_transform=None, sort_files=False):
         """
         Initializes PerftestNotebook.
 
@@ -230,7 +230,9 @@ def main():
 
     custom_transform = config.get("custom_transform", None)
 
-    ptnb = PerftestNotebook(config["file_groups"], config, custom_transform=custom_transform)
+    ptnb = PerftestNotebook(
+        config["file_groups"], config, custom_transform=custom_transform, sort_files=args.sort_files
+    )
     results = ptnb.process(args.no_iodide)
 
 

@@ -45,8 +45,12 @@ class TestTransformer(object):
         assert "file_groups" in test_config
         assert "file_groups" in target_config
 
-        test_ptnb = perftestnotebook.PerftestNotebook(test_config["file_groups"], test_config)
-        target_ptnb = perftestnotebook.PerftestNotebook(target_config["file_groups"], target_config)
+        test_ptnb = perftestnotebook.PerftestNotebook(
+            test_config["file_groups"], test_config, sort_files=True
+        )
+        target_ptnb = perftestnotebook.PerftestNotebook(
+            target_config["file_groups"], target_config, sort_files=True
+        )
 
         target_resource_files = set()
         for name, files in target_ptnb.file_groups.items():
