@@ -6,7 +6,6 @@ branches:
   only:
     - master
     - starter
-    - /.*/
 
 install:
   - "pip install -r requirements.txt"

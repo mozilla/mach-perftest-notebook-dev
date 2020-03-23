@@ -34,6 +34,6 @@ def parse_args():
         "-sf",
         action="store_true",
         default=False,
-        help="Sort the entries of output json files by the name of resource files."
+        help="Sort the entries of output json files by the name of resource files.",
     )
     return parser.parse_args()
