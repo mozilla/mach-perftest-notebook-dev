@@ -89,10 +89,12 @@ class Transformer(object):
             # Transform data
             try:
                 data = self.transform(data)
-                if type(data) == list:
-                    trfmdata.extend(data)
-                else:
-                    trfmdata.append(data)
+                if type(data) != list:
+                    data = [data]
+                for entry in data:
+                    for ele in entry["data"]:
+                        ele.update({"file": file})
+                trfmdata.extend(data)
             except Exception as e:
                 logger.warning("Failed to transform file %s, skipping" % file)
                 logger.warning("%s %s" % (e.__class__.__name__, e))
@@ -117,7 +119,7 @@ class SimplePerfherderTransformer(Transformer):
 
     def transform(self, data):
         self.entry_number += 1
-        return {"data": {"value": data["suites"][0]["value"], "xaxis": self.entry_number}}
+        return {"data": [{"value": data["suites"][0]["value"], "xaxis": self.entry_number}]}
 
     def merge(self, sde):
         merged = {"data": []}

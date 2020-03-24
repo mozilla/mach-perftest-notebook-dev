@@ -3,7 +3,6 @@ import os
 import pathlib
 import webbrowser
 
-import flask
 import yaml
 from flask import Flask, Response, request, send_file
 
@@ -12,6 +11,7 @@ from analyzer import NotebookAnalyzer
 from logger import NotebookLogger
 from notebookparser import parse_args
 from task_processor import get_task_data_paths
+from collections import OrderedDict
 
 logger = NotebookLogger()
 
@@ -21,7 +21,7 @@ class PerftestNotebook(object):
     Controller class for the Perftest-Notebook.
     """
 
-    def __init__(self, file_groups, config, custom_transform=None):
+    def __init__(self, file_groups, config, custom_transform=None, sort_files=False):
         """
         Initializes PerftestNotebook.
 
@@ -35,6 +35,7 @@ class PerftestNotebook(object):
         self.fmt_data = {}
         self.file_groups = file_groups
         self.config = config
+        self.sort_files = sort_files
 
         if custom_transform:
             if not os.path.exists(custom_transform):
@@ -100,10 +101,27 @@ class PerftestNotebook(object):
         else:
             raise Exception("Unknown file grouping type provided here: %s" % file_grouping)
 
+        if self.sort_files:
+            if type(files) == list:
+                files.sort()
+            else:
+                for _, file_list in files.items():
+                    file_list.sort()
+                files = OrderedDict(sorted(files.items(), key=lambda entry: entry[0]))
+
         if not files:
             raise Exception("Could not find any files in this configuration: %s" % file_grouping)
 
         return files
+
+    def parse_output(self):
+        prefix = "output" if "prefix" not in self.config else self.config["prefix"]
+        filepath = "%s_fmt_data.json" % prefix
+
+        if "output" in self.config:
+            filepath = self.config["output"]
+
+        return filepath
 
     def process(self, no_iodide=False):
         """
@@ -117,7 +135,7 @@ class PerftestNotebook(object):
 
         for name, files in self.file_groups.items():
             files = self.parse_file_grouping(files)
-            if type(files) == dict:
+            if isinstance(files, dict):
                 for subtest, files in files.items():
                     self.transformer.files = files
 
@@ -149,11 +167,7 @@ class PerftestNotebook(object):
         self.fmt_data = fmt_data
 
         # Write formatted data output to filepath
-        prefix = "output" if "prefix" not in self.config else self.config["prefix"]
-        output_data_filepath = "%s_fmt_data.json" % prefix
-
-        if "output" in self.config:
-            output_data_filepath = self.config["output"]
+        output_data_filepath = self.parse_output()
 
         print("Writing results to %s" % output_data_filepath)
 
@@ -216,7 +230,9 @@ def main():
 
     custom_transform = config.get("custom_transform", None)
 
-    ptnb = PerftestNotebook(config["file_groups"], config, custom_transform=custom_transform)
+    ptnb = PerftestNotebook(
+        config["file_groups"], config, custom_transform=custom_transform, sort_files=args.sort_files
+    )
     results = ptnb.process(args.no_iodide)
 
 
