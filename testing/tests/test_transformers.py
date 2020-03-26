@@ -3,7 +3,7 @@ import json
 import perftestnotebook
 import pytest
 import yaml
-from utilities import get_nested_values
+from perftestnotebook.utilities import get_nested_values
 from functools import reduce
 from operator import add
 from pathlib import Path

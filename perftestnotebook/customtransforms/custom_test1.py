@@ -1,4 +1,4 @@
-from transformer import Transformer
+from perftestnotebook.transformer import Transformer
 
 
 class Testing(Transformer):

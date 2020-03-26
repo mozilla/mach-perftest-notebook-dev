@@ -4,8 +4,8 @@ from sys import stdout
 import numpy as np
 
 import cv2
-from logger import NotebookLogger
-from transformer import Transformer
+from perftestnotebook.logger import NotebookLogger
+from perftestnotebook.transformer import Transformer
 
 logger = NotebookLogger()
 

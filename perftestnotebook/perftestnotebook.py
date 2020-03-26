@@ -7,11 +7,11 @@ import webbrowser
 import yaml
 from flask import Flask, Response, request, send_file
 
-import transformer as tfmr
-from analyzer import NotebookAnalyzer
-from logger import NotebookLogger
-from notebookparser import parse_args
-from task_processor import get_task_data_paths
+import perftestnotebook.transformer as tfmr
+from perftestnotebook.analyzer import NotebookAnalyzer
+from perftestnotebook.logger import NotebookLogger
+from perftestnotebook.notebookparser import parse_args
+from perftestnotebook.task_processor import get_task_data_paths
 from collections import OrderedDict
 
 logger = NotebookLogger()

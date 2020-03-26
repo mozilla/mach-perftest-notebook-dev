@@ -1,7 +1,7 @@
 import json
 import os
 
-from logger import NotebookLogger
+from perftestnotebook.logger import NotebookLogger
 
 logger = NotebookLogger()
 
