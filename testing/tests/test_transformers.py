@@ -1,6 +1,6 @@
 import filecmp
 import json
-import perftestnotebook
+import perftestnotebook.perftestnotebook
 import pytest
 import yaml
 from perftestnotebook.utilities import get_nested_values
@@ -47,10 +47,10 @@ class TestTransformer(object):
         assert "file_groups" in test_config
         assert "file_groups" in target_config
 
-        test_ptnb = perftestnotebook.PerftestNotebook(
+        test_ptnb = perftestnotebook.perftestnotebook.PerftestNotebook(
             test_config["file_groups"], test_config, sort_files=True
         )
-        target_ptnb = perftestnotebook.PerftestNotebook(
+        target_ptnb = perftestnotebook.perftestnotebook.PerftestNotebook(
             target_config["file_groups"], target_config, sort_files=True
         )
 
