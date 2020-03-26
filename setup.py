@@ -2,7 +2,7 @@ import os
 from setuptools import setup
 
 """
-Sets up the CLI and modules for `mach-perftest-notebook`.
+Sets up the CLI and modules for `perftestnotebook`.
 """
 
 this_directory = os.path.abspath(os.path.dirname(__file__))
@@ -13,12 +13,12 @@ with open(os.path.join(this_directory, "requirements.txt")) as f:
     install_requires = f.read()
 
 setup(
-    name="mach-perftest-notebook",
+    name="perftestnotebook",
     version="0.0.1",
-    author="Gregory Mierzwinski",
-    author_email="gmierz1@live.ca",
+    author="Mozilla",
+    author_email="gmierzwinski@mozilla.com",
     description=(
-        "This tool will be used to standardize analysis/visualization techniques across Mozilla."
+        "This tool is used to standardize analysis/visualization techniques across Mozilla."
     ),
     long_description=long_description,
     long_description_content_type="text/markdown",
