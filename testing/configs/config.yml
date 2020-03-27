@@ -1,4 +1,4 @@
-custom_transform: customtransforms/custom_test1.py
+custom_transform: perftestnotebook/customtransforms/custom_test1.py
 
 file_groups:
   without-regression:

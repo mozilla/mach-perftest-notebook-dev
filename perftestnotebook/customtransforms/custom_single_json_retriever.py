@@ -1,5 +1,5 @@
-from transformer import Transformer
-from utilities import flat
+from perftestnotebook.transformer import Transformer
+from perftestnotebook.utilities import flat
 
 
 class SingleJsonRetriever(Transformer):

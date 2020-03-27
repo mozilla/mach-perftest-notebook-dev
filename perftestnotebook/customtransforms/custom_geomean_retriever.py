@@ -1,6 +1,6 @@
 from scipy.stats import gmean
 
-from transformer import Transformer
+from perftestnotebook.transformer import Transformer
 
 
 class GeomeanTransformer(Transformer):
