@@ -3,16 +3,14 @@ import json
 import os
 import pathlib
 import webbrowser
-
 import yaml
-from flask import Flask, Response, request, send_file
-
 import perftestnotebook.transformer as tfmr
+from collections import OrderedDict
+from flask import Flask, Response, request, send_file
 from perftestnotebook.analyzer import NotebookAnalyzer
 from perftestnotebook.logger import NotebookLogger
 from perftestnotebook.notebookparser import parse_args
 from perftestnotebook.task_processor import get_task_data_paths
-from collections import OrderedDict
 
 logger = NotebookLogger()
 

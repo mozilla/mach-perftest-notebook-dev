@@ -4,7 +4,7 @@
 Development Repository for Mach Perftest Notebook Tooling. This tool will be used to standardize analysis/visualization techniques across Mozilla.
 
 ## Running the tool
-Call `python3 perftestnotebook.py --config=<CONFIG>` with a config of your choice. See `testing/configs` for examples.
+Install the tool with `python3 setup.py install`. Then call `perftestnotebook --config=<CONFIG>` with a config of your choice. See `testing/configs` for examples.
 This will standardize the data based on the Transformer you are using and output that. In the near future, it will also open an Iodide webpage to visualize and analyze the data with a set of pre-built analysis/visualization techniques.
 
 ## Development Steps
