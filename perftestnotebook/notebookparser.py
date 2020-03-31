@@ -29,4 +29,11 @@ def parse_args():
         default=False,
         help="Run this tool without starting the iodide server at the end.",
     )
+    parser.add_argument(
+        "--sort-files",
+        "-sf",
+        action="store_true",
+        default=False,
+        help="Sort the entries of output json files by the name of resource files.",
+    )
     return parser.parse_args()
