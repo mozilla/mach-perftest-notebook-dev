@@ -1,0 +1,176 @@
+%% md
+<hr>
+
+Select a result from below: <br>
+<select id = "ttest_option_list"></select>
+<button id = "show"> confirm </button>
+<br>
+<label for="search_input">Search for a subtest name</label>
+<textarea id = "search_input" rows="4" cols="100"></textarea><br>
+<button id = "search">search</button>
+<p id="ttest_result"></p>
+%% py 
+
+from js import data_object,document
+import numpy as np
+# import scipy.stats as stats
+
+class NotebookAnalyzer(object):
+
+    def __init__(self, data):
+        """
+        Initialize the Analyzer.
+        :param dict data: Standardized data, post-transformation.
+        """
+        self.data = data
+
+    def split_subtests(self):
+        """
+        If the subtest field exists, split the data based
+        on it, grouping data into subtest groupings.
+        """
+        if not hasattr(self.data[0],'subtest'):
+            return {"": self.data}
+
+        split_data = {}
+        for entry in self.data:
+            subtest = entry.subtest
+            if subtest not in split_data:
+                split_data[subtest] = []
+            split_data[subtest].append(entry)
+
+        return split_data
+    
+    def get_yvalues(self,subtest_entry):
+        yaxis = []
+        
+        for datapoints in subtest_entry["data"]:
+            yaxis.append(datapoints["value"])
+
+        return yaxis
+    
+    # iodide has bug on scipy. have to hardcode the ttest here
+    # Modified from:  https://github.com/scipy/scipy/blob/v1.4.1/scipy/stats/stats.py#L5141-L5266
+    def ttest_ind(self,a,b):
+      a = np.asarray(a)
+      b = np.asarray(b)
+      v1 = np.var(a, ddof=1)
+      v2 = np.var(b, ddof=1)
+      n1 = a.shape[0]
+      n2 = b.shape[0]
+      df = n1 + n2 - 2.0
+      svar = ((n1 - 1) * v1 + (n2 - 1) * v2) / df
+      denom = np.sqrt(svar * (1.0 / n1 + 1.0 / n2))
+      d = np.mean(a)-np.mean(b)
+      with np.errstate(divide='ignore', invalid='ignore'):
+        t = np.divide(d, denom)
+      if t.ndim == 0:
+        t = t[()]
+      # find p value,p is very hard to calculate without scipy.
+      # for now it's set to 1
+      prob = 1
+      return t,prob
+
+    
+
+    def ttest(self):
+        """
+        Take the data and perform a cross-ttest on the rows.
+        Data returned looks like the following:
+        ```
+            [
+                {
+                    'ttest': 7.2,
+                    'pval': 0.01,
+                    'name1': macosx-raptor,
+                    'name2': macosx-browsertime
+                }, ...
+            ]
+        ```
+        :return dict: List of results.
+        """
+        results = []
+
+        split_data = self.split_subtests()
+
+        for subtest in split_data:
+            done = {}
+            for entry1 in split_data[subtest]:
+                name = entry1["name"]
+                for entry2 in split_data[subtest]:
+                    if entry2["name"] == name:
+                        continue
+                    if (
+                        "%s-%s" % (name, entry2["name"]) in done
+                        or "%s-%s" % (entry2["name"], name) in done
+                    ):
+                        continue
+                    done["%s-%s" % (name, entry2["name"])] = True
+                    
+                    # As of March 26 2020, iodide has a bug with scipy.
+                    # tval, pval = stats.ttest_ind(self.get_yvalues(entry1), self.get_yvalues(entry2))
+                    y_val_entry1 = self.get_yvalues(entry1)
+                    y_val_entry2 = self.get_yvalues(entry2)
+                    tval,pval = self.ttest_ind(y_val_entry1,y_val_entry2)
+                    results.append(
+                        {
+                            "ttest": tval,
+                            "pval": pval,
+                            "name1": name,
+                            "name2": entry2["name"],
+                            "subtest": subtest,
+                        }
+                    )
+                   
+
+        return results
+
+na = NotebookAnalyzer(data_object)
+results = na.ttest()        
+
+document.getElementById("ttest_option_list").innerHTML=""
+for index, test_result in enumerate(results):
+    entry_name = "%s vs %s at %s" %(test_result["name1"],test_result["name2"],test_result["subtest"])
+    option_list = document.getElementById("ttest_option_list")
+    option = document.createElement("option")
+    option.value = index
+    option.innerHTML = entry_name
+    option_list.appendChild(option)
+    
+
+
+%% py
+
+# Selection bar
+def show_result(evt):
+    
+    option = document.getElementById("ttest_option_list")
+    index = option.selectedIndex    
+    entry = results[index]
+    content = option[index].text + " <br>ttest: "+ str(entry["ttest"])+"<br> pval: " + str(entry["pval"])
+    document.getElementById("ttest_result").innerHTML = content
+
+button = document.getElementById("show")
+button.addEventListener("click",show_result)
+
+# Search bar
+def search(evt):
+    search_result = []
+    input = str(document.getElementById("search_input").value)
+
+    for element in results:
+        if input in element["subtest"]:
+            search_result.append(element)
+    
+    tempstr = ""
+    
+    for element in search_result:
+        tempstr += element["name1"]+" vs "+ element["name2"] + "<br>subtest: "+element["subtest"] + "<br>ttest: "+ str(element["ttest"])+"<br>pval: "+str(element["pval"])+"<br>"
+    
+    if tempstr == "":
+        tempstr = "no result"
+
+    document.getElementById("ttest_result").innerHTML = tempstr
+    
+
+document.getElementById("search").addEventListener("click", search)
