@@ -36,28 +36,18 @@ class PerftestNotebook(object):
         self.config = config
         self.sort_files = sort_files
 
+        plugin_path = os.getenv("NOTEBOOK_PLUGIN")
+        tfms_dict = tfmr.predefined_transformers
+        if plugin_path:
+            tfms_dict = tfms_dict.update(tfmr.get_transformers(plugin_path))
+
         if custom_transform:
-            if not os.path.exists(custom_transform):
-                raise Exception("Cannot find the custom transform file.")
-            import importlib
-
-            tail, file = os.path.split(custom_transform)
-
-            # Import the relevant module
-            moduleDirectory = os.path.join(tail, os.path.splitext(file)[0])
-            moduleStr = moduleDirectory.replace(os.path.sep, ".")
-            module = importlib.import_module(moduleStr)
-
-            # Look for classes that implements the Transformer class
-            self.transformer = None
-            for name in dir(module):
-                obj = getattr(module, name)
-                if isinstance(obj, type) and issubclass(obj, tfmr.Transformer):
-                    self.transformer = obj(files=[])
-                    logger.info("Found %s transformer" % self.transformer.__class__.__name__)
-                    break
-            if not self.transformer:
-                raise Exception("Could not get a transformer from %s" % custom_transform)
+            tfm_cls = tfms_dict.get(custom_transform)
+            if tfm_cls:
+                self.transformer = tfm_cls(files=[])
+                logger.info(f"Found {custom_transform} transformer")
+            else:
+                raise Exception(f"Could not get a {custom_transform} transformer.")
         else:
             self.transformer = tfmr.SimplePerfherderTransformer(files=[])
 

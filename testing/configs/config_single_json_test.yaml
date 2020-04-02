@@ -1,5 +1,5 @@
 output: testing/outputs/single_json_output_test.json
-custom_transform: perftestnotebook/customtransforms/custom_single_json_retriever.py
+custom_transform: SingleJsonRetriever
 
 file_groups:
     issue_1:
