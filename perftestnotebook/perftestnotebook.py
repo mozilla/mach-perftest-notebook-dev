@@ -39,7 +39,7 @@ class PerftestNotebook(object):
         plugin_path = os.getenv("NOTEBOOK_PLUGIN")
         tfms_dict = tfmr.predefined_transformers
         if plugin_path:
-            tfms_dict = tfms_dict.update(tfmr.get_transformers(plugin_path))
+            tfms_dict.update(tfmr.get_transformers(plugin_path))
 
         if custom_transform:
             tfm_cls = tfms_dict.get(custom_transform)
