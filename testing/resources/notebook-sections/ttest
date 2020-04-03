@@ -33,14 +33,13 @@ def split_subtests(data):
     return split_data
 
 def get_yvalues(data_entry):
-    yaxis = []
-    
-    for datapoints in data_entry["data"]:
-        yaxis.append(datapoints["value"])
-
-    return yaxis
+    return [
+    point["value"]
+    for point in data_entry["data"]
+    ]
 
 # As of March 26 2020, iodide has bug with scipy.
+# https://github.com/iodide-project/pyodide/issues/615
 # This function is used to replace scipy.stats.ttest_ind
 def ttest_ind(a,b):
     a = np.asarray(a)
@@ -96,8 +95,6 @@ def ttest(data_object):
                     continue
                 done["%s-%s" % (name, entry2["name"])] = True
                 
-                # As of March 26 2020, iodide has a bug with scipy.
-                # tval, pval = stats.ttest_ind(get_yvalues(entry1), get_yvalues(entry2))
                 y_val_entry1 = get_yvalues(entry1)
                 y_val_entry2 = get_yvalues(entry2)
                 tval,pval = ttest_ind(y_val_entry1,y_val_entry2)
@@ -110,7 +107,6 @@ def ttest(data_object):
                         "subtest": subtest,
                     }
                 )
-                
 
     return results
 
@@ -127,15 +123,13 @@ for index, test_result in enumerate(results):
 
 # Dropdown Selection list
 def show_result(evt):
-    
     option = document.getElementById("ttest_option_list")
     index = option.selectedIndex    
     entry = results[index]
     content = option[index].text + " <br>ttest: "+ str(entry["ttest"])+"<br> pval: " + str(entry["pval"])
     document.getElementById("ttest_result").innerHTML = content
 
-button = document.getElementById("show")
-button.addEventListener("click",show_result)
+document.getElementById("show").addEventListener("click",show_result)
 
 # Search bar
 def search(evt):
@@ -149,7 +143,8 @@ def search(evt):
     tempstr = ""
     
     for element in search_result:
-        tempstr += element["name1"]+" vs "+ element["name2"] + "<br>subtest: "+element["subtest"] + "<br>t value: "+ str(element["ttest"])+"<br>p value: "+str(element["pval"])+"<br>"
+        tempstr += (element["name1"]+" vs "+ element["name2"] + "<br>subtest: "+element["subtest"] + 
+        "<br>t value: "+ str(element["ttest"])+"<br>p value: "+str(element["pval"])+"<br>")
     
     if tempstr == "":
         tempstr = "no result"
