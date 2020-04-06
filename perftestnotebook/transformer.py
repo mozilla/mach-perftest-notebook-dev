@@ -2,7 +2,6 @@ import json
 import importlib.util
 import inspect
 import pathlib
-import os
 
 from perftestnotebook.logger import NotebookLogger
 
@@ -140,8 +139,7 @@ def get_transformers(filepath="perftestnotebook/customtransforms"):
     """
     This function returns a dict of transformers under the given path.
 
-    If more than one transformers have the same class name, only one of them will be selected.
-    If this transformer is not expected, please change the class name to a  unique name.
+    If more than one transformers have the same class name, an exception will be raised.
 
     :param str filepath: file path.
     :return dict: {"transformer name": Transformer class}.
@@ -156,6 +154,7 @@ def get_transformers(filepath="perftestnotebook/customtransforms"):
     tfm_files = list(tfm_path.glob("*.py"))
 
     for file in tfm_files:
+        # Importing a source file directly
         spec = importlib.util.spec_from_file_location(
             name=file.name, location=file.resolve().as_posix()
         )
@@ -165,7 +164,13 @@ def get_transformers(filepath="perftestnotebook/customtransforms"):
         members = inspect.getmembers(
             module, lambda c: inspect.isclass(c) and issubclass(c, Transformer)
         )
+
         for (name, tfm_class) in members:
+            if name in ret and name != "Transformer":
+                raise Exception(
+                    f"""Duplicated transformer {name} is found in the folder {filepath}. 
+                    Please define each transformer class with a unique class name"""
+                )
             ret.update({name: tfm_class})
 
     return ret
