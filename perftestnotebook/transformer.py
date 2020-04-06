@@ -169,7 +169,7 @@ def get_transformers(filepath="perftestnotebook/customtransforms"):
             if name in ret and name != "Transformer":
                 raise Exception(
                     f"""Duplicated transformer {name} is found in the folder {filepath}. 
-                    Please define each transformer class with a unique class name"""
+                    Please define each transformer class with a unique class name."""
                 )
             ret.update({name: tfm_class})
 
