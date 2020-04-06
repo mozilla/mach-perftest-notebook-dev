@@ -8,6 +8,7 @@ import perftestnotebook.transformer as tfmr
 from collections import OrderedDict
 from flask import Flask, Response, request, send_file
 from perftestnotebook.analyzer import NotebookAnalyzer
+from perftestnotebook.constant import Constant
 from perftestnotebook.logger import NotebookLogger
 from perftestnotebook.notebookparser import parse_args
 from perftestnotebook.task_processor import get_task_data_paths
@@ -36,8 +37,9 @@ class PerftestNotebook(object):
         self.config = config
         self.sort_files = sort_files
 
+        const = Constant()
         plugin_path = os.getenv("NOTEBOOK_PLUGIN")
-        tfms_dict = tfmr.predefined_transformers
+        tfms_dict = const.predefined_transformers
         if plugin_path:
             tfms_dict.update(tfmr.get_transformers(plugin_path))
 

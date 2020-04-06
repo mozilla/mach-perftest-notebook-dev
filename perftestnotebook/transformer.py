@@ -174,6 +174,3 @@ def get_transformers(filepath="perftestnotebook/customtransforms"):
             ret.update({name: tfm_class})
 
     return ret
-
-
-predefined_transformers = get_transformers("testing/customtransforms")
