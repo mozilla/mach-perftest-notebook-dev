@@ -59,7 +59,8 @@ def flat(data, parent_dir):
 
 def get_nested_values(nested_obj, nested_keys=None):
     """
-    This function returns the items found from a nested object by a nested key list. If nested_keys=None, then return all existed values.
+    This function returns the items found from a nested object by a nested key list. 
+    If nested_keys=None, then return all existed values.
 
     :param Iterable nested_obj: nested data object.
     :param list nested_keys: nested keys.

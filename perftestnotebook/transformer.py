@@ -1,5 +1,7 @@
 import json
-import os
+import importlib.util
+import inspect
+import pathlib
 
 from perftestnotebook.logger import NotebookLogger
 
@@ -131,3 +133,44 @@ class SimplePerfherderTransformer(Transformer):
 
         self.entry_number = 0
         return merged
+
+
+def get_transformers(filepath="perftestnotebook/customtransforms"):
+    """
+    This function returns a dict of transformers under the given path.
+
+    If more than one transformers have the same class name, an exception will be raised.
+
+    :param str filepath: file path.
+    :return dict: {"transformer name": Transformer class}.
+    """
+    ret = {}
+
+    tfm_path = pathlib.Path(filepath)
+
+    if not tfm_path.is_dir():
+        raise Exception(f"{tfm_path} is not a directory or it does not exist.")
+
+    tfm_files = list(tfm_path.glob("*.py"))
+
+    for file in tfm_files:
+        # Importing a source file directly
+        spec = importlib.util.spec_from_file_location(
+            name=file.name, location=file.resolve().as_posix()
+        )
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+
+        members = inspect.getmembers(
+            module, lambda c: inspect.isclass(c) and issubclass(c, Transformer)
+        )
+
+        for (name, tfm_class) in members:
+            if name in ret and name != "Transformer":
+                raise Exception(
+                    f"""Duplicated transformer {name} is found in the folder {filepath}. 
+                    Please define each transformer class with a unique class name."""
+                )
+            ret.update({name: tfm_class})
+
+    return ret
