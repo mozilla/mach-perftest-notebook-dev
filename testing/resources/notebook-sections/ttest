@@ -34,8 +34,8 @@ def split_subtests(data):
 
 def get_yvalues(data_entry):
     return [
-    point["value"]
-    for point in data_entry["data"]
+        point["value"]
+        for point in data_entry["data"]
     ]
 
 # As of March 26 2020, iodide has bug with scipy.
