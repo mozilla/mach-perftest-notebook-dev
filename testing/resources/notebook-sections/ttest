@@ -20,7 +20,7 @@ def split_subtests(data):
     If the subtest field exists, split the data based
     on it, grouping data into subtest groupings.
     """
-    if not hasattr(data[0],'subtest'):
+    if not hasattr(data[0], 'subtest'):
         return {"": data}
 
     split_data = {}
@@ -51,8 +51,8 @@ def ttest_ind(a,b):
     df = n1 + n2 - 2.0
     svar = ((n1 - 1) * v1 + (n2 - 1) * v2) / df
     denom = np.sqrt(svar * (1.0 / n1 + 1.0 / n2))
-    d = np.mean(a)-np.mean(b)
-    with np.errstate(divide='ignore', invalid='ignore'):
+    d = np.mean(a) - np.mean(b)
+    with np.errstate(divide = 'ignore', invalid = 'ignore'):
         t = np.divide(d, denom)
     if t.ndim == 0:
         t = t[()]
@@ -97,7 +97,7 @@ def ttest(data_object):
                 
                 y_val_entry1 = get_yvalues(entry1)
                 y_val_entry2 = get_yvalues(entry2)
-                tval,pval = ttest_ind(y_val_entry1,y_val_entry2)
+                tval, pval = ttest_ind(y_val_entry1, y_val_entry2)
                 results.append(
                     {
                         "ttest": tval,
@@ -114,7 +114,7 @@ results = ttest(data_object)
 
 document.getElementById("ttest_option_list").innerHTML=""
 for index, test_result in enumerate(results):
-    entry_name = "%s vs %s at %s" %(test_result["name1"],test_result["name2"],test_result["subtest"])
+    entry_name = "%s vs %s on %s" %(test_result["name1"], test_result["name2"], test_result["subtest"])
     option_list = document.getElementById("ttest_option_list")
     option = document.createElement("option")
     option.value = index
@@ -126,10 +126,10 @@ def show_result(evt):
     option = document.getElementById("ttest_option_list")
     index = option.selectedIndex    
     entry = results[index]
-    content = option[index].text + " <br>ttest: "+ str(entry["ttest"])+"<br> pval: " + str(entry["pval"])
+    content = option[index].text + " <br>ttest: " + str(entry["ttest"]) + "<br> pval: " + str(entry["pval"])
     document.getElementById("ttest_result").innerHTML = content
 
-document.getElementById("show").addEventListener("click",show_result)
+document.getElementById("show").addEventListener("click", show_result)
 
 # Search bar
 def search(evt):
@@ -143,8 +143,8 @@ def search(evt):
     tempstr = ""
     
     for element in search_result:
-        tempstr += (element["name1"]+" vs "+ element["name2"] + "<br>subtest: "+element["subtest"] + 
-        "<br>t value: "+ str(element["ttest"])+"<br>p value: "+str(element["pval"])+"<br>")
+        tempstr += (element["name1"]+ " vs " + element["name2"] + "<br>subtest: " + element["subtest"] + 
+        "<br>t value: " + str(element["ttest"]) + "<br>p value: " + str(element["pval"]) + "<br>")
     
     if tempstr == "":
         tempstr = "no result"
