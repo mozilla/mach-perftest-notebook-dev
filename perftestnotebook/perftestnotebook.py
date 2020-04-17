@@ -3,10 +3,12 @@ import json
 import os
 import pathlib
 import webbrowser
-import yaml
-import perftestnotebook.transformer as tfmr
 from collections import OrderedDict
-from flask import Flask, Response, request, send_file
+from http.server import BaseHTTPRequestHandler, HTTPServer
+
+import yaml
+
+import perftestnotebook.transformer as tfmr
 from perftestnotebook.analyzer import NotebookAnalyzer
 from perftestnotebook.constant import Constant
 from perftestnotebook.logger import NotebookLogger
@@ -195,18 +197,19 @@ class PerftestNotebook(object):
 
         # Set up local server data API.
         # Iodide will visit localhost:5000/data
-        app = Flask(__name__)
-        app.config["DEBUG"] = False
+        class dataRequestHandler(BaseHTTPRequestHandler):
+            def do_GET(self):
+                if self.path == "/data":
+                    with open(output_data_filepath, "rb") as f:
+                        self.send_response(200)
+                        self.send_header("Content-type", "application/json")
+                        self.send_header("Access-Control-Allow-Origin", "*")
+                        self.end_headers()
+                        self.wfile.write(f.read())
 
-        @app.route("/data", methods=["GET"])
-        def return_data():
-
-            response = flask.make_response(send_file(output_data_filepath))
-            response.headers["Access-Control-Allow-Origin"] = "*"
-
-            return response
-
-        app.run()
+        PORT_NUMBER = 5000
+        server = HTTPServer(("", PORT_NUMBER), dataRequestHandler)
+        server.serve_forever()
 
 
 def main():
