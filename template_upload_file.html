@@ -2,7 +2,7 @@
 <html>
     <body>
         <script>
-            function post(path, params, method='post') {
+            function post(path, params, method='get') {
                 const form = document.createElement('form');
                 form.method = method;
                 form.action = path;
@@ -28,7 +28,7 @@
             var template = replace_me
 
             // Create a form object, and send it
-            post("http://localhost:8000/from-template/", {"template": template})
+            post("https://alpha.iodide.io/new/", {"iomd": template})
         </script>
     </body>
 </html>
