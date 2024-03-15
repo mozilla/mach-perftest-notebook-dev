@@ -1,3 +1,5 @@
+# This repository is not actively used so it's been archived.
+
 # mach-perftest-notebook-dev
 [![Build Status](https://travis-ci.com/mozilla/mach-perftest-notebook-dev.svg?branch=starter)](https://travis-ci.com/mozilla/mach-perftest-notebook-dev)
 
